@@ -10,8 +10,8 @@ Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 
 ## Professor
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+* Hugo Bastos de Paula
+* Eveline Alonso Veloso
 
 ## Instruções de utilização
 
