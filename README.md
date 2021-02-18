@@ -1,4 +1,4 @@
-# Nome do projeto
+# Oficina Alemão Alinhamento
 
 Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 
