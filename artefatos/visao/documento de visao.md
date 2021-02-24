@@ -39,10 +39,10 @@ Os funcionários da Alemão Alinhamento e os seus clientes
 
 | ID | Descrição do Requisito | Prioridade | Complexidade |
 | --- | --- | --- | --- |
-| | | | |
-| | | | |
-| | | | |
-| | | | |
+| Online 24h/dia|O sistema deve estar na disponível na internet por 24h todos os dias da semana |alta |média |
+| Sistema modularizado|o sistema deve estar devidamente modularizado e organizado em diretórios, de modo a facilitar sua manutenção e compreensão |baixa |média |
+| Usabilidade|O sistema deve ser fácil de se utilizar para diversos tipos e perfis de usuários, possuindo uma interface amigável e intuitiva| alta|baixa |
+| Desempenho|O sistema deve entregar respostas rápidas às requisições dos usuários |média |média |
 
 ## Técnica(s) de Elicitação Utilizada(s)
 As técnicas de elicitação utilizadas para que  fossem levantados os requisitos acima foram a realização de duas entrevistas com o dono da Oficina Alinhamento Alemão e uma brainstorm entre os prórpios membros do grupo.
