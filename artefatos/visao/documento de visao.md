@@ -45,4 +45,4 @@ Os funcionários da Alemão Alinhamento e os seus clientes
 | | | | |
 
 ## Técnica(s) de Elicitação Utilizada(s)
-
+As técnicas de elicitação utilizadas para que  fossem levantados os requisitos acima foram a realização de duas entrevistas com o dono da Oficina Alinhamento Alemão e uma brainstorm entre os prórpios membros do grupo.
