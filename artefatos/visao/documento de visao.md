@@ -3,9 +3,9 @@
 **Data/hora:** data, hora  
 
 ## Autores
-- Nome completo da pessoa A
-- Nome completo da pessoa B
-- Nome completo da pessoa C
+- Bruno Silveira Cerqueira Lima
+- Gabriel Oliveira Gomide
+- Mateus Samartini de Toledo
 
 ## Fornecedor(es) de Requisitos
 
