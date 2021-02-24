@@ -25,7 +25,7 @@ Os funcionários da Alemão Alinhamento e os seus clientes
 
 | ID | Descrição do Requisito | Prioridade | Complexidade |
 | --- | --- | --- | --- |
-| | | | |
+| Cadastrar cliente|Deve ser possível que o cliente  consiga se cadastrar no sistema ao entar neste |alta |baixa |
 | | | | |
 | | | | |
 | | | | |
