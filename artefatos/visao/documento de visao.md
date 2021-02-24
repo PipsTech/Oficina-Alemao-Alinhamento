@@ -1,4 +1,4 @@
-# Documento de Visão - NOME DO PROJETO
+# Documento de Visão - Oficina Alinhamento Alemão
 
 **Data/hora:** data, hora  
 
