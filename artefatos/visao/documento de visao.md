@@ -25,14 +25,15 @@ Os funcionários da Alemão Alinhamento e os seus clientes
 
 | ID | Descrição do Requisito | Prioridade | Complexidade |
 | --- | --- | --- | --- |
-| Cadastrar cliente|Deve ser possível que o cliente  consiga se cadastrar no sistema ao entar neste |alta |baixa |
+| Cadastrar cliente|Deve ser possível que o cliente  consiga se cadastrar no sistema como cliente ao entar neste |média |baixa |
 | Cadastrar funcionário|Deve ser possível que os funcionários da empresa consigam se cadastrar no sistema como funcionários/proprietários |alta |baixa |
-| | | | |
-| | | | |
-| | | | |
-| | | | |
-| | | | |
-| | | | |
+| Cadastrar produto|Deve ser possível que o usuário funcionário autenticado no sistema consiga realizar a postagem dos produtos e das informações destes no site |alta |média |
+| Visualizar produto |Uma vez cadastrados os produtos e suas informações devem ser visíveis para todos os usuários do site (autenticados ou não)  |alta |alta |
+| Comprar produto |Os usuários clientes cadastrados na plataforma devem conseguir realizar a compra dos produtos anunciados na plataforma |alta |alta |
+| Cadastrar serviço|Os usuários do tipo funcionário cadastrados devem conseguir postar serviços na plataforma que devem ser visualizados por todos os usuários |alta |média |
+| Agendar serviço|Os usuários do tipo cliente devem conseguir enviar requisições para o agendamento dos serviços disponibilizados no site |alta |alta |
+| Responder requisições de agendamento|Os usuários cadastrados do tipo funcionário devem conseguir visualizar e responder as requisições para agendamento de um serviço |média |média |
+|Contato direto cliente e organização |Deve haver no sistema uma forma dos clientes entrarem em contato diretamente com a equipe da Alemão Alinahmeto por meio do WhatsApp ou email |baixa |baixa |
 
 ## Requisitos Não Funcionais
 
