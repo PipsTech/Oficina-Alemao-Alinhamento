@@ -14,9 +14,10 @@
 |Alessandro Márcio Gomide|alincarro@gmail.com|Dono da Alemao Alinhamento|
 
 ## Descrição do Problema
-O dono da Alemão Alinhamento esta sem site que possa realizar seus negócios e expandir o seu alcance no mercado, e precisam de um que possa realizar vendas e transações entre clientes e funcionários.
+A Oficina Alemão Alinhamento encontra-se estagnada no tempo, pois não possui algum tipo de sistema que propicie a divulgação e a execução de seus serviços na internet.Com isso,  o crescimento da empresa está prejudicado pela sua exclusão no mundo digital em detrimento a sua concorrência que ,cada vez mais, busca por se modernizar e se informatizar,de modo que essas tem conseguido fomentar sua competitivade e adaptar seus modelos de negócios ao mundo atual em função do uso de novas tecnologias e do desenvolvimento de suas próprias plataformas online.
 ## Descrição Geral da Solução (Escopo)
-Será produzido um site com a finalidade de ajudar a empresa a realizar seu trabalho de forma mais simples e prática. Através das linguagens: HTML, JavaScript, CSS e com funcionalidades back-end
+Diante da problemática apresentada acima, este projeto visa ao desenvolvimento de um sistema web que propicie que a Alemão Alinahmento possa realizar seus processos de venda e de agendamento de serviços de forma prática online e também divulgar seu negócio por meio deste. Dessa forma, favorecendo ao fomento de sua competitividade e à expansão de seu mercado consumidor.
+Para tal, o desenvolvimento da aplicação web se dará por meio da implementação das linguagens de programação: HTML, CSS, JavaScript e por funcionalidades back-end compostas por um banco de dados e ferramentas que propicie sua integração com o frontend da aplicação.
 ## Fora do Escopo
 ---
 ## Usuários
