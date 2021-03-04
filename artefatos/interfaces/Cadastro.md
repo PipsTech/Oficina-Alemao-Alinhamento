@@ -28,13 +28,4 @@ Esta interface permite atravez do header, uma navegação com as outras paginas,
 | **Número** | **Nome** | **Ação** | **Restrições** |
 | --- | --- | --- | --- |
 |1. | Cadastrar | Analisará todas as informações recebidas nos campos "Nome", "Sobrenome", "Email", "Senha" e "Confirmar Senha" para verem se estão corretas e após isso criara uma conta para o usuario.|  Caso as informações apresentem erros, o processo não sera concluido e será demandado ao usuario para refaze-lo  |
-|2. | | | |
-|3. | | | |
-|4. | | | |
-|5. | | | |
-|6. | | | |
-|7. | | | |
-|8. | | | |
-|9. | | | |
-|10. | | | |
 
