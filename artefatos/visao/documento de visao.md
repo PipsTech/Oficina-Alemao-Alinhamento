@@ -21,7 +21,7 @@ Para tal, o desenvolvimento da aplicação web se dará por meio da implementaç
 ## Fora do Escopo
 O sistema a ser desenvolvido não prevê a disponibilidade desse sistema em plataformas mobile, assim como também não é previsto que a plataforma armazene ou agende datas previstas para a próxima revisão  ou retorno do carro de um cliente que já tenha agendado esse tipo de serviço no site uma vez.
 ## Usuários
-Os funcionários da Alemão Alinhamento e os seus clientes
+Os usuários da plataforma seriam os funcionários da Alemão Alinhamento e os seus clientes.
 ## Requisitos Funcionais
 
 | ID | Descrição do Requisito | Prioridade | Complexidade |
