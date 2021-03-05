@@ -8,7 +8,7 @@
 
 Esta interface permite atravez do header, uma navegação com as outras paginas, apenas ao clicar na indicação.
 
-## 4. Comandos
+## 3. Comandos
 
 | **Número* | **Nome** | **Ação** | **Restrições** |
 | --- | --- | --- | --- |
