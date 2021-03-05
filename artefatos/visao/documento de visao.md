@@ -19,20 +19,24 @@ A Oficina Alemão Alinhamento encontra-se estagnada no tempo, pois não possui a
 Diante da problemática apresentada acima, este projeto visa ao desenvolvimento de um sistema web que propicie que a Alemão Alinahmento possa realizar seus processos de venda e de agendamento de serviços de forma prática online e também divulgar seu negócio por meio deste. Dessa forma, favorecendo ao fomento de sua competitividade e à expansão de seu mercado consumidor.
 Para tal, o desenvolvimento da aplicação web se dará por meio da implementação das linguagens de programação: HTML, CSS, JavaScript e por funcionalidades back-end compostas por um banco de dados e ferramentas que propicie sua integração com o frontend da aplicação.
 ## Fora do Escopo
-O sistema a ser desenvolvido não prevê a disponibilidade desse sistema em plataformas mobile, assim como também não é previsto que a plataforma armazene ou agende datas previstas para a próxima revisão  ou retorno do carro de um cliente que já tenha agendado esse tipo de serviço no site uma vez.
+O sistema a ser desenvolvido não prevê a disponibilidade desse sistema em plataformas mobile, assim como também não é previsto que a plataforma armazene ou agende datas previstas para a próxima revisão  ou retorno do carro de um cliente que já tenha agendado esse tipo de serviço no site uma vez. Não está prevista que seja realizada a entrega delivery dos produtos comprados no site.
 ## Usuários
 Os usuários da plataforma seriam os funcionários da Alemão Alinhamento e os seus clientes.
 ## Requisitos Funcionais
 
 | ID | Descrição do Requisito | Prioridade | Complexidade |
 | --- | --- | --- | --- |
-| 1|Deve ser possível que o cliente  consiga se cadastrar no sistema como cliente ao entar neste |média |baixa |
-| 2|Deve ser possível que os funcionários da empresa consigam se cadastrar no sistema como funcionários/proprietários |alta |baixa |
-| 3|Deve ser possível que o usuário funcionário autenticado no sistema consiga realizar a postagem dos produtos e das informações destes no site |alta |média |
-| 4|Uma vez cadastrados os produtos e suas informações devem ser visíveis para todos os usuários do site (autenticados ou não)  |alta |alta |
-| 5|Os usuários clientes cadastrados na plataforma devem conseguir realizar a compra dos produtos anunciados na plataforma |alta |alta |
-| 6|Os usuários autenticados na plataforma, tanto do tipo funcionário, quanto do tipo cliente devem ser capazes de gerir os agendamentos de serviço no sistema |alta |média |
-| 7|Deve haver no sistema uma forma dos clientes entrarem em contato diretamente com a equipe da Alemão Alinahmeto por meio do WhatsApp ou email |baixa |baixa |
+| 1|Deve ser possível que o cliente  consiga se cadastrar no sistema como cliente ao entar neste |média|baixa |
+| 2|Deve ser possível que os funcionários da empresa consigam se cadastrar no sistema como funcionários/proprietários |média |baixa |
+| 3|Deve ser possível que o usuário funcionário consiga realizar a postagem dos itens  produto no estoque do sistema  |alta |média |
+| 4|Deve ser possível que o usuário funcionário consiga realizar a postagem dos anúncios dos produtos e das informações destes no site |alta |média |
+| 5|Uma vez cadastrados os produtos e suas informações devem ser visíveis para todos os usuários do site (autenticados ou não)  |alta |alta |
+| 6|Os usuários clientes devem conseguir realizar a compra dos produtos anunciados na plataforma |alta |alta |
+| 7|Deve ser possível que o usuário funcionário consiga realizar a postagem dos serviços ofertados pela oficina no site |alta |alta |
+| 8|Uma vez cadastrados, os serviços e suas informações devem ser visíveis para todos os usuários do site (autenticados ou não)  |alta |média |
+| 9| Os usuários cliente devem ser capazes de enviar solicitações para agendamento do serviço escolhido|alta |alta |
+| 10| Os usuários funcionário devem ser capazes de responder as requisições de serviço enviadas, confirmando ou desmarcando o serviço|alta |alta |
+| 11|Deve haver no sistema uma forma dos clientes entrarem em contato diretamente com a equipe da Alemão Alinahmeto por meio do WhatsApp ou email |baixa |baixa |
 
 ## Requisitos Não Funcionais
 
