@@ -6,7 +6,7 @@
 
 ## 2. Relacionamentos com outras interfaces
 
-Esta interface permite atravez do header, uma navegação com as outras páginas, apenas ao clicar na indicação. Alem disso, a interface dos produtos apresentam os blocos de propaganda dos produtos, e ao serem clicados os usuarios serão levados ás respectivas interfaces dos respectivos produtos.
+Esta interface permite através do header, uma navegação com as outras páginas, apenas ao clicar na indicação. Alem disso, a interface dos produtos apresentam os blocos de propaganda dos produtos, e ao serem clicados os usuarios serão levados às respectivas interfaces dos respectivos produtos.
 
 ## 3. Comandos
 
@@ -16,5 +16,5 @@ Esta interface permite atravez do header, uma navegação com as outras páginas
 |2. | Quem Somos | Uma indicação no header que quando clicada leva até a página de informações da oficina | --não possui-- |
 |3. | Serviços | Uma indicação no header que quando clicada leva até a página de serviços oferecidos pela oficina | --não possui-- |
 |4. | Produtos | Uma indicação na parte superior que quando clicada leva até a página de produtos a venda da oficina | --não possui-- |
-|5. | Log In/Log Out | Uma indicação na parte superior que quando clicada leva ate a página de Log In ou quando ja logado o usuário pode fazer o Log Out da sua conta | --não possui-- |
-|6. | Produtos | Área onde os produtos serão disponibilizados para visualização e ao clicar em cada um, é possivel abrir uma interface unica de cada produto | --não possui-- |
+|5. | Log In/Log Out | Uma indicação na parte superior que quando clicada leva até a página de Log In ou quando já logado o usuário pode fazer o Log Out da sua conta | --não possui-- |
+|6. | Produtos | Área onde os produtos serão disponibilizados para visualização e ao clicar em cada um, é possível abrir uma interface única de cada produto | --não possui-- |
