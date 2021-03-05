@@ -13,7 +13,7 @@ Também há uma opção para criar conta que levará o usuário ao campo de cada
 
 | **Número** | **Nome** | **Descrição** | **Valores válidos** | **Formato** | **Tipo** | **Restrições** |
 | --- | --- | --- | --- | --- | --- | --- |
-|1. |Preencher Email|Um campo onde o usuário deve preencher com seu email para efetuar o login|Todos|Texto|String|Necessario inserir ao menos o"@"|
+|1. |Preencher Email|Um campo onde o usuário deve preencher com seu email para efetuar o login|Todos|Texto|String|Necessario inserir ao menos o"@" e o ".com"|
 |2. |Preencher Senha| Espaço para que deve ser preenchido pela senha referente a conta do email inserido anteriormente | Deve possuir ao menos uma letra maiúscula e um número | Texto | String | -não possui-- |
 
 ## 4. Comandos
@@ -24,8 +24,8 @@ Também há uma opção para criar conta que levará o usuário ao campo de cada
 |2. | Quem Somos | Uma indicação no header que quando clicada leva até a página de informações da oficina | --não possui-- |
 |3. | Serviços | Uma indicação no header que quando clicada leva até a página de serviços oferecidos pela oficina | --não possui-- |
 |4. | Produtos | Uma indicação na parte superior que quando clicada leva até a página de produtos a venda da oficina | --não possui-- |
-|5. | Log In/Log Out | Uma indicação na parte superior que quando clicada leva ate a página de Log In ou quando ja logado o usuário pode fazer o Log Out da sua conta | --não possui-- |
+|5. | Log In/Log Out | Uma indicação na parte superior que quando clicada leva até a página de Log In ou quando já logado o usuário pode fazer o Log Out da sua conta | --não possui-- |
 |6. | Logar | Analisa os conteúdos preenchidos no "Inserir Senha" e no "Inserir Email" verificando se são verdadeiros, e realiza e efetua a ação de entrar na conta do usuário | --não possui-- |
-|7. | Criar Conta | Se o usuário ainda não possuir uma conta no site, é possiver criá-la entrando na pagina por meio do hiperlink | --não possui-- |
+|7. | Criar Conta | Se o usuário ainda não possuir uma conta no site, é possível criá-la entrando na página por meio do hiperlink | --não possui-- |
 
 
