@@ -6,7 +6,7 @@
 
 ## 2. Relacionamentos com outras interfaces
 
-Esta interface permite através do header, uma navegação com as outras páginas, apenas ao clicar na indicação. Alem disso, a interface dos produtos apresentam os blocos de propaganda dos produtos, e ao serem clicados os usuarios serão levados às respectivas interfaces dos respectivos produtos.
+Esta interface permite através do header, uma navegação com as outras páginas, apenas ao clicar na indicação. Além disso, a interface dos produtos apresentam os blocos de propaganda dos produtos, e ao serem clicados os usuários serão levados às respectivas interfaces dos respectivos produtos.
 
 ## 3. Comandos
 
