@@ -39,11 +39,10 @@ Os usuários da plataforma seriam os funcionários da Alemão Alinhamento e os s
 | ID | Descrição do Requisito | Prioridade | Complexidade |
 | --- | --- | --- | --- |
 | 1|O sistema deve estar na disponível na internet por 24h todos os dias da semana |alta |média |
-| 2|o sistema deve estar devidamente modularizado e organizado em diretórios, de modo a facilitar sua manutenção e compreensão |baixa |média |
-| 3|O sistema deve ser fácil de se utilizar para diversos tipos e perfis de usuários, fazendo que o usuário consiga se cadastrar e finalizar um processo de compra em menos de 10 clicks| alta|baixa |
-| 4|O sistema deve entregar respostas em até 30 segundos às requisições dos usuários |média |média |
-| 5|O sistema deve suportar até 100 requisições simultanêas |baixa |média |
-| 6|O sistema deve armazenar o nome do cliente em dois campos distintos( nome e sobrenome) |baixa |baixa |
+| 2|O sistema deve ser fácil de se utilizar para diversos tipos e perfis de usuários, fazendo que o usuário consiga se cadastrar e finalizar um processo de compra em menos de 10 clicks| alta|baixa |
+| 3|O sistema deve entregar respostas em até 30 segundos às requisições dos usuários |média |média |
+| 4|O sistema deve suportar até 100 requisições simultanêas |baixa |média |
+| 5|O sistema deve armazenar o nome do cliente em dois campos distintos( nome e sobrenome) |baixa |baixa |
 
 ## Técnica(s) de Elicitação Utilizada(s)
 As técnicas de elicitação utilizadas para que  fossem levantados os requisitos acima se deram por meio da realização de duas entrevistas com o dono da Oficina Alinhamento Alemão e uma brainstorm entre ele os prórpios membros do grupo, além disso também foi apresentado um protótipo da aplicação para o dono da empresa.
