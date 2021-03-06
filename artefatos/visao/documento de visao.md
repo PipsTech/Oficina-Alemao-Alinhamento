@@ -36,7 +36,7 @@ Os usuários da plataforma seriam os funcionários da Alemão Alinhamento e os s
 | 8|Uma vez cadastrados, os serviços e suas informações devem ser visíveis para todos os usuários do site (autenticados ou não)  |alta |média |
 | 9| Os usuários cliente ao clicarem para agendar o serviço devem ser reedirecionados diretamente para o WhatsApp da Alemão Alinahmento para contactar sua equipe|alta |alta |
 | 10| Os usuários funcionário devem ser capazes de gerir a disponibilidade das ofertas de serviço no site|média |alta |
-| 11|Deve haver no sistema uma forma dos clientes entrarem em contato diretamente com a equipe da Alemão Alinahmeto por meio do WhatsApp ou email |baixa |baixa |
+| 11|Deve haver no sistema uma forma dos clientes entrarem em contato diretamente com a equipe da Alemão Alinhamento por meio do WhatsApp ou email |baixa |baixa |
 
 ## Requisitos Não Funcionais
 
