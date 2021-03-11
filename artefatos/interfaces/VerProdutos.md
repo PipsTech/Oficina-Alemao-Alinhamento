@@ -2,7 +2,7 @@
 
 ## 1. Leiaute sugerido
 
-![Produto](leiaute/imagem_2021-03-04_200117.png)
+![Produto](leiaute/Produto.png)
 
 ## 2. Relacionamentos com outras interfaces
 
