@@ -1,7 +1,6 @@
 # Oficina Alemão Alinhamento
 
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
-
+O projeto tem como objetivo construir e aplicar um sistema que seja funcional e auxilie as vendas da Oficina Alemão Alinhamento.
 ## Integrantes
 
 * Bruno Silveira Cerqueira Lima
