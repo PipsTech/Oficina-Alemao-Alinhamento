@@ -31,12 +31,15 @@ Os usuários da plataforma seriam os funcionários da Alemão Alinhamento e os s
 | 3|Deve ser possível que o usuário funcionário consiga realizar a postagem dos itens  produto no estoque do sistema  |alta |média |
 | 4|Deve ser possível que o usuário funcionário consiga realizar a postagem dos anúncios dos produtos e das informações destes no site |alta |média |
 | 5|Uma vez cadastrados os produtos e suas informações devem ser visíveis para todos os usuários do site (autenticados ou não)  |alta |alta |
-| 6|Os usuários clientes devem conseguir realizar a compra dos produtos anunciados na plataforma |alta |alta |
-| 7|Deve ser possível que o usuário funcionário consiga realizar a postagem dos serviços ofertados pela oficina no site |alta |alta |
-| 8|Uma vez cadastrados, os serviços e suas informações devem ser visíveis para todos os usuários do site (autenticados ou não)  |alta |média |
-| 9| Os usuários cliente ao clicarem para agendar o serviço devem ser reedirecionados diretamente para o WhatsApp da Alemão Alinahmento para contactar sua equipe|alta |alta |
-| 10| Os usuários funcionário devem ser capazes de gerir a disponibilidade das ofertas de serviço no site|média |alta |
-| 11|Deve haver no sistema uma forma dos clientes entrarem em contato diretamente com a equipe da Alemão Alinhamento por meio do WhatsApp ou email |baixa |baixa |
+| 6|Os usuários clientes devem conseguir armazenar os itens escolhidos na página "carrinho de compra" |média |média |
+| 7|Os usuários clientes devem conseguir realizar a compra dos produtos anunciados na plataforma |alta |alta |
+| 8|Deve ser possível que o usuário funcionário consiga realizar a postagem dos serviços ofertados pela oficina no site |alta |alta |
+| 9|Uma vez cadastrados, os serviços e suas informações devem ser visíveis para todos os usuários do site (autenticados ou não)  |alta |média |
+| 10| Os usuários cliente ao clicarem para agendar o serviço devem ser reedirecionados diretamente para o WhatsApp da Alemão Alinahmento para contactar sua equipe|alta |alta |
+| 11| Os usuários funcionário devem ser capazes de gerir a disponibilidade das ofertas de serviço no site|média |alta |
+| 12|Os usuários funcionário devem conseguir cadastrar agendamentos de serviço na agenda eletrônica da plataforma  |média |média |
+| 13|Os usuário funcionário devem ser capazes de realizarem consultas na agenda eletrônica |média |média |
+| 14|Deve haver no sistema uma forma dos clientes entrarem em contato diretamente com a equipe da Alemão Alinhamento por meio do WhatsApp ou email |baixa |baixa |
 
 ## Requisitos Não Funcionais
 
