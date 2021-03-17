@@ -8,9 +8,9 @@ Cliente
 
 ## 3. Precondições
 
-
-	1. Descrição da pré-condição 1
-	2. Descrição da pré-condição 2
+  
+	1. Cadastro para cliente já foi selecionado na página de Login
+	2. Os campos de cadastro do cliente já estão alocados
  
 ## 4. Fluxo principal
 
