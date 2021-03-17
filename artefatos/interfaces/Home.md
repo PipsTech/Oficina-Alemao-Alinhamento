@@ -1,4 +1,4 @@
-# Interface de usuário NUM - Home
+# Interface de usuário 2 - Home
 
 ## 1. Leiaute sugerido
 
