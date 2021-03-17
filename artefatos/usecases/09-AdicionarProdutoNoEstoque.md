@@ -1,7 +1,7 @@
-# Caso de uso NUM DO CASO DE USO - NOME DO CASO DE USO
+# Caso de uso 9 - Adicionar Produto no Estoque
 
 ## 1. Descrição
-
+Este caso de uso se refere à funcionalidade
 ## 2. Atores
 
 ## 3. Precondições
