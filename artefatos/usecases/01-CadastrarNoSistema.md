@@ -1,8 +1,10 @@
-# Caso de uso NUM DO CASO DE USO - NOME DO CASO DE USO
+# Caso de uso 01 - CadastrarNoSistema
 
 ## 1. Descrição
 
+
 ## 2. Atores
+Cliente
 
 ## 3. Precondições
 
@@ -13,7 +15,7 @@
 ## 4. Fluxo principal
 
     1.
-	2. 
+    2. 
 
 ## 5. Fluxos alternativos
 
