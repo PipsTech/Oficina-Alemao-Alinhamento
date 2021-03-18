@@ -2,7 +2,9 @@
 
 ## 1. O funcionario que ja possui conta no site pode utilizar o login por meio deste caso de uso.
 
-## 2. Funcionarios
+## 2. Atores
+
+	Funcionarios
 
 ## 3. Precondições
 
