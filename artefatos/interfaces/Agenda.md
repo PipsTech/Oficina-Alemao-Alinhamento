@@ -1,4 +1,4 @@
-# Interface de usuário 2 - Home
+# Interface de usuário 2 - Agenda
 
 ## 1. Leiaute sugerido
 
