@@ -2,7 +2,7 @@
 
 ## 1. Leiaute sugerido
 
-![login](leiaute/LogIn.png)
+![login](leiaute/LogInUsuario.png)
 
 ## 2. Relacionamentos com outras interfaces
 
