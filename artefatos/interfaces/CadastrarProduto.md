@@ -1,4 +1,4 @@
-# Interface de usuário NUM - Cadastro Produto
+# Interface de usuário 2 - Cadastro Produto
 
 ## 1. Leiaute sugerido
 
