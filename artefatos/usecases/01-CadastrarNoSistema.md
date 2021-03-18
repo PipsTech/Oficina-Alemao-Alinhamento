@@ -25,9 +25,10 @@ Cliente
 
 | **Precondições**  | 1. Os campos de cadastro do cliente já estão alocados na página |
 | --- | --- |
-|                   | 2.  |
-| **Passos**        | 1.  |
-|                   | 2.  |
+|  Passo 1          | O fluxo Alternativo se inicia quando o cliente entra na tela de login. |
+|  Passo 2          | O cliente preenche os campos com caracteres incorretos.  |
+|  Passo 3          | O cliente clicará em "Cadastrar" para acessar o site sem êxito. |
+|  Passo 4          | Fluxo Alternativo encerrado. |
 
 ### 5.2 Fluxo alternativo - Deixar em branco os campos de cadastro
 
