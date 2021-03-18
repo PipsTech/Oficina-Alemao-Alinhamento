@@ -6,6 +6,8 @@
 
 ## 2. Relacionamentos com outras interfaces
 
+Esta interface permite através do header, uma navegação com as outras páginas, apenas ao clicar na indicação.
+
 ## 3. Comandos
 
 | **Número** | **Nome** | **Ação** | **Restrições** |
