@@ -1,9 +1,9 @@
-# Caso de uso NUM DO CASO DE USO - NOME DO CASO DE USO
+# Caso de uso 04 - AdicionarProdutoNoCarrinho
 
 ## 1. Descrição
 
 ## 2. Atores
-
+Usuário Cliente
 ## 3. Precondições
 
 
