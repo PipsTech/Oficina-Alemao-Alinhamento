@@ -32,7 +32,8 @@ Funcionário da Alemão Alinhamento.
 |                   | 4. O funcionário insere um número negativo na quantidade do produto |
 |                   | 5. O funcionário insere a descrição do produto |
 |                   | 6. O funcionário aperta o botão para enviar os dados inseridos ao estoque |
-|                   | 7. Caso de uso é encerrado |
+|                   | 7. Envio não pode ser concluído |
+|                   | 8. Caso de uso é encerrado |
 
 ### 5.2 Fluxo alternativo 2 - Campo nome em branco
 
@@ -44,7 +45,8 @@ Funcionário da Alemão Alinhamento.
 |                   | 4. O funcionário insere a quantidade deste produto que deseja adicionar |
 |                   | 5. O funcionário insere a descrição do produto |
 |                   | 6.  O funcionário aperta o botão para enviar os dados inseridos ao estoque|
-|                   | 7. Caso de uso é encerrado |
+|                   | 7. Envio não pode ser concluído |
+|                   | 8. Caso de uso é encerrado |
 
 ### 5.3 Fluxo alternativo 3 - Campo descrição em branco
 
@@ -56,4 +58,5 @@ Funcionário da Alemão Alinhamento.
 |                   | 4. O funcionário insere a quantidade deste produto que deseja adicionar |
 |                   | 5. O funcionário não insere o campo da descrição do produto |
 |                   | 6.  O funcionário aperta o botão para enviar os dados inseridos ao estoque|
-|                   | 7. Caso de uso é encerrado |
+|                   | 7. Envio não pode ser concluído |
+|                   | 8. Caso de uso é encerrado |
