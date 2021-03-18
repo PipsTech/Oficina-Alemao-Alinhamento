@@ -4,7 +4,7 @@
 O usuário cliente preenche os campos e realiza o cadastro no sistema para poder solicitar o agendamento de serviços e a compra de produtos.
 
 ## 2. Atores
-Cliente
+Usuário Cliente
 
 ## 3. Precondições
 
