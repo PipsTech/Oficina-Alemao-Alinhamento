@@ -25,5 +25,5 @@ Usuário Cliente
 | **Precondições**  | 1. O cliente já visualizou as informações do serviço na página.  |
 | --- | --- |
 |  Passo 1  | O fluxo Alternativo se inicia quando o cliente entra na tela do Serviço. |
-|  Passo 2  | O cliente clicará em "Agendar Serviço" sem estar logado. |
+|  Passo 2  | O cliente clicará em "Agendar Serviço" sem estar logado e não terá êxito. |
 |  Passo 3  | Fluxo Alternativo encerrado. |
