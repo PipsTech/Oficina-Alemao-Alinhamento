@@ -3,7 +3,7 @@
 ## 1. Descrição
 	Este caso de uso se refere a funcionalidade exclusiva dos usuários do tipo funcionário de realizar a postagem dos anúncios dos produtos no sistema
 ## 2. Atores
-	usuário funcionário da Alemão Alinhamento
+	Funcionário da Alemão Alinhamento
 ## 3. Precondições
 
 
