@@ -2,7 +2,7 @@
 
 ## 1. Leiaute sugerido
 
-![Produto](leiaute/Produto.png)
+![Produto](leiaute/ProdutoUsuario.png)
 
 ## 2. Relacionamentos com outras interfaces
 
