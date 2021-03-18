@@ -1,4 +1,4 @@
-# Caso de uso NUM DO CASO DE USO - NOME DO CASO DE USO
+# Caso de uso 02 - RealizarLoginCliente
 
 ## 1. Descrição
 O usuário cliente preenche os campos para acessar o site logado.
