@@ -10,7 +10,7 @@
 
 ## 3. Precondições
 
-	1. Possuir um cadastro já aceitado pelo admin da Alemão Alinhamento.
+	1. Possuir um cadastro já aceito pelo admin da Alemão Alinhamento.
  
 ## 4. Fluxo principal
 
