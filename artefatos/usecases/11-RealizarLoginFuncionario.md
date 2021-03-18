@@ -1,6 +1,8 @@
 # Caso de uso 11 - Realizar Login Funcionario
 
-## 1. O funcionario que ja possui conta no site pode utilizar o login por meio deste caso de uso.
+## 1. Descrição
+
+	O funcionario que ja possui conta no site pode utilizar o login por meio deste caso de uso.
 
 ## 2. Atores
 
