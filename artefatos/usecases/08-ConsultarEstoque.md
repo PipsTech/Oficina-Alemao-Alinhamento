@@ -27,6 +27,6 @@ Funcionarios
 
 | **Precondições**  | 1. Ter realizado o login do Funcionario |
 | --- | --- |
-|   Passo 1                | Fluxo Alternativo se inicia quando selecionado a pagina de Serviços |
+|   Passo 1                | Caso de Uso se inicia quando selecionado a pagina de Serviços |
 |    Passo 2     | Em seguida selecionado um serviço  |
-|Passo 3|Fluxo Alternativo finalizado|
+|Passo 3|Caso de Uso finalizado|
