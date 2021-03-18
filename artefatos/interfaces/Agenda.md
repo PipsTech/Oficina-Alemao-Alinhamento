@@ -6,8 +6,8 @@
 
 ## 2. Relacionamentos com outras interfaces
 
-Esta interface permite atravez dos meses navegar sobre os dias e ao selecionar os dias aparecerá suas informações e detalhes sobre os trabalhos e agendamentos do dia
-Esta interface permite através do header, uma navegação com as outras páginas, apenas ao clicar na indicação.
+Esta interface permite atravez dos meses navegar sobre os dias e ao selecionar os dias aparecerá suas informações e detalhes sobre os trabalhos e agendamentos do dia.
+També é possivel, através do header, uma navegação com as outras páginas, apenas ao clicar na indicação.
 
 ## 3. Comandos
 
