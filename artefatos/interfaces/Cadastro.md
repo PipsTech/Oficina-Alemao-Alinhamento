@@ -2,7 +2,7 @@
 
 ## 1. Leiaute sugerido
 
-![Cadastro](leiaute/Cadastro.png)
+![Cadastro](leiaute/CadastroUsuario.png)
 
 ## 2. Relacionamentos com outras interfaces
 
