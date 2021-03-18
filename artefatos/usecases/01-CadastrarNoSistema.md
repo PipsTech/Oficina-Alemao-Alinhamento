@@ -34,6 +34,7 @@ Cliente
 
 | **Precondições**  | 1. Cadastro para cliente já foi selecionado na página de Login  |
 | --- | --- |
-|                   | 2.  |
-| **Passos**        | 1.  |
-|                   | 2.  |
+|  Passo 1          | O fluxo Alternativo se inicia quando o cliente entra na tela de login. |
+|  Passo 2          | O cliente não preenche os campos na tela.  |
+|  Passo 3          | O cliente clicará em "Cadastrar" para acessar o site sem êxito. |
+|  Passo 4          | Fluxo Alternativo encerrado. |
