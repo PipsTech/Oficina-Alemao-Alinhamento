@@ -3,13 +3,13 @@
 * UC 01-CadastrarNoSistema.md - O usuário cliente preenche os campos e realiza o cadastro no sistema para poder solicitar o agendamento de serviços e a compra de produtos.
 
 * UC 02-RealizarLoginCliente.md - O usuário cliente preenche os campos para acessar o site logado.
-* 
+ 
 * UC 03-SolicitarServiço.md - O usuário cliente, na página do serviço, pede para agendá-lo.
-* 
+
 * UC 04-AdicionarProdutoNoCarrinho.md - O usuário cliente, na página do produto, escolhe a opção de adicionar o produto ao carrinho.
-* 
+ 
 * UC 05-EfetuarCompra.md - O usuário cliente,como extensão do caso de uso de adicionar ao carrinho, tem a decisão final do que terá em seu carrinho para efetuar a compra.
-* 
+ 
 * UC 06-PagarPessoalmenteNaOficina.md - O usuário cliente, como generalização do caso de uso de efetuar a compra, vai pessoalmente à oficina efetuar a compra.
 
 * UC 07-MarcarDataDoAgendamentoDoServiço.md - O usuário cliente será redirecionado ao Whatsapp da Alemão Alinhamento para agendar o serviço e o funcionário será responsável por deixar agendado o serviço na interface do calendário.
