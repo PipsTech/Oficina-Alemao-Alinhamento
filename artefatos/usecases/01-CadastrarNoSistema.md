@@ -9,8 +9,7 @@ Usuário Cliente
 ## 3. Precondições
 
   
-	1. Cadastro para cliente já foi selecionado na página de Login
-	2. Os campos de cadastro do cliente já estão alocados na página
+	1. Não há precondições.
  
 ## 4. Fluxo principal
 
