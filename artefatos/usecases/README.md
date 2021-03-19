@@ -1,7 +1,7 @@
 # Lista dos Casos de Uso
 
 * UC 01-CadastrarNoSistema.md - O usuário cliente preenche os campos e realiza o cadastro no sistema para poder solicitar o agendamento de serviços e a compra de produtos.
-* 
+
 * UC 02-RealizarLoginCliente.md - O usuário cliente preenche os campos para acessar o site logado.
 * 
 * UC 03-SolicitarServiço.md - O usuário cliente, na página do serviço, pede para agendá-lo.
