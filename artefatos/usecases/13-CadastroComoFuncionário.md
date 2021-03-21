@@ -1,4 +1,4 @@
-# Caso de uso NUM DO CASO DE USO - NOME DO CASO DE USO
+# Caso de uso 13 - Cadastro Como Funcionário
 
 ## 1. Descrição
 Esse caso de uso se refere a solicitação do cadastro do funcionário da Alemão Alinhamento na plataforma
@@ -92,7 +92,7 @@ Não possui
 |                   | 7. O funcionário aperta o botão para enviar sua solicitação de cadastro |
 |                   | 8. O envio não pode ser concluído |
 |                   | 9. O caso de uso é encerrado |
-### 5.5 Fluxo alternativo Campo Confirmar Senha Errado
+### 5.6 Fluxo alternativo Campo Confirmar Senha Errado
 
 | **Precondições**  | 1. não possui |
 | --- | --- |
@@ -106,3 +106,25 @@ Não possui
 |                   | 7. O funcionário aperta o botão para enviar sua solicitação de cadastro |
 |                   | 8. O envio não pode ser concluído |
 |                   | 9. O caso de uso é encerrado |
+
+### 5.7 Alterar as informações da conta Funcionario
+
+| **Precondições**  | 1. Ter uma conta funcionario |
+| --- | --- |
+|                   | 1. O caso de Uso se inicia quando o funcionario deseja alterar suas informações no site  |
+|    |2. O funcionario em seguida entrará na sua conta dentro do site|
+| **Passos**        | 3. O funcionario irá acessar seu perfil no site.|
+|                   | 4. Em seguida poderá alterar suas informações selecionando o campo desejado |
+|    |5. O caso de Uso é encerrado|
+
+### 5.8 Excluir a conta funcionario
+
+| **Precondições**  | 1. Ter uma conta funcionario |
+| --- | --- |
+|                   | 1. O Caso de Uso se inicia quando o funcionario deseja excluir sua conta  |
+|    |2. O funcionario em seguida entrará na sua conta dentro do site|
+| **Passos**        | 3. Em seguida o usuario irá acessar seu perfil no site|
+|                   | 4. Em seguida poderá apagar a conta selecionando o botão "apagar" |
+|    |5. O caso de Uso é encerrado|
+
+
