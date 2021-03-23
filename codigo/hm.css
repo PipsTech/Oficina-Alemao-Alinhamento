@@ -1,0 +1,43 @@
+.nav-brand{
+    margin-left: -60px;
+    font-size: 35px;
+    font-family:'Impact';
+}
+
+.form-inline{
+    margin-right: -50px;
+}
+.navbar{
+    background-color: #000000;
+}
+
+.nav-link{
+    font-size: 20px;
+}
+
+.navbar a{
+    color: gold;
+}
+
+.col ol{
+    font-family: arial black;
+}
+
+.breadcrumb{
+    font-size: 20px;
+}
+
+.product_rassurance .list-inline li:hover {
+    color: #000000;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+footer {
+    background: #000000;
+    padding: 40px;
+}
+footer h5, i {
+    color: gold
+}
