@@ -1,7 +1,7 @@
 html,
 body {
   max-width: 100%;
-  overflow-x: hidden;
+  background-color: #000000;
 }
 
 .nav-brand{
@@ -61,4 +61,8 @@ body {
 
 .text-center{
     color: gold;
+}
+
+.span3{
+    margin-left: 50px;
 }
