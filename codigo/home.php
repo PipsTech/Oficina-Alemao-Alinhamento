@@ -226,7 +226,7 @@
                     <p class="float-left">
                         <a href="#">Voltar para cima</a>
                     </p>
-                    <p class="text-right text-muted">Todos os direitos reservados.</p>
+                    <p class="text-right text-muted">Todos os direitos reservados</p>
                 </div>
             </div>
         </div>
