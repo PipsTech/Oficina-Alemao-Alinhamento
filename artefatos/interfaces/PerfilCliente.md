@@ -1,13 +1,13 @@
-# Interface de usuário 13 - Serviços
+# Interface de usuário 16 - PerfilCliente
 
 ## 1. Leiaute sugerido
 
-![Serviços](leiaute/Serviços.png)
+![Serviços](leiaute/PerfilCliente.png)
 
 ## 2. Relacionamentos com outras interfaces
 
 Esta interface permite através do header, uma navegação com as outras páginas, apenas ao clicar na indicação. 
-Além disso, é possível utilizar os blocos de propagandas dos serviços para acessar mais informações de cada serviço.
+Além disso, é possível observar e alterar os dados do cliente.
 
 ## 3. Comandos
 
