@@ -10,9 +10,42 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/2e1a878a13.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
+    
+    <nav class="navbar navbar-expand-md">
+        <div class="container">
+            <a class="nav-brand" href="home.html">Oficina Alemão Alinhamento</a>
+    
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav m-auto">
+                   
+                    <li class="nav-item">
+                        <a class="nav-link" href="category.html">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="QuemSomos.html">QuemSomos</a>
+                    </li>
+                </ul>
+    
+                <form class="form-inline my-2 my-lg-0">
+                    
+                    <a class="nav-link" href="loginCliente.html">LogIn <i class="fas fa-sign-in-alt"></i> LogOut <i class="fas fa-sign-out-alt"></i></a>
+                    
+                    <a class="btn btn-sm ml-3" href="cart.html" style="margin-right:20px;">
+                        <i class="fa fa-shopping-cart fa-2x"></i> 
+                    </a>
+            
+                
+                </form>
+            </div>
+        </div>
+    </nav>
     
     <div class="container register">
                     <div class="row">
