@@ -18,4 +18,4 @@ Além disso, é possível observar e alterar os dados do cliente.
 |3. | Serviços | Uma indicação no header que quando clicada leva até a página de serviços oferecidos pela oficina | --não possui-- |
 |4. | Produtos | Uma indicação na parte superior que quando clicada leva até a página de produtos a venda da oficina | --não possui-- |
 |5. | Log In/Log Out | Uma indicação na parte superior que quando clicada leva até a página de Log In ou quando já logado o usuário pode fazer o Log Out da sua conta | --não possui-- |
-|6. | Serviços | Área onde os serviços serão disponibilizados para visualização e ao clicar em cada um, é possível abrir uma interface única de cada serviço | --não possui-- |
+|6. | Dados do Cliente | Área onde os dados do cliente serão disponibilizados para visualização e ao clicar em cada um, será possível alterá-los | --não possui-- |
