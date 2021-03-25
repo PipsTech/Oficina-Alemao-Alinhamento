@@ -27,34 +27,36 @@
                             <div class="tab-content" id="myTabContent">
                                 <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                     <h3 class="register-heading">Funcionário</h3>
+                                    <form action="RegistrarFuncionario.php" method="POST">
                                     <div class="row register-form">
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="Primeiro nome *" value="" />
+                                                <input type="text" name="nome"class="form-control" placeholder="Nome Completo *" value="" />
                                             </div>
                                             <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="Função *" value="" />
+                                                <input type="text" name="funcao"class="form-control" placeholder="Função *" value="" />
                                             </div>
                                             <div class="form-group">
-                                                <input type="password" class="form-control" placeholder="Senha *" value="" />
+                                                <input type="password" name="senha"class="form-control" placeholder="Senha *" value="" />
                                             </div>
                                             
                                             
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <input type="email" class="form-control" placeholder="Email *" value="" />
+                                                <input type="email" name="email"class="form-control" placeholder="Email *" value="" />
                                             </div>
                                             <div class="form-group">
-                                                <input type="text" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control" placeholder="Telefone *" value="" />
+                                                <input type="text" name="telefone"minlength="1" maxlength="20" name="txtEmpPhone" class="form-control" placeholder="Telefone *" value="" />
                                             </div>
                                             <div class="form-group">
-                                                <input type="password" class="form-control"  placeholder="Confirmar senha *" value="" />
+                                                <input type="password" name="confirmarSenha"class="form-control"  placeholder="Confirmar senha *" value="" />
                                             </div>
                                            
-                                            <input type="submit" class="btnRegister"  value="Cadastrar"/>
+                                            <button type="submit" class="btnRegister" value="Cadastrar" >Cadastrar</button>
                                         </div>
                                     </div>
+                                    </form>
                                 </div>
                                 <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                     <h3  class="register-heading">Apply as a Hirer</h3>
@@ -93,7 +95,7 @@
                                             <div class="form-group">
                                                 <input type="text" class="form-control" placeholder="`Answer *" value="" />
                                             </div>
-                                            <input type="submit" class="btnRegister"  value="Register"/>
+                                            <button type="submit" class="btnRegister" value="Cadastrar" >Cadastrar</button>
                                         </div>
                                     </div>
                                 </div>
