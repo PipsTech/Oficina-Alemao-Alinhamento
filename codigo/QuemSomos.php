@@ -9,6 +9,10 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
   <body class="bd">
 
@@ -18,37 +22,95 @@
         <a href="#" class="titulo">Oficina Alemão Alinhamento</a>
         <nav>
           <ul class="menu">
-            <li><a href="./home.php">Home</a></li>
+            <li><a href="home.html">Home</a></li>
             <li><a href="#">Serviços</a></li>
-            <li><a href="#">Produtos</a></li>
-            <li> <a class="nav-link" href="./loginCliente.php">LogIn <i class="fas fa-sign-in-alt"></i> LogOut <i class="fas fa-sign-out-alt"></i></a></li>
-            <li><a class="btn btn-success btn-sm ml-3" href="cart.html">
-              <i class="fa fa-shopping-cart"></i> Carrinho
-              <span class="badge badge-light">3</span>
+            <li><a href="#" style="margin-right:80px;">Produtos</a></li>
+            <li> <a class="nav-link" href="loginCliente.html">LogIn <i class="fas fa-sign-in-alt"></i> LogOut <i class="fas fa-sign-out-alt"></i></a></li>
+            <li><a class="btn btn-sm ml-3" href="cart.html" style="margin-right:20px;">
+              <i class="fa fa-shopping-cart fa-2x"></i> 
           </a></li>
           </ul>
         </nav>
       </header>
 
-      <div class="card flex-md-row">
-        <div class="card-body">
-           <strong class="d-inline-block">QUEM SOMOS</strong>
+
+      <div>
+        <div>
+            <p></p>
+           <strong class="lines">QUEM SOMOS</strong>
            <p></p>
            <p class="card-text">A Oficina Alemão Alinhamento há mais de 30 anos, em Belo Horizonte, presta serviços relacionados à
             mecânica, tanto para veículos nacionais quanto importados, com uma oferta de serviços de qualidade
             de reparação e consertos.</p>
             <p class="card-text">Com isso, conquistamos uma clientela fiel ao longo dos anos e portanto, uma boa imagem no ramo. 
             Estamos localizados na Rua do Ouro 83 no bairro Serra na região centro-sul, e esperamos por você.</p>
+            <p class="linha">--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
         </div>
-        <img class="card-img" alt="Thumbnail [200x250]" src="slogan.jfif" style="width: 350px; height: 500px; border-radius: 10px;">
-      </div>
+
+
+
+
+<div class="container">
+
+	<hr>	
+	<div class="col-sm-12">
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div class="carousel-inner" role="listbox">
+	<div class="carousel-item active">
+		<div class="row">
+			<div class="col-sm-3">
+				<img class="d-block img-fluid" src="4qs.png" alt="First slide" style="width: 400px; height: 250px;">
+			</div>
+  			
+  			<div class="col-sm-3">
+  				<img class="d-block img-fluid" src="2qs.png" alt="First slide" style="width: 400px; height: 250px;">
+  			</div>
+  			<div class="col-sm-3">
+  				<img class="d-block img-fluid" src="3qs.png" alt="First slide" style="width: 400px; height: 250px;">
+  			</div>
+  			<div class="col-sm-3">
+  				<img class="d-block img-fluid" src="1qs.png" alt="First slide" style="width: 400px; height: 250px;">
+  			</div>
+  		</div>
+  	</div>
+  	<div class="carousel-item">
+  		<div class="row">
+  			<div class="col-sm-3">
+  				<img class="d-block img-fluid" src="5qs.png" alt="First slide" style="width: 400px; height: 250px;">
+  			</div>
+  			<div class="col-sm-3">
+  				<img class="d-block img-fluid" src="6qs.png" alt="First slide" style="width: 400px; height: 250px;">
+
+  			</div>
+  			<div class="col-sm-3">
+  				<img class="d-block img-fluid" src="7qs.png" alt="First slide" style="width: 400px; height: 250px;">
+  			</div>
+  			<div class="col-sm-3">
+  				<img class="d-block img-fluid" src="8qs.png" alt="First slide" style="width: 400px; height: 250px;">
+  			</div>
+  		</div>
+  	</div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+  	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  	<span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+  	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+  	<span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+</div>
+<hr>
+
 
         <footer class="footer-qs">
           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
             <h5>Telefone fixo <i class="fas fa-phone"></i></h5>
             <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
             <ul class="list-unstyled">
-                <li><a href="">(31)3241-1012</a></li>
+                <li><a href="">(31) 3241-1012</a></li>
             </ul>
         </div>
 
