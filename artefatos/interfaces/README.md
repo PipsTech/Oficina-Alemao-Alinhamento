@@ -15,6 +15,8 @@
 * interface-13-Serviços.md - Tela de apresentação dos serviços. 
 * interface-14-VerProdutos.md - Tela de apresentação do produto selecionado.
 * interface-15-VerServiços.md - Tela de apresentação do serviço selecionado.
+* interface-16-PerfilCliente.md - Tela de apresentação dos dados do cliente.
+* interface-17-PerfilFuncionário - Tela de apresentação dos dados do funcionário.
 
 
 
