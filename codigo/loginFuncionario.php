@@ -19,7 +19,7 @@
    
         <nav class="navbar navbar-expand-md">
             <div class="container">
-                <a class="nav-brand" href="home.html">Oficina Alemão Alinhamento</a>
+                <a class="nav-brand" href="./home.php">Oficina Alemão Alinhamento</a>
         
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav m-auto">
@@ -31,16 +31,17 @@
                             <a class="nav-link" href="product.html">Produtos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="QuemSomos.html">QuemSomos</a>
+                            <a class="nav-link" href="./QuemSomos.php">QuemSomos</a>
                         </li>
                     </ul>
         
                     <form class="form-inline my-2 my-lg-0">
                         
-                        <a class="nav-link" href="loginFuncionario.html">LogIn <i class="fas fa-sign-in-alt"></i> LogOut <i class="fas fa-sign-out-alt"></i></a>
+                        <a class="nav-link" href="./loginFuncionario.php">LogIn <i class="fas fa-sign-in-alt"></i> LogOut <i class="fas fa-sign-out-alt"></i></a>
         
-                        <a class="btn btn-sm ml-3" href="cart.html" style="margin-right:20px;">
-                            <i class="fa fa-shopping-cart fa-2x"></i> 
+                        <a class="btn btn-success btn-sm ml-3" href="cart.html">
+                            <i class="fa fa-shopping-cart"></i> Carrinho
+                            <span class="badge badge-light">3</span>
                         </a>
                     </form>
                 </div>
@@ -56,22 +57,20 @@
             <div class="col-md-5 d-flex">
                 <div class="align-self-center card login__card shadow-sm w-100">
                     <div class="card-body">
-                        <form action="">
+                        <form action="Autentica_loginFuncionario.php" method="POST">
                             <h2 class="text-center">Sistema de Login</h2>
-                            <h2 class="text-center">-</h2>
-                            <h2 class="text-center">Funcionário</h2>
-
+                            
                             <p></p>
                             <p>--------------------------------------------------------------</p>
 
                             <div class="">
                                 <div class="form-group">
                                     <label for="">Digite seu email</label>
-                                    <input type="text" class="form-control form-control-lg" />
+                                    <input type="text" name="email"class="form-control form-control-lg" />
                                 </div>
                                 <div class="form-group">
                                     <label for="">Digite sua senha</label>
-                                    <input type="password" class="form-control form-control-lg" />
+                                    <input type="password" name="senha" class="form-control form-control-lg" />
                                 </div>
                                 <div class="custom-control custom-checkbox">
                                     <input type="checkbox" class="custom-control-input custom-control"
@@ -79,17 +78,17 @@
                                     <label class="custom-control-label" for="customCheckDisabled1">Lembrar de mim</label>
                                 </div>
                                 <div class="form-group">
-                                    <a href="#" class="btn btn-primary btn-lg btn-block my-3">
+                                    <!--<a href="#" class="btn btn-primary btn-lg btn-block my-3">
                                         Logar
-                                    </a>
-
+                                    </a>-->
+                                    <button type="submit" class="btn btn-primary btn-lg btn-block my-3" value="Cadastrar" >Logar</button>
                                     <div class="d-flex justify-content-between">
                                         <a href="#!">Esqueceu a senha?</a>
-                                        <span> <a href="loginCliente.html">Entrar como Cliente</a></span>
+                                        <span> <a href="./loginCliente.php">Entrar como Cliente</a></span>
                                     </div>
                                     <div class="dropdown-divider my-4"></div>
                                     <div class="text-center w-100">
-                                        <small><a href="cadastroFuncionario.html">Não possui conta? Criar conta</a> </small>
+                                        <small><a href="./cadastroFuncionario.php">Não possui conta? Criar conta</a> </small>
                                     </dvi>
                                 </div>
                             </div>
