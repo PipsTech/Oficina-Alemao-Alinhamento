@@ -22,11 +22,11 @@
         <a href="#" class="titulo">Oficina Alemão Alinhamento</a>
         <nav>
           <ul class="menu">
-            <li><a href="home.html">Home</a></li>
-            <li><a href="#">Serviços</a></li>
-            <li><a href="#" style="margin-right:80px;">Produtos</a></li>
-            <li> <a class="nav-link" href="loginCliente.html">LogIn <i class="fas fa-sign-in-alt"></i> LogOut <i class="fas fa-sign-out-alt"></i></a></li>
-            <li><a class="btn btn-sm ml-3" href="cart.html" style="margin-right:20px;">
+            <li><a href="./home.php">Home</a></li>
+            <li><a href="./serviços.php">Serviços</a></li>
+            <li><a href="./produtos.php" style="margin-right:80px;">Produtos</a></li>
+            <li> <a class="nav-link" href="./loginCliente.php">LogIn <i class="fas fa-sign-in-alt"></i> LogOut <i class="fas fa-sign-out-alt"></i></a></li>
+            <li><a class="btn btn-sm ml-3" href="./carrinho.php" style="margin-right:20px;">
               <i class="fa fa-shopping-cart fa-2x"></i> 
           </a></li>
           </ul>
