@@ -19,7 +19,7 @@
    
         <nav class="navbar navbar-expand-md" style="width: 103%;">
             <div class="container">
-                <a class="nav-brand" href="home.html">Oficina Alemão Alinhamento</a>
+                <a class="nav-brand" href="./home.php">Oficina Alemão Alinhamento</a>
         
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav m-auto">
