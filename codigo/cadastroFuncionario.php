@@ -15,32 +15,33 @@
 
   <body>
     
-    <nav class="navbar navbar-expand-md">
+   <nav class="navbar navbar-expand-md">
         <div class="container">
-            <a class="nav-brand" href="home.html">Oficina Alemão Alinhamento</a>
+            <a class="nav-brand" href="./home.php">Oficina Alemão Alinhamento</a>
     
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav m-auto">
                    
                     <li class="nav-item">
-                        <a class="nav-link" href="category.html">Serviços</a>
+                        <a class="nav-link" href="./serviços.php">Serviços</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="product.html">Produtos</a>
+                        <a class="nav-link" href="./produtos.php">Produtos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="QuemSomos.html">QuemSomos</a>
+                        <a class="nav-link" href="./QuemSomos.php">QuemSomos</a>
                     </li>
                 </ul>
     
                 <form class="form-inline my-2 my-lg-0">
                     
-                    <a class="nav-link" href="loginCliente.html">LogIn <i class="fas fa-sign-in-alt"></i> LogOut <i class="fas fa-sign-out-alt"></i></a>
+                    <a class="nav-link" href="./loginFuncionario.php">LogIn <i class="fas fa-sign-in-alt"></i> LogOut <i class="fas fa-sign-out-alt"></i></a>
                     
-                    <a class="btn btn-sm ml-3" href="cart.html" style="margin-right:20px;">
+                    <a class="btn btn-sm ml-3" href="./carrinho.php" style="margin-right:20px;">
                         <i class="fa fa-shopping-cart fa-2x"></i> 
                     </a>
-     
+            
+                
                 </form>
             </div>
         </div>
