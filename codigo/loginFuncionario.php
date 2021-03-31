@@ -25,10 +25,10 @@
                     <ul class="navbar-nav m-auto">
                        
                         <li class="nav-item">
-                            <a class="nav-link" href="category.html">Serviços</a>
+                            <a class="nav-link" href="./serviços.php">Serviços</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="product.html">Produtos</a>
+                            <a class="nav-link" href="./produtos.php">Produtos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./QuemSomos.php">QuemSomos</a>
