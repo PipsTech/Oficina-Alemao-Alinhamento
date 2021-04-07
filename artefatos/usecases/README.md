@@ -36,6 +36,6 @@
 
 * UC 18-ManterCarrinho.md - Essa funcionalidade refere-se ao sistema de compra do site. Escolha um ou mais produtos para reservar a compra.
 
-* UC 19-ConfirmarVenda.md - Este caso de uso refere-se ao sistema de compra do site, no qual após a confirmação de pagamento é realizada a baixa da compra no sistema.
+* UC 19-ConfirmarVendas.md - Este caso de uso refere-se ao sistema de compra do site, no qual após a confirmação de pagamento é realizada a baixa da compra no sistema.
 
 
