@@ -25,10 +25,10 @@
                     <ul class="navbar-nav m-auto">
                        
                         <li class="nav-item">
-                            <a class="nav-link" href="./serviços.php">Serviços</a>
+                            <a class="nav-link" href="category.html">Serviços</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./produtos.php">Produtos</a>
+                            <a class="nav-link" href="product.html">Produtos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./QuemSomos.php">QuemSomos</a>
@@ -58,7 +58,7 @@
                 <div class="align-self-center card login__card shadow-sm w-100">
                     <div class="card-body">
                         <form action="Autentica_loginFuncionario.php" method="POST">
-                            <h2 class="text-center">Sistema de Login</h2>
+                            <h2 class="text-center">Login Funcionário</h2>
                             
                             <p></p>
                             <p>--------------------------------------------------------------</p>
