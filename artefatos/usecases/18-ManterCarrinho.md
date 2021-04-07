@@ -2,7 +2,7 @@
 # Caso de uso 18 - Manter Carrinho
 
 ## 1. Descrição
-Essa funcionalidade refere-se ao sistemas de compra do site, Escolha um ou mais produtos para reservar a compra.
+Essa funcionalidade refere-se ao sistemas de compra do site. Escolha um ou mais produtos para reservar a compra.
 
 ## 2. Atores
 Usuário Cliente
