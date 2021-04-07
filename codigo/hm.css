@@ -46,10 +46,7 @@
     padding-right: 5px;
     background-color: black;
     
-    border-style: groove;
-    border-radius: 40px;
-    border-color: gold;
-    border-width: 4px 4px 4px 4px;
+
 }
 
 .product_rassurance .list-inline li:hover {
