@@ -37,7 +37,7 @@
         
                     <form class="form-inline my-2 my-lg-0">
                         
-                        <a class="nav-link" href="./loginFuncionario.php">LogIn <i class="fas fa-sign-in-alt"></i> LogOut <i class="fas fa-sign-out-alt"></i></a>
+                        
         
                         <a class="btn btn-success btn-sm ml-3" href="cart.html">
                             <i class="fa fa-shopping-cart"></i> Carrinho
