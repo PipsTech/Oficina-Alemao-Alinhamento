@@ -19,7 +19,7 @@ class Controle
             exit();
         }
     }
-    function alteraHeader()
+   function alteraHeader()
     {
         if (isset($_COOKIE['id'])) {
             $id = ($_COOKIE['id']);
@@ -27,8 +27,8 @@ class Controle
             $res = mysqli_query($this->con, $comando);
             $c = $res->fetch_array();
             $n = $c['Nome'];
-            $b = "<a class='perfil' href='./perfil.php'>";
-            $g = "</a>";
+            $b = "<a class='perfil' href='./perfil.php'> <i class='far fa-user-circle'>";
+            $g = "</i></a>";
             return "$b $n $g";
         } else {
             return '<a class="nav-link"  id="Gabriel" href="./loginCliente.php">LogIn <i class="fas fa-sign-in-alt"></i> </a>';
