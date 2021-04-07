@@ -34,4 +34,8 @@
 
 * UC 17-ConsultarAgendaEletronica.md - Para ajudar na organização da oficina, é possivel consultar a agenda para ver as atividades do dia, do mes, e da semana.
 
+* UC 18-ManterCarrinho.md - Essa funcionalidade refere-se ao sistemas de compra do site. Escolha um ou mais produtos para reservar a compra.
+
+* UC 19-ConfirmarVenda.md - Este caso de uso refere-se ao sistemas de compra do site, no qual após a confirmação de pagamento é realizada a baixa da compra no sistema.
+
 
