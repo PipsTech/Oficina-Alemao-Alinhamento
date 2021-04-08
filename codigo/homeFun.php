@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <title>Oficina Alemão Alinhamento</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,161 +11,108 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/2e1a878a13.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
+</head>
+
+<body>
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-   
-        <nav class="navbar navbar-expand-md">
-            <div class="container">
-                <a class="nav-brand" href="./home.php">Oficina Alemão Alinhamento</a>
-        
-                <div class="collapse navbar-collapse">
-                    <ul class="navbar-nav m-auto">
-                       
-                        <li class="nav-item">
-                            <a class="nav-link" href="./serviços.php">Serviços</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./produtos.php">Produtos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./QuemSomos.php">QuemSomos</a>
-                        </li>
-                    </ul>
-        
-                    <form class="form-inline my-2 my-lg-0">
+
+    <nav class="navbar navbar-expand-md">
+        <div class="container">
+            <a class="nav-brand" href="./homeFun.php">Oficina Alemão Alinhamento</a>
+
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav m-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./serviços.php">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cadastroProduto.php">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./QuemSomos.php">Calendário</a>
+                    </li>
+                </ul>
+
+                <form class="form-inline my-2 my-lg-0">
                     <?php
                     ob_start();
                     require "Autentica_loginFuncionario.php";
                     ob_end_clean();
                     echo $obj->alteraHeader();
                     ?>
-                        
-                        <a class="btn btn-sm ml-3" href="./carrinho.php" style="margin-right:20px;">
-                            <i class="fa fa-shopping-cart fa-2x"></i> 
-                        </a>
-                    </form>
-                </div>
-            </div>
-        </nav>
-      
 
-        <div class="container">
-            <p></p>
-            <div class="row">
-                <div class="col">
-                    <nav aria-label="breadcrumb">
-                        <ol class="text-center">
-                            Nossos produtos
-                        </ol>
-                    </nav>
-                </div>
+                    <a class="btn btn-sm ml-3" href="./carrinho.php" style="margin-right:20px;">
+                        <i class="fa fa-shopping-cart fa-2x"></i>
+                    </a>
+                </form>
             </div>
         </div>
+    </nav>
+
 
     <div class="container">
+        <p></p>
+        <div class="row">
             <div class="col">
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="card-img-top" src="/fotos/bateria.jfif" alt="Card image cap" style="width: 338px; height: 300px;">
-                            <div class="card-body">
-                                <h4 class="card-title"><a href="./Produto.php" title="Ver Produto">Bateria</a></h4>
-                                <p class="card-text">Descrição a definir</p>
-                                <div class="row">
-                                    <div class="col">
-                                        <a href="#" class="btn btn-outline-success btn-block">Editar</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="card-img-top" src="/fotos/oleo.webp" alt="Card image cap" style="width: 338px; height: 300px;">
-                            <div class="card-body">
-                                <h4 class="card-title"><a href="./Produto.php" title="Ver Produto">Óleo</a></h4>
-                                <p class="card-text">Descrição a definir</p>
-                                <div class="row">
-                                    <div class="col">
-                                        <a href="#" class="btn btn-outline-success btn-block">Editar</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="card-img-top" src="/fotos/pastilha de freio.jfif" alt="Card image cap" style="width: 338px; height: 300px;">
-                            <div class="card-body">
-                                <h4 class="card-title"><a href="./Produto.php" title="Ver Produto">Pastilha de Freio</a></h4>
-                                <p class="card-text">Descrição a definir</p>
-                                <div class="row">
-                                    <div class="col">
-                                        <a href="#" class="btn btn-outline-success btn-block">Editar</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-                    
+                <nav aria-label="breadcrumb">
+                    <ol class="text-center">
+                        Nossos produtos
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
 
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="card-img-top" src="/fotos/bateria.jfif" alt="Card image cap" style="width: 338px; height: 300px;">
-                            <div class="card-body">
-                                <h4 class="card-title"><a href="./Produto.php" title="Ver Produto">Bateria</a></h4>
-                                <p class="card-text">Descrição a definir</p>
-                                <div class="row">
-                                    <div class="col">
-                                        <a href="#" class="btn btn-outline-success btn-block">Editar</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="card-img-top" src="/fotos/oleo.webp" alt="Card image cap" style="width: 338px; height: 300px;">
-                            <div class="card-body">
-                                <h4 class="card-title"><a href="./Produto.php" title="Ver Produto">Óleo</a></h4>
-                                <p class="card-text">Descrição a definir</p>
-                                <div class="row">
-                                    <div class="col">
-                                        <a href="#" class="btn btn-outline-success btn-block">Editar</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="card-img-top" src="/fotos/pastilha de freio.jfif" alt="Card image cap" style="width: 338px; height: 300px;">
-                            <div class="card-body">
-                                <h4 class="card-title"><a href="./Produto.php" title="Ver Produto">Pastilha de Freio</a></h4>
-                                <p class="card-text">Descrição a definir</p>
-                                <div class="row">
-                                    <div class="col">
-                                        <a href="#" class="btn btn-outline-success btn-block">Editar</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-                    
-                    <div class="col-12">
-                        <p></p>
+    <div class="container">
+        <div class="col">
+            <div class="row">
+                <?php
+
+                
+             
+                $a = $obj->orgProduto();
+                $tam = sizeof($a);
+                $d = "";
+                $x = '<div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img class="card-img-top" src="/fotos/bateria.jfif" alt="Card image cap" style="width: 338px; height: 300px;">
+                    <div class="card-body">
+                        <h4 class="card-title"><a href="./Produto.php" title="Ver Produto">';
+                $y = '</a></h4>
+                <p class="card-text">';
+                $w = '</p>
+                <div class="row">
+                    <div class="col">
+                        <a href="#" class="btn btn-outline-success btn-block">Editar</a>
                     </div>
                 </div>
             </div>
-    
+        </div>
+    </div>';
+                for ($i = 0; $i < $tam; $i++) {
+                    $res = $a[$i];
+                    $nome = $res['Nome'];
+                    $preco = $res['Preço'];
+                    $desc = $res['Descrição'];
+                    $d = $d . $x . $nome . $y . $desc . $w ;
+                }
+                echo $d;
+
+                ?>
+              
+
+                <div class="col-12">
+                    <p></p>
+                </div>
+            </div>
         </div>
 
-        
+    </div>
+
+
     </div>
 
     <footer class="text-light">
@@ -177,7 +125,7 @@
                         <img class="card-img-top" src="/fotos/slogan.jfif" alt="Card image cap" style="border-radius: 20px;">
                     </p>
                 </div>
-    
+
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
                     <h5>Mídias Sociais</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
@@ -187,7 +135,7 @@
                         <li><a href="">Facebook</a></li>
                     </ul>
                 </div>
-    
+
                 <div class="col-md-4 col-lg-3 col-xl-3">
                     <h5>Infos</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
@@ -207,4 +155,4 @@
             </div>
         </div>
     </footer>
-  </body>
+</body>
