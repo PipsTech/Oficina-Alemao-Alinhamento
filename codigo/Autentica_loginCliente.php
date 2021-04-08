@@ -1,4 +1,5 @@
 <?php
+session_start();
 require "ControleConta.php";
 $obj = new Controle();
 $email = $_POST['email'];
