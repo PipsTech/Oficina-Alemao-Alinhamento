@@ -11,7 +11,7 @@ class Controle
     public   $l = false;
     public function __construct()
     {
-        session_start();
+        //session_start();
         $this->con = new mysqli($this->host, $this->root, $this->pass);
         mysqli_select_db($this->con, 'tis');
         if ($this->con->connect_errno) {
@@ -19,7 +19,7 @@ class Controle
             exit();
         }
     }
-   function alteraHeader()
+    function alteraHeader()
     {
         if (isset($_COOKIE['id'])) {
             $id = ($_COOKIE['id']);
