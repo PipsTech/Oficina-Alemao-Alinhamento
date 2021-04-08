@@ -10,7 +10,7 @@ class Funcionario{
     public   $l = false;
     public function __construct()
     {
-        session_start();
+        //session_start();
         $this->con = new mysqli($this->host, $this->root, $this->pass);
         mysqli_select_db($this->con, 'tis');
         if ($this->con->connect_errno) {
@@ -165,7 +165,7 @@ class Funcionario{
             return "$n";
         } 
     }
-   function alteraHeader()
+    function alteraHeader()
     {
         if (isset($_COOKIE['id'])) {
             $id = ($_COOKIE['id']);
@@ -173,12 +173,34 @@ class Funcionario{
             $res = mysqli_query($this->con, $comando);
             $c = $res->fetch_array();
             $n = $c['Nome'];
-            $b = "<a class='perfil' href='./perfil.php'> <i class='far fa-user-circle'>";
+            $b = "<a class='perfil' href='./perfilFuncionario.php'> <i class='far fa-user-circle'>";
             $g = "</i></a>";
             return "$b $n $g";
         } else {
             return '<a class="nav-link"  id="Gabriel" href="./loginFuncionario.php">LogIn <i class="fas fa-sign-in-alt"></i> </a>';
         }
+    }
+
+    function cadastraProduto($nome,$descricao,$preco,$quant){
+        if (isset($_COOKIE['id'])){
+        $id = ($_COOKIE['id']);
+        $reg = "insert into produto (Descrição,Preço,Nome,Quantidade,Id_Funcionario) values ('$descricao','$preco','$nome','$quant','$id')";
+        mysqli_query($this->con,$reg);
+        header("Location: homeFun.php");
+        }
+    }
+
+    function orgProduto(){
+        $comando = "SELECT * FROM produto";
+        $res = mysqli_query($this->con,$comando);
+        $array = array();
+        $i =0;
+        while ($item = mysqli_fetch_array($res, MYSQLI_BOTH)){
+            $array[$i] = $item;
+            $i++;
+        }
+
+        return $array;
     }
 
 }
