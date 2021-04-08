@@ -42,9 +42,8 @@
                     echo $obj->alteraHeader();
                     ?>
         
-                        <a class="btn btn-success btn-sm ml-3" href="cart.html">
-                            <i class="fa fa-shopping-cart"></i> Carrinho
-                            <span class="badge badge-light">3</span>
+                        <a class="btn btn-sm ml-3" href="carrinho.html" style="margin-right:20px;">
+                    <i class="fa fa-shopping-cart fa-2x"></i> 
                         </a>
                     </form>
                 </div>
