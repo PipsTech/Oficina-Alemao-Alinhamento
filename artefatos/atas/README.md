@@ -8,4 +8,5 @@
 * ATA-2021-03-23.md - Ata de criação das primeiras interfaces e atualização dos casos de uso.
 * ATA-2021-03-30.md - Ata de atualização das primeiras interfaces criadas, criação de novas interfaces e atualização do diagrama dos casos de uso.
 * ATA-2021-04-06.md - Ata de criação de novas interfaces e casos de uso, implementação de funcionalidades às interfaces já desenvolvidas.
+* ATA-2021-04-13.md - Ata de criação de interfaces com front-end e back-end, e novo caso de uso relacionados ao produto.
 
