@@ -18,6 +18,10 @@ class Funcionario{
             exit();
         }
     }
+    function __getcon()
+    {
+        return $this->con;
+    }
 
     function loginFuncionario()
     {
@@ -181,10 +185,10 @@ class Funcionario{
         }
     }
 
-    function cadastraProduto($nome,$descricao,$preco,$quant){
+    function cadastraProduto($nome,$descricao,$preco,$quant,$conteudo){
         if (isset($_COOKIE['id'])){
         $id = ($_COOKIE['id']);
-        $reg = "insert into produto (Descrição,Preço,Nome,Quantidade,Id_Funcionario) values ('$descricao','$preco','$nome','$quant','$id')";
+        $reg = "insert into produto (Descrição,Preço,Nome,Quantidade,Id_Funcionario,foto_produto) values ('$descricao','$preco','$nome','$quant','$id','$conteudo')";
         mysqli_query($this->con,$reg);
         header("Location: homeFun.php");
         }
@@ -201,6 +205,74 @@ class Funcionario{
         }
 
         return $array;
+    }
+    function veProduto($id){
+        $comando = "SELECT * FROM `produto` WHERE Id_Produto = '$id'";
+        $res = mysqli_query($this->con,$comando);
+        //$c = $res->fetch_array();
+        return $res;
+    }
+    function setCookie($id){
+        setcookie('Id_Produto', $id, time() + 3600, '/');
+        header('Location: verProduto.php');
+
+    }
+    function setCookieF($id){
+        setcookie('Id_Produto', $id, time() + 3600, '/');
+        header('Location: editarProduto.php');
+
+    }
+    
+
+    function excluirProduto(){
+        if (isset($_COOKIE['Id_Produto'])) {
+            $a = $_COOKIE['Id_Produto'];
+            $fun = "DELETE FROM produto WHERE Id_Produto = '$a'";
+            isset($this->con);
+            $ress = mysqli_query($this->con, $fun);
+            if ($ress == true) {
+                echo "Conta excluída com sucesss\n";
+            } else {
+                echo "Parabens! seus dados são nossos para sempre";
+            }
+            header('Location: homeFun.php');
+        }
+       
+    }
+    function alteraNomeProduto($nome){
+        if (isset($_COOKIE['Id_Produto'])) {
+            $a = $_COOKIE['Id_Produto'];
+            $fun = "UPDATE produto SET Nome = '$nome' WHERE Id_Produto = '$a'";
+           $res= mysqli_query($this->con, $fun);
+        }        
+    }
+    function alteraDescricaoProduto($desc){
+        if (isset($_COOKIE['Id_Produto'])) {
+            $a = $_COOKIE['Id_Produto'];
+            $fun = "UPDATE produto SET Descrição = '$desc' WHERE Id_Produto = '$a'";
+           $res= mysqli_query($this->con, $fun);
+        } 
+    }
+    function alteraQuantidadeProduto($quant){
+        if (isset($_COOKIE['Id_Produto'])) {
+            $a = $_COOKIE['Id_Produto'];
+            $fun = "UPDATE produto SET Quantidade = '$quant' WHERE Id_Produto = '$a'";
+           $res= mysqli_query($this->con, $fun);
+        } 
+    }
+    function alteraPrecoProduto($preco){
+        if (isset($_COOKIE['Id_Produto'])) {
+            $a = $_COOKIE['Id_Produto'];
+            $fun = "UPDATE produto SET Preço = '$preco' WHERE Id_Produto = '$a'";
+           $res= mysqli_query($this->con, $fun);
+        } 
+    }
+    function alteraImagemProduto($img){
+        if (isset($_COOKIE['Id_Produto'])) {
+            $a = $_COOKIE['Id_Produto'];
+            $fun = "UPDATE produto SET foto_produto = '$img' WHERE Id_Produto = '$a'";
+           $res= mysqli_query($this->con, $fun);
+        } 
     }
 
 }
