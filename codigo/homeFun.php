@@ -18,7 +18,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 
-    <nav class="navbar navbar-expand-md">
+    <nav class="navbar navbar-expand-md" >
         <div class="container">
             <a class="nav-brand" href="./homeFun.php">Oficina Alemão Alinhamento</a>
 
@@ -29,7 +29,7 @@
                         <a class="nav-link" href="./serviços.php">Serviços</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./cadastroProduto.php">Produtos</a>
+                        <a class="nav-link" href="./cadastroProduto.php">Cadastro Produto</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./QuemSomos.php">Calendário</a>
@@ -70,36 +70,54 @@
         <div class="col">
             <div class="row">
                 <?php
-
-                
-             
                 $a = $obj->orgProduto();
                 $tam = sizeof($a);
                 $d = "";
                 $x = '<div class="col-12 col-md-6 col-lg-4">
                 <div class="card">
-                    <img class="card-img-top" src="/fotos/bateria.jfif" alt="Card image cap" style="width: 338px; height: 300px;">
+                   <img class="card-img-top" src="data:image/jpeg;base64,';
+                   $g ='" alt="Card image cap" style="width: 338px; height: 300px;">
                     <div class="card-body">
-                        <h4 class="card-title"><a href="./Produto.php" title="Ver Produto">';
-                $y = '</a></h4>
-                <p class="card-text">';
+                        <h4 class="card-title">
+                        <script>
+                        function getId';$p='(){
+                            let thomas = document.getElementById("';$bah='");
+                            var gabriel = thomas.getAttribute("id");
+                            console.log(gabriel);
+                            window.location="visuP.php?id="+gabriel;
+                        }
+                        function gettId';$pi='(){
+                            let thomas = document.getElementById("';$ba='");
+                            var gabriel = thomas.getAttribute("id");
+                            console.log(gabriel);
+                            window.location="visuPF.php?id="+gabriel;
+                        }
+                        </script>
+                      <input type="submit"class="form-submit-button btn-info "style="width= 50px;" onclick="getId';$jorge='()" id="';$y='" value="';$o='" >
+                     
+                      </h4>
+
+                 <p class="card-text">';
                 $w = '</p>
                 <div class="row">
                     <div class="col">
-                        <a href="#" class="btn btn-outline-success btn-block">Editar</a>
+                        <a href="#" class="btn btn-outline-success btn-block" onclick="gettId';$b='()" >Editar</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>';
-                for ($i = 0; $i < $tam; $i++) {
-                    $res = $a[$i];
-                    $nome = $res['Nome'];
-                    $preco = $res['Preço'];
-                    $desc = $res['Descrição'];
-                    $d = $d . $x . $nome . $y . $desc . $w ;
-                }
-                echo $d;
+    for($i = 0;$i< $tam;$i++){
+        $res = $a[$i];
+        $img = base64_encode($res['foto_produto']);
+        $nome = $res['Nome'];
+        $preco = $res['Preço'];
+        $desc = $res['Descrição'];
+        $id = $res['Id_Produto'];
+            $d =$d.$x.$img.$g.$id.$p.$id.$bah.$id.$pi.$id.$ba.$id.$jorge.$id.$y.$nome.$o.$desc.$w.$id.$b;
+    } 
+    echo $d;
+    
 
                 ?>
               
@@ -115,7 +133,7 @@
 
     </div>
 
-    <footer class="text-light">
+    <footer class="text-light" >
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-lg-4 col-xl-3">
