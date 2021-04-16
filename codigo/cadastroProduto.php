@@ -46,7 +46,7 @@
                 </div>
             </div>
         </nav>
-        <form action="cadP.php" method="POST">
+        <form action="cadP.php" method="POST" enctype="multipart/form-data">
         <div class="row">
             <!-- Description -->
             <p></p>
@@ -71,15 +71,15 @@
                 
                 
             </div>
+        
+            <input type="file" name="image" class="form-control" required>
+           <!-- <input type ="submit" name="submit" value="confirmar">-->
             
     
             <!-- Reviews -->
             <div class="col-12" id="reviews">
                 <div class="card border-light mb-3">
-                   <!-- <a href="cart.html" class="btn btn-dark btn-lg btn-block text-uppercase">
-                         CADASTRAR PRODUTO
-                    </a>--> 
-                    <button type="submit" class="btn btn-dark btn-lg btn-block text-uppercase" value="Cadastrar" >CADASTRAR PRODUTO</button>
+                    <button type="submit" class="btn btn-dark btn-lg btn-block text-uppercase" name="submit" value="Cadastrar" >CADASTRAR PRODUTO</button>
                 </div>
             </div>
         </div>
