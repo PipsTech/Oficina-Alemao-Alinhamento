@@ -75,10 +75,21 @@
                     $d = "";
                     $x = '<div class="col-12 col-md-6 col-lg-4">
                     <div class="card">
-                        <img class="card-img-top" src="/fotos/bateria.jfif" alt="Card image cap" style="width: 338px; height: 300px;">
+                       <img class="card-img-top" src="data:image/jpeg;base64,';
+                       $g ='" alt="Card image cap" style="width: 338px; height: 300px;">
                         <div class="card-body">
-                            <h4 class="card-title"><a href="./Produto.php" title="Ver Produto">';
-                     $y = '</a></h4>
+                            <h4 class="card-title">
+                            <script>
+                            function getId';$p='(){
+                                let thomas = document.getElementById("';$bah='");
+                                var gabriel = thomas.getAttribute("id");
+                                window.location="visuP.php?id="+gabriel;
+                            }
+                            </script>
+                          <input type="submit"class="form-submit-button btn-info "style="width= 50px;" onclick="getId';$jorge='()" id="';$y='" value="';$o='" >
+                         
+                          </h4>
+
                      <p class="card-text">';
                      $z = '</p>
                      </div>
@@ -95,10 +106,12 @@
                             <p class="btn btn-outline-danger btn-block">';             
                     for($i = 0;$i< $tam;$i++){
                         $res = $a[$i];
+                        $img = base64_encode($res['foto_produto']);
                         $nome = $res['Nome'];
                         $preco = $res['Preço'];
                         $desc = $res['Descrição'];
-                            $d =$d.$x.$nome.$y.$desc.$w.$preco.$z;
+                        $id = $res['Id_Produto'];
+                            $d =$d.$x.$img.$g.$id.$p.$id.$bah.$id.$jorge.$id.$y.$nome.$o.$desc.$w.$preco.$z;
                     } 
                     echo $d;
                     
