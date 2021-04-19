@@ -1,4 +1,4 @@
-# Caso de uso 05 - EfetuarCompra
+# Caso de uso 06 - EfetuarCompra
 
 ## 1. Descrição
 O usuário cliente,como extensão do caso de uso de adicionar ao carrinho, tem a decisão final do que terá em seu carrinho para efetuar a compra.
