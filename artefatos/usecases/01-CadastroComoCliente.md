@@ -1,4 +1,4 @@
-# Caso de uso 01 - Cadastro Cliente
+# Caso de uso 01 - Cadastro Como Cliente
 
 ## 1. Descrição
 Essa funcionalidade refere-se ao cadastro do cliente na plataforma, nesta o usuário cliente preenche os campos e realiza o cadastro no sistema.
