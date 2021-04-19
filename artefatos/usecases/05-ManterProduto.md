@@ -68,7 +68,7 @@ Funcionário
 |  Passo 4   | Fluxo Alternativo encerrado. |
 
 
-### 5.5 Fluxo alternativo - Preenchimento incorreto
+### 5.6 Fluxo alternativo - Preenchimento incorreto
 
 | **Precondições**  |1. Realizar o processo de Log In |
 | --- | --- |
