@@ -1,4 +1,4 @@
-# Caso de uso 09 - MarcarDataDoAgendamentoDoServiço
+# Caso de uso 10 - MarcarDataDoAgendamentoDoServiço
 
 ## 1. Descrição
 O usuário cliente será redirecionado ao Whatsapp da Alemão Alinhamento para agendar o serviço e o funcionário será responsável por deixar agendado o serviço na interface do calendário.
