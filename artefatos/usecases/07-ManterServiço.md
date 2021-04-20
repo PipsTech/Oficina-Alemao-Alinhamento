@@ -1,5 +1,5 @@
 
-# Caso de uso 06 - Manter Sreviço
+# Caso de uso 07 - Manter Sreviço
 
 ## 1. Descrição
 Essa funcionalidade refere-se ao sistemas de cadastro e alteração de dados respectivos aos serviços, incluindo: titulo, descrição, imagem, preço (estimado) e quantidade no estoque
