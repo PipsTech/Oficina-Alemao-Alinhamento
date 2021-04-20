@@ -1,7 +1,7 @@
 # Caso de uso 03 - Manter Cadastro Dos Dados Pessoais Do Funcionário
 
 ## 1. Descrição
-Esse caso de uso se refere a solicitação do cadastro do funcionário da Alemão Alinhamento na plataforma
+Esse caso de uso se refere a solicitação do cadastro do funcionário da Alemão Alinhamento na plataforma.
 ## 2. Atores
 Funcionário Alemão Alinhamento
 ## 3. Precondições
