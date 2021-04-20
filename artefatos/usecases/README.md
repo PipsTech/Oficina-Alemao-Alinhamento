@@ -26,16 +26,4 @@
 
 * UC 13-SolicitarCadastroComoFuncionário.md - Esse caso de uso se refere a solicitação do cadastro do funcionário da Alemão Alinhamento na plataforma.
 
-* UC 14-CadastrarAnuncioDeUmProduto.md - Este caso de uso se refere a funcionalidade exclusiva dos usuários do tipo funcionário de realizar a postagem dos anúncios dos produtos no sistema.
-
-* UC 15-CadastrarUmaDataNaAgendaEletronica.md - Este caso de uso se refere a funcionalidade de adiconar um evento a uma data na agenda eletrônica do sistema por parte dos usuários autenticados funcionários da Alemão Alinahmento.
-
-* UC 16-CadastrarAnuncioDeUmServiço.md - Este caso de uso se refere a funcionalidade de cadastrar um anúncio de um serviço.
-
-* UC 17-ConsultarAgendaEletronica.md - Para ajudar na organização da oficina, é possivel consultar a agenda para ver as atividades do dia, do mes, e da semana.
-
-* UC 18-ManterCarrinho.md - Essa funcionalidade refere-se ao sistema de compra do site. Escolha um ou mais produtos para reservar a compra.
-
-* UC 19-ConfirmarVendas.md - Este caso de uso refere-se ao sistema de compra do site, no qual após a confirmação de pagamento é realizada a baixa da venda no sistema.
-
 
