@@ -1,4 +1,4 @@
-# Caso de uso 02 - Realizar Login Cliente
+# Caso de uso 02 - Logar Como Cliente
 
 ## 1. Descrição
 Essa funcionalidade se refere ao login na plataforma como cliente, nesta o usuário cliente deve preencher os campos indicados para logar-se na plataforma
