@@ -2,7 +2,7 @@
 # Caso de uso 05 - Manter Produto
 
 ## 1. Descrição
-Essa funcionalidade refere-se ao sistemas de cadastro e alteração de dados respectivos aos produtos, incluindo: titulo, descrição, imagem, preço e quantidade no estoque
+Essa funcionalidade refere-se ao sistemas de cadastro e alteração de dados respectivos aos produtos, incluindo: tÍtulo, descrição, imagem, preço e quantidade no estoque.
 
 ## 2. Atores
 Funcionário
