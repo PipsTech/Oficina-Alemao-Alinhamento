@@ -2,7 +2,7 @@
 
 ## 1. Descrição
 
-O funcionario que já possui cadastro no site pode utilizar o login por meio deste caso de uso.
+O usuário funcionário que já possui cadastro no site pode utilizar o login por meio deste caso de uso.
 
 ## 2. Atores
 
