@@ -14,13 +14,3 @@ Cliente e Funcionário
     2. O usuário acessa a página do produto.
     3. Caso de Uso encerrado.
 
-## 5. Fluxos alternativos
-
-### 5.1 Fluxo alternativo - A página do produto não carrega ou não aparece na tela
-
-| **Precondições**  | 1. O usuário já deve ter realizado o Log in na plataforma. |
-| --- | --- |
-| Passo 1  | O fluxo Alternativo se inicia quando o usuário está na página de Produtos. |
-| Passo 2  | O usuário clica no nome do produto. |
-| Passo 3  | A tela não carrega ou não aparece e o usuário não consegue acessá-la. |
-| Passo 4  | Fluxo Alternativo encerrado. |
