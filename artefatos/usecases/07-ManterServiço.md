@@ -68,3 +68,12 @@ Funcionário
 |  Passo 3   | O funcionário preencherá os campos obrigatorios e por engano, preenche um deles incorretamente|
 |  Passo 4   | O sistema ativará um warning para evitar do funcionario prosseguir com o erro
 | Passo 5 | Fluxo Alternativo encerrado|
+
+### 5.6 Fluxo alternativo - Excluir Serviço
+
+| **Precondições**  |1. Realizar o processo de Log In |
+| --- | --- |
+|  Passo 1   | O fluxo Alternativo se inicia quando o funcionario deseja excluir um serviço|
+|  Passo 2   | O funcionário irá até a pagina de serviços e selecionar o serviço desejado para excluir |
+|  Passo 3   | O funcionario irá apertar o botão excluir|
+|  Passo 4   | Fluxo Alternativo encerrado. |
