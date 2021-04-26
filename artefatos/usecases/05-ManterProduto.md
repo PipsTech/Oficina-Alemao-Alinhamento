@@ -78,7 +78,7 @@ Funcionário
 |  Passo 4   | O sistema ativará um warning para evitar do funcionario prosseguir com o erro
 | Passo 5 | Fluxo Alternativo encerrado|
 
-### 5.5 Fluxo alternativo - Excluir Produto
+### 5.7 Fluxo alternativo - Excluir Produto
 
 | **Precondições**  |1. Realizar o processo de Log In |
 | --- | --- |
