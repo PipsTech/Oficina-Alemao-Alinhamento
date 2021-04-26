@@ -1,0 +1,68 @@
+html,
+body {
+  max-width: 100%;
+  background-color: #000000;
+}
+
+.nav-brand{
+    margin-left: -60px;
+    font-size: 35px;
+    font-family:'Impact';
+}
+
+.form-inline{
+    margin-right: -50px;
+}
+.navbar{
+    background-color: #000000;
+}
+
+.nav-link{
+    font-size: 20px;
+}
+
+.navbar a{
+    color: gold;
+}
+
+.login__body {
+  min-height: 100vh;
+}
+
+.login__image {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.login__container,
+.login__row {
+  min-height: 100vh;
+}
+
+.login__card {
+  background-color: #cf2323;
+}
+
+.row{
+    background-color: white;
+}
+
+.card-body{
+    background-color: black;
+}
+
+.card-body p{
+    color: gold;
+}
+
+.card-body label, a{
+    color: gold;
+}
+
+.text-center{
+    color: gold;
+}
+
+.span3{
+    margin-left: 50px;
+}
