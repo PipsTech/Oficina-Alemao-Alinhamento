@@ -1,4 +1,4 @@
-# Caso de uso 06 - Consultar Produto
+# Caso de uso 06 - Ver Produtos
 
 ## 1. Descrição
 Essa funcionalidade refere-se à consulta da página do produto e seus dados(preço, descrição, foto, nome).
