@@ -12,7 +12,7 @@ Cliente e Funcionário
 
 ### 5.1 Fluxo alternativo - Consultar Serviço
 
-| **Precondições**  | --não possu-- |
+| **Precondições**  | --não possui-- |
 | --- | --- |
 |  Passo 1   | O Fluxo Alternativo se inicia quando o usuário deseja acessar mais informações de um Serviço.|
 |  Passo 2   | O usuario selecionará o serviço de sua escolha |
