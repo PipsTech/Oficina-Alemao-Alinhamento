@@ -12,7 +12,7 @@ Cliente e Funcionário
 
 ### 5.1 Fluxo alternativo - Consultar Produto
 
-| **Precondições**  | --não possu-- |
+| **Precondições**  | --não possui-- |
 | --- | --- |
 |  Passo 1   | O Fluxo Alternativo se inicia quando o usuário deseja acessar mais informações de um produto.|
 |  Passo 2   | O usuario selecionará o produto de sua escolha |
