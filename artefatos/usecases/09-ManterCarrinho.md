@@ -46,3 +46,12 @@ Usuário Cliente
 |  Passo 2   | O cliente seleciona o produto no qual deseja excluir|
 |  Passo 3   |O cliente então clica no botão de excluir|
 |  Passo 4   | Fluxo Alternativo encerrado. |
+
+### 5.4 Fluxo alternativo - Cliente adicionou mais produtos do que disponivel no estoque
+
+| *Precondições*  |1. Ter realizado o Log In e ja ter adicionado algum produto ao carrinho |
+| --- | --- |
+|  Passo 1   | O fluxo Alternativo se inicia quando o cliente entra na tela de produtos |
+|  Passo 2   | O cliente seleciona o produto no qual deseja adicionar|
+|  Passo 3   | O site barra a adição e impede o cliente de adicionar tal produto ao seu carrinho|
+|  Passo 4   | Fluxo Alternativo encerrado. |
