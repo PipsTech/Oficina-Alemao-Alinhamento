@@ -16,4 +16,6 @@
 
 * UC 08-ConsultarServiço.md - Essa funcionalidade refere-se à consulta da página do serviço e seus dados(preço, descrição, foto, nome).
 
+* UC 09-ManterCarrinho.md - Essa funcionalidade refere-se ao sistemas de compra do site. Escolha um ou mais produtos para reservar a compra.
+
 
