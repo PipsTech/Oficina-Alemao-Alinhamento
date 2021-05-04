@@ -18,4 +18,6 @@
 
 * UC 09-ManterCarrinho.md - Essa funcionalidade refere-se ao sistemas de compra do site. Escolha um ou mais produtos para reservar a compra.
 
+* UC 10-ReservarCompra.md - Essa funcionalidade refere-se ao sistema de finalizar a compra do site. 
+
 
