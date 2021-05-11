@@ -118,7 +118,9 @@
                             </form>
                             
                                 <p></p>                          
-                                <a href="cart.html" class="btn btn-dark btn-lg btn-block text-uppercase">
+                                <a href="../backend/carrinhoId.php?id=<?php
+                                    echo $_COOKIE['Id_Produto'];
+                                ?>" class="btn btn-dark btn-lg btn-block text-uppercase">
                                     <i class="far fa-calendar-alt"></i> Adicionar ao Carrinho
                                 </a> 
                             
