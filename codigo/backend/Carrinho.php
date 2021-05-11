@@ -47,7 +47,7 @@ class Carrinho{
         header("Location: ../frontend/carrinho.php");
 
     }
-    function printCarrinho(){
+   function printCarrinho(){
         
         $idc=$_COOKIE['id'];
         $comando = "SELECT * FROM vendas WHERE Id_Cliente='$idc'";
@@ -72,6 +72,11 @@ class Carrinho{
             if (node.parentNode) {
                 node.parentNode.removeChild(node);
                 }
+                if(a.value >';$p='| a.value < 1){
+
+                    alert("Quantidade inválida para "+a.value);
+                    a.value = 1;
+                } 
                 
              var preco = a.value*';$g='
             let b = document.createElement("td");
@@ -87,11 +92,11 @@ class Carrinho{
         }
 
         </script>
-        <td class="text-left"><input id="';$i='"onchange=setQuant';$j='() value="';$k='"></td>
+        <td class="text-left"><input type="number" id="';$i='"onchange=setQuant';$j='() value="';$k='"></td>
         <td class="text-right" id="id';$l='">R$ ';$m='</td>
         <td id="3';$n='"class="text-right"><a  class="btn btn-sm btn-danger" href="../backend/excluirVenda.php?id=';$o='"><i class="fas fa-trash-alt"></i> </a> </td>
          </tr>';
-         $z ='';//"<td class=`text-right` id="+c+">R$ "+preco+"</td>"
+         $z ='';
          
          for($cont=0;$cont<$tam;$cont++){
              $res = $array[$cont];
@@ -99,16 +104,16 @@ class Carrinho{
              $quant = $res['Quantidade'];
              $idp = $res['Id_Produto'];
              $idv = $res['Id_Venda'];
-             $comando2 = "SELECT foto_produto,Preço,Nome FROM Produto WHERE Id_Produto='$idp'";
+             $comando2 = "SELECT foto_produto,Preço,Nome,Quantidade FROM Produto WHERE Id_Produto='$idp'";
              $res2 = mysqli_query($this->con,$comando2);
              $aux = $res2->fetch_assoc();
              $nome = $aux['Nome'];
              $preprod = $aux['Preço'];
+             $quantProd =$aux['Quantidade'];
              $preco = $preco;
              $foto =  base64_encode($aux['foto_produto']);
-             $z = $z.$a.$idv.$y.$foto.$b.$nome.$c.$idv.$d.$idv.$e.$idv.$f.$preprod.$g.$idv.$h.$idv.$w.$idv.$x.$idv.$i.$idv.$j.$quant.$k.$idv.$l.$preco.$m.$idv.$n.$idv.$o;
-            //$z = $z.$a.$foto.$b.$nome.$c.$idv.$d.$idv.$e.$idv.$f.$preco.$g.$idv.$h.$idv.$i.$quant.$j.$idv.$k.$preco.$l.$idv.$m;
-            // $z=$z.$a.$foto.$b.$nome.$c.$quant.$d.$preco.$e.$idv.$f;
+             $z = $z.$a.$idv.$y.$foto.$b.$nome.$c.$idv.$d.$idv.$e.$idv.$f.$quantProd.$p.$preprod.$g.$idv.$h.$idv.$w.$idv.$x.$idv.$i.$idv.$j.$quant.$k.$idv.$l.$preco.$m.$idv.$n.$idv.$o;
+            
 
          }
          return $z;
@@ -116,7 +121,6 @@ class Carrinho{
 
 
     }
-
     function excluir($id){
         $fun = "DELETE FROM vendas WHERE Id_Venda = '$id'";
         isset($this->con);
