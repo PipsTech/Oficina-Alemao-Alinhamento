@@ -12,5 +12,6 @@
 * ATA-2021-04-19.md - Ata de reorganização e criação de novos casos de uso, correção do diagrama de casos de uso e criação do diagrama de classes inicial.
 * ATA-2021-04-26.md - Ata de criação e definição das funcionalidades das interfaces relacionadas aos serviços, e atualização do diagrama de classes.
 * ATA-2021-05-03.md - Ata de criação do caso de uso de manter o carrinho de compras, e atualização do diagrama de classes.
+* ATA-2021-05-10.md - Ata de criação e definição das funcionalidades da interface do carrinho.
 
 
