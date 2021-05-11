@@ -55,3 +55,12 @@ Usuário Cliente
 |  Passo 2   | O cliente seleciona o produto no qual deseja adicionar|
 |  Passo 3   | O site barra a adição e impede o cliente de adicionar tal produto ao seu carrinho|
 |  Passo 4   | Fluxo Alternativo encerrado. |
+
+### 5.5 Fluxo alternativo - Consultar carrinho
+
+| *Precondições*  |1. Ter realizado o Log In |
+| --- | --- |
+|  Passo 1   | O fluxo Alternativo se inicia quando o cliente deseja consultar seu carrinho |
+|  Passo 2   | O cliente seleciona o carrinho no header do site|
+|  Passo 3   | O site redirecionará a pagina do carrinho permitindo a consulta|
+|  Passo 4   | Fluxo Alternativo encerrado. |
