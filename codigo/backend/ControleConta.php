@@ -181,5 +181,13 @@ class Controle
             return "$n";
         } 
     }
+    function getId()
+    {
+        if (isset($_COOKIE['id'])) {
+            $id = ($_COOKIE['id']);
+            
+            return $id;
+        } 
+    }
 
 }
