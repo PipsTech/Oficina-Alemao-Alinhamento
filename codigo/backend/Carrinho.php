@@ -74,7 +74,7 @@ class Carrinho{
                 }
                 if(a.value >';$p='| a.value < 1){
 
-                    alert("Quantidade inválida para "+a.value);
+                    alert("Quantidade inválida para "+a.value+"! \n Quantidade máxima disponível em estoque: "+';$v=');
                     a.value = 1;
                 } 
                 
@@ -112,7 +112,7 @@ class Carrinho{
              $quantProd =$aux['Quantidade'];
              $preco = $preco;
              $foto =  base64_encode($aux['foto_produto']);
-             $z = $z.$a.$idv.$y.$foto.$b.$nome.$c.$idv.$d.$idv.$e.$idv.$f.$quantProd.$p.$preprod.$g.$idv.$h.$idv.$w.$idv.$x.$idv.$i.$idv.$j.$quant.$k.$idv.$l.$preco.$m.$idv.$n.$idv.$o;
+             $z = $z.$a.$idv.$y.$foto.$b.$nome.$c.$idv.$d.$idv.$e.$idv.$f.$quantProd.$p.$quantProd.$v.$preprod.$g.$idv.$h.$idv.$w.$idv.$x.$idv.$i.$idv.$j.$quant.$k.$idv.$l.$preco.$m.$idv.$n.$idv.$o;
             
 
          }
@@ -121,6 +121,7 @@ class Carrinho{
 
 
     }
+
     function excluir($id){
         $fun = "DELETE FROM vendas WHERE Id_Venda = '$id'";
         isset($this->con);
