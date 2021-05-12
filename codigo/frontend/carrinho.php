@@ -15,7 +15,6 @@
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-   
         <nav class="navbar navbar-expand-md">
             <div class="container">
                 <a class="nav-brand" href="./home.php">Oficina Alemão Alinhamento</a>
@@ -24,7 +23,7 @@
                     <ul class="navbar-nav m-auto">
                        
                         <li class="nav-item">
-                            <a class="nav-link" href="./serviços.php">Serviços</a>
+                            <a class="nav-link" href="./servicos.php">Serviços</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./produtos.php">Produtos</a>
@@ -47,10 +46,11 @@
             </div>
         </nav>
       
-        <div class="container mb-4">
+        <div class="container mb-4" style="width: 1800px;">
             <p></p>
             <div class="row">
                 <div class="col-12">
+                <p></p>
                     <div class="table-responsive">
                         <table class="table table-striped">
                             <thead>
@@ -71,9 +71,6 @@
                                $obj2 = new Carrinho();
                                $a = $obj2->printCarrinho();
                                echo $a;
-                           
-                               
-                               
                                
                                ?>
                                
@@ -88,10 +85,12 @@
                                         $pf = $aux['tot'];
                                         echo $pf;
                                     ?></strong></td>
+                                    <td></td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
+                    <p></p>
                 </div>
                 <div class="col mb-2">
                     <div class="row">
@@ -105,46 +104,5 @@
                 </div>
             </div>
         </div>
-
-    <footer class="text-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-lg-4 col-xl-3">
-                    <h5>Slogan</h5>
-                    <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
-                    <p class="mb-0">
-                        <img class="card-img-top" src="../fotos/slogan.jfif" alt="Card image cap" style="border-radius: 20px;">
-                    </p>
-                </div>
-    
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
-                    <h5>Mídias Sociais</h5>
-                    <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
-                    <ul class="list-unstyled">
-                        <li><a href="">Whatsapp</a></li>
-                        <li><a href="">Google</a></li>
-                        <li><a href="">Facebook</a></li>
-                    </ul>
-                </div>
-    
-                <div class="col-md-4 col-lg-3 col-xl-3">
-                    <h5>Infos</h5>
-                    <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-home mr-2"></i>Rua do Ouro, 83 - Bairro Serra</li>
-                        <li><i class="fa fa-city mr-2"></i> Belo Horizonte-MG</li>
-                        <li><i class="fa fa-envelope mr-2"></i>alincarro@gmail.com</li>
-                        <li><i class="fa fa-phone mr-2"></i>(31)3241-1012</li>
-                    </ul>
-                </div>
-                <div class="col-12 copyright mt-3">
-                    <p class="float-left">
-                        <a href="#">Voltar para cima</a>
-                    </p>
-                    <p class="text-right text-muted">Todos os direitos reservados.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
   </body>
 </html>
