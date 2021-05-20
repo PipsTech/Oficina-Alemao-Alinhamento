@@ -1,7 +1,7 @@
 # Caso de uso 10 - Manter Agenda Eletronica
 
 ## 1. Descrição
-Essa funcionalidade refere-se ao sistemas de organizamento do sistema sobre os serviços e retiradas de produtos ja agendados pelo cliente. Facilitando para os funcionarios visualizar as reservas dos clientes
+Essa funcionalidade refere-se ao sistemas de organização do sistema sobre os serviços e retiradas de produtos já agendados pelo cliente, facilitando para os funcionarios visualizarem as reservas dos clientes.
 
 ## 2. Atores
 Usuário Funcionario
