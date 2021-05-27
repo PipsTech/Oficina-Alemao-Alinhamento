@@ -13,5 +13,7 @@
 * ATA-2021-04-26.md - Ata de criação e definição das funcionalidades das interfaces relacionadas aos serviços, e atualização do diagrama de classes.
 * ATA-2021-05-03.md - Ata de criação do caso de uso de manter o carrinho de compras, e atualização do diagrama de classes.
 * ATA-2021-05-10.md - Ata de criação e definição das funcionalidades da interface do carrinho.
+* ATA-2021-05-18.md - Ata de criação de 2 novos casos de uso, e atualização do diagrama de classes.
+* ATA-2021-05-25.md - Ata de criação e definição das funcionalidades da interface da agenda eletrônica e reservar compra.
 
 
