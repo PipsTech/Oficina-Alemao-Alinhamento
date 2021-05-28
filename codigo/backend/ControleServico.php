@@ -132,6 +132,9 @@ class ControleServico{
             <div class="col">
                 <a href="#" class="btn btn-outline-success btn-block" onclick="gettSId';$b='()" >Editar</a>
             </div>
+            <div class="col">
+                <a href="#" class="btn btn-outline-danger btn-block" style="color: red"onclick="gettSId';$suelen='()" >Marcar Agendamento</a>
+            </div>
         </div>
     </div>
     </div>
@@ -143,7 +146,7 @@ class ControleServico{
         $preco = $res['Preço_Estimado'];
         $desc = $res['Descrição'];
         $id = $res['Id_Anuncio'];
-        $d =$d.$x.$img.$g.$id.$p.$id.$bah.$id.$pi.$id.$ba.$id.$jorge.$id.$y.$nome.$o.$desc.$w.$id.$b;
+        $d =$d.$x.$img.$g.$id.$p.$id.$bah.$id.$pi.$id.$ba.$id.$jorge.$id.$y.$nome.$o.$desc.$w.$id.$b.$id.$suelen;
         } 
         return $d;
 
