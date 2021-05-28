@@ -47,10 +47,10 @@ class Carrinho{
         header("Location: ../frontend/carrinho.php");
 
     }
-   function printCarrinho(){
+    function printCarrinho(){
         
         $idc=$_COOKIE['id'];
-        $comando = "SELECT * FROM vendas WHERE Id_Cliente='$idc'";
+        $comando = "SELECT * FROM vendas WHERE Id_Cliente='$idc' AND Status_Reserva = FALSE";
         $res = mysqli_query($this->con,$comando);
         $array = array();
         $i =0;
