@@ -41,20 +41,6 @@ class Calendario{
         header("Location: ../frontend/agendaEletronica.php");
     }
 
-   
-
-    function getAgendamentos($data){
-        $comando = "SELECT * FROM agenda WHERE Data_Agendamento = '$data'";
-        $res = mysqli_query($this->con,$comando);
-        $array = array();
-        $i =0;
-        while ($item = mysqli_fetch_array($res, MYSQLI_BOTH)){
-            
-            $array[$i] = $item;
-            $i++;
-        }
-    }
-    
     function addAgendamentoRetirada($data,$horario,$forma,$idc){
        
         
@@ -86,8 +72,18 @@ class Calendario{
         }
 
     
-    }
-       
+    }   
+
+    function getAgendamentos($data){
+        $comando = "SELECT * FROM agenda WHERE Data_Agendamento = '$data'";
+        $res = mysqli_query($this->con,$comando);
+        $array = array();
+        $i =0;
+        while ($item = mysqli_fetch_array($res, MYSQLI_BOTH)){
+            
+            $array[$i] = $item;
+            $i++;
+        }
         $tam = sizeof($array);
                 $z="";
                     $a ="<div><h1>Agendamentos do Dia ";$g=" </h1>"; 
