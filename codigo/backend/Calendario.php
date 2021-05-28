@@ -54,7 +54,38 @@ class Calendario{
             $i++;
         }
     
-   
+        function addAgendamentoRetirada($data,$horario,$forma,$idc){
+       
+        
+        $array = array();
+        $comando = "SELECT Id_Venda FROM vendas WHERE Id_Cliente = '$idc' AND Status_Reserva = FALSE";
+        $res = mysqli_query($this->con,$comando);
+        $i=0;
+        $horariofinal = $horario.":00";
+       echo $horariofinal;
+        $df = str_replace("/","-",$data);
+        echo $df;
+        //echo STR_TO_DATE($df, '%d-%m-%Y');
+        while ($item = mysqli_fetch_array($res, MYSQLI_BOTH)){
+            
+            $array[$i] = $item;
+            $i++;
+        }
+        $tam = sizeof($array);
+        for($i=0;$i<$tam;$i++){
+           $aux = $array[$i];
+         // $v = $aux->fetch_assoc();
+           $idv = $aux['Id_Venda'];  
+           $comando2 = "INSERT INTO `agenda`( `Horario`, `Id_Cliente`, `FormaPagamento`, `Id_Venda`,`Data_Agendamento`) VALUES ('$horariofinal','$idc','$forma','$idv',STR_TO_DATE('$df', '%d-%m-%Y'))";
+           echo $idv;
+            $res2 = mysqli_query($this->con,$comando2);
+           
+           $fun = "UPDATE vendas SET Status_Reserva = TRUE WHERE Id_Venda= '$idv'";
+            $res= mysqli_query($this->con, $fun);
+        }
+
+    
+    }
        
         $tam = sizeof($array);
                 $z="";
