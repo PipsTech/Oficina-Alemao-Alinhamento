@@ -53,8 +53,9 @@ class Calendario{
             $array[$i] = $item;
             $i++;
         }
+    }
     
-        function addAgendamentoRetirada($data,$horario,$forma,$idc){
+    function addAgendamentoRetirada($data,$horario,$forma,$idc){
        
         
         $array = array();
