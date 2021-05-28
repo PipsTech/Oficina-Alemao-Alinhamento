@@ -18,24 +18,23 @@
    
         <nav class="navbar navbar-expand-md">
             <div class="container">
-                <a class="nav-brand" href="./home.php">Oficina Alemão Alinhamento</a>
+                <a class="nav-brand" href="./homeFun.php">Oficina Alemão Alinhamento</a>
         
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav m-auto">
-                       
                         <li class="nav-item">
-                            <a class="nav-link" href="./serviços.php">Serviços</a>
+                            <a class="nav-link" href="./CadastraProduto.php">Cadastra-Produto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./produtos.php">Produtos</a>
+                            <a class="nav-link" href="./cadastraServico.php">Cadastra-Serviço</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./QuemSomos.php">QuemSomos</a>
+                            <a class="nav-link" href="./agendaEletronica.php">Agenda Eletrônica</a>
                         </li>
                     </ul>
         
                     <form class="form-inline my-2 my-lg-0">
-                                                
+                        
                     <?php
                     ob_start();
                     require "../backend/Autentica_loginCliente.php";
@@ -46,79 +45,53 @@
                 </div>
             </div>
         </nav>
-      
-        <div class="container mb-4">
-            <p></p>
-            <div class="row">
-                <div class="col-12">
-                    <div class="table-responsive">
-                        <table class="table table-striped">
-                            <thead>
-                                <tr>
-                                    <th scope="col"></th>
-                                    <th scope="col">Produto</th>
-                                   
-                                    <th scope="col" class="text-left">Quantidade</th>
-                                    <th scope="col" class="text-right">Preço</th>
-                                    <th scope="col"> </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                               <?php
-                               ob_start();
-                               require "../backend/Carrinho.php";
-                               ob_end_clean();
-                               $obj2 = new Carrinho();
-                               $a = $obj2->printCarrinho();
-                               echo $a;
-                           
-                               
-                               
-                               
-                               ?>
-                               
-                                <tr>
-                                    <td><strong>TOTAL</strong></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="text-right"><strong><?php
-                                        $b = $obj2->calculaPrecoFinal();
-                                        $aux = $b->fetch_assoc();
-                                        $pf = $aux['tot'];
-                                        echo $pf;
-                                    ?></strong></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+        <form action="../backend/resC.php?id=<?php echo $obj->getId();?>" method="POST" enctype="multipart/form-data">
+        <div class="container">   
+        <div class="row">
+            <div class="col-12">
+                <div class="form-group">
+                    <p></p>
+                    <p style="font-size: 25px;"><b><u>Data Prevista</u></b></p>
+                    <input type="text" name ="data" class="form-control" placeholder="dd/mm/aaaa *" value="" />
                 </div>
-                <div class="col mb-2">
-                    <div class="row">
-                        <div class="col-sm-12  col-md-6">
-                            <a class="btn btn-lg btn-block btn-outline-danger text-uppercase" href="./home.php">Continue Comprando</a>
-                        </div>
-                        <div class="col-sm-12 col-md-6">
-                            <a class="btn btn-lg btn-block btn-outline-success text-uppercase"href="./reservarCompra.php">Confirmar Compra</a>
-                        </div>
-                    </div>
+             <div class="form-group">
+                    <p></p>
+                    <p style="font-size: 25px;"><b><u>Horário Previsto</u></b></p>
+                    <input type="text" name="horario" class="form-control" placeholder="hora:min *" value="" />
+                </div>
+                <div class="form-group">
+                    <p></p>
+                    <p style="font-size: 25px;"><b><u>Forma de Pagamento</u></b></p>
+                    <input type="text" name="forma" class="form-control" placeholder="Forma de Pagamaneto *" value="" />
+                </div>
+            </div>
+            <hr>
+            <div class="col-12" id="reviews">
+            <p></p>
+                <div class="card border-light mb-3">
+                    
+                <button type="submit" class="btn btn-dark btn-lg btn-block text-uppercase" name="submit" value="Cadastrar" >RESERVAR COMPRA</button>
                 </div>
             </div>
         </div>
-
-    <footer class="text-light">
+    </div>
+        </form>
+    </div>
+ 
+    <footer class="text-light" >
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-lg-4 col-xl-3">
+                <p></p>
                     <h5>Slogan</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <p class="mb-0">
-                        <img class="card-img-top" src="/fotos/slogan.jfif" alt="Card image cap" style="border-radius: 20px;">
+                        <img class="card-img-top" src="../fotos/slogan.jfif" alt="Card image cap" style="border-radius: 20px;">
                     </p>
                 </div>
     
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
+                <p></p>
                     <h5>Mídias Sociais</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <ul class="list-unstyled">
@@ -129,11 +102,12 @@
                 </div>
     
                 <div class="col-md-4 col-lg-3 col-xl-3">
+                <p></p>
                     <h5>Infos</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <ul class="list-unstyled">
                         <li><i class="fa fa-home mr-2"></i>Rua do Ouro, 83 - Bairro Serra</li>
-                        <li><i class="fa fa-city mr-2"></i> Belo Horizonte-MG</li>
+                        <li><i class="fas fa-city"></i> Belo Horizonte-MG</li>
                         <li><i class="fa fa-envelope mr-2"></i>alincarro@gmail.com</li>
                         <li><i class="fa fa-phone mr-2"></i>(31)3241-1012</li>
                     </ul>
