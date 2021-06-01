@@ -59,7 +59,7 @@ Usuário Funcionario
 
 ### 5.5 Fluxo alternativo - Cadastrar incorretamente o agendamento do serviço
 
-| *Precondições*  1. Realizar o processo de Log In de funcionario / 2. Ter confirmado com o cliente por whatsapp |
+| *Precondições* | 1. Realizar o processo de Log In de funcionario / 2. Ter confirmado com o cliente por whatsapp |
 | --- | --- |
 |  Passo 1   | O fluxo Alternativo se inicia quando o funcionario deseja cadastrar um serviço em um agendamento na agenda |
 |  Passo 2   | O funcionario seleciona o serviço no qual deseja cadastrar|
