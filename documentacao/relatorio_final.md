@@ -53,9 +53,8 @@ Diante da exclusão digital da Alemão Alinhamento, o sistema desenvolvido propi
 
 ## 2. Stakeholders
 
-Apresentar os stakeholders (partes interessadas) do projeto. A descrição das partes interessadas pode ser 
-feita por meio de personas, caracterização de usuários, clientes, parceiros. Devem ser incluídas informações 
-que mostrem as motivações e expectativas destas partes interessadas.
+As partes interessadas no projeto se subdividem em dois grupos distintos, os usuários clientes que usam a plataforma desenvolvida visando à obter soluções práticas, por preços justos para suas demandas por serviços ou produtos automobilísticos em uma plataforma segura e fácil de se usar. E os usuários da Alemão Alinhamento, que são o próprio dono da oficina que deseja por meio do sistema desenvolvidos conseguir visibilidade digital, ganho de mercado consumidor e dinamizar e modernizar seus processos internos como controle de seu estoque, de sua agenda e das ações de seus funcionários. Além disso, os outros usuários da Alemão Alinhamento são os prórpios funcionários da ofinica que almejam que com o sistema estes consigam se organizar melhor e ganhar tempo, logo, produtividade, nas ações cotidianas e trabalhosas que estes tem no seu dia-a-dia, como atualizar e conferir um estoque ou consultar os horários agendados em uma data específica.
+
 
 
 ## 3. Proposta da solução
