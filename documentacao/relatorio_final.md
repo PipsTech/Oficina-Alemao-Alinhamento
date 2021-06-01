@@ -48,8 +48,7 @@ A citação de pesquisas quantitativas é bem aceita aqui (corretamente referenc
 
     1.4 Justificativas
 
-Mostre também as **justificativas** para o 
-desenvolvimento do seu trabalho e, caso deseje, destaque alguma contribuição do trabalho.
+Diante da exclusão digital da Alemão Alinhamento, o sistema desenvolvido propicia que essa fomente sua competitividade e favorece a expansão de seu mercado consumidor.
 
 
 ## 2. Stakeholders
