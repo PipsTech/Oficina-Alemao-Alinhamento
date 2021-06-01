@@ -46,7 +46,7 @@ A citação de pesquisas quantitativas é bem aceita aqui (corretamente referenc
 2.  Auxiliar na organização de processos internos da oficina.
 3.  Fomentar as vendas e as prestações de serviços.
 
-    1.4 Justificativas
+        1.4 Justificativas
 
 Diante da exclusão digital da Alemão Alinhamento, o sistema desenvolvido propicia que essa fomente sua competitividade e favorece a expansão de seu mercado consumidor.
 
