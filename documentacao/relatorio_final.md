@@ -48,7 +48,7 @@ A citação de pesquisas quantitativas é bem aceita aqui (corretamente referenc
 
         1.4 Justificativas
 
-Diante da exclusão digital da Alemão Alinhamento, o sistema desenvolvido propicia que essa fomente sua competitividade e favorece a expansão de seu mercado consumidor.
+Diante da problemática apresentada sobre exclusão digital da Alemão Alinhamento, o sistema desenvolvido propiciará que essa ganhe relevância digital e dinamize seus processos, tanto de venda de produtos e prestação de serviços, quanto para processos de gestão interna, assim, este favorecerá que essa consiga fomentar sua competitividade e expandir seu mercado consumidor.
 
 
 ## 2. Stakeholders
@@ -106,7 +106,7 @@ http://www.pucminas.br/imagedb/documento/DOC\_DSC\_NOME\_ARQUI20160217102425.pdf
 
 **Colocar link:**
 
-Do repositório no github;
+Do repositório no github: < https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2021-1-ti3-6653100-gabriel-bruno-mateus >
 
 Do vídeo de apresentação.
 
