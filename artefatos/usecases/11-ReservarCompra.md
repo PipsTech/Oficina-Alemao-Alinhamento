@@ -22,7 +22,7 @@ Usuário Cliente
 
 ### 5.1 Fluxo alternativo - Preencher a Data incorretamente
 
-| Precondições  |1. Ter realizado o Log In Possuir algum produto adicionado no carrinho|
+| Precondições  |1. Ter realizado o Log In 2.Possuir algum produto adicionado no carrinho|
 | --- | --- |
 |  Passo 1   | O fluxo Alternativo se inicia quando o cliente clica em reservar compra. |
 |  Passo 2   | O cliente preencher incorretamente o espaço da data.|
@@ -31,7 +31,7 @@ Usuário Cliente
 
 
 ### 5.2 Fluxo alternativo - Preencher forma de pagamento incorretamente
-| Precondições  |1. Ter realizado o Log In Possuir algum produto adicionado no carrinho|
+| Precondições  |1. Ter realizado o Log In 2.Possuir algum produto adicionado no carrinho|
 | --- | --- |
 |  Passo 1   | O fluxo Alternativo se inicia quando o cliente clica em reservar compra. |
 |  Passo 2   | O cliente preencher incorretamente o campo da forma de pagamento.|
