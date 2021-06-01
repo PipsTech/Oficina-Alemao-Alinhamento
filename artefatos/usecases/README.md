@@ -20,6 +20,6 @@
 
 * UC 10-ManterAgendaEletrôncia.md - Essa funcionalidade refere-se ao sistemas de organização do sistema sobre os serviços e retiradas de produtos já agendados pelo cliente, facilitando para os funcionarios visualizarem as reservas dos clientes.
 
-* UC 11-ReservarCompra.md - Essa funcionalidade refere-se ao sistema de finalizar a compra do site.
+* UC 11-ReservarCompra.md - Essa funcionalidade refere-se ao sistema de reservar a compra do site.
 
 
