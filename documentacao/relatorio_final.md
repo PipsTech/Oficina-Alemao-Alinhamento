@@ -1,11 +1,11 @@
 # TÍTULO DO PROJETO
 
 
-**Nome completo do Aluno 1, email do aluno 1**
+**Bruno Silveira Cerqueira Lima, brunobhsclima@gmail.com**
 
-**Nome completo do Aluno 2, email do aluno 2**
+**Gabriel Oliveira Gomide, gogomide.go@gmail.com**
 
-**Nome completo do Aluno 3, email do aluno 3**
+**Mateus Samartini de Toledo, mateusamartini@gmail.com**
 
 ---
 
