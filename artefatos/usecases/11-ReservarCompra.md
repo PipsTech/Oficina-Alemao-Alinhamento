@@ -1,7 +1,7 @@
 # Caso de Uso 11 - Reservar Compra
 
 ## 1. Descrição
-Essa funcionalidade refere-se ao sistema de finalizar a compra do site.
+Essa funcionalidade refere-se ao sistema de reservar a compra do site.
 
 ## 2. Atores
 Usuário Cliente
@@ -13,21 +13,30 @@ Usuário Cliente
  
 ## 4. Fluxo principal
 
-    1. O caso de Uso se inicia quando o cliente realiza o Log In.
-    2. O cliente ao selecionar o produto desejado o adiciona ao seu carrinho.
-    3. O cliente clicará em reservar compra.
-    4. O cliente preencherá a data e o horário para busca do produto.
-    5. O cliente informará a forma de pagamento: dinheiro, cartão ou PIX.
-    6. Caso de Uso encerrado.
+    1. O cliente clicará em reservar compra.
+    2. O cliente preencherá a data e o horário para busca do produto.
+    3. O cliente informará a forma de pagamento: dinheiro, cartão ou PIX.
+    4. Caso de Uso encerrado.
 
 ## 5. Fluxos alternativos
 
 ### 5.1 Fluxo alternativo - Preencher a Data incorretamente
 
-| Precondições  |1. Ter realizado o Log In e ja ter adicionado algum produto ao carrinho|
+| Precondições  |1. Ter realizado o Log In|
+| Precondições  |2. Possuir algum produto adicionado no carrinho|
 | --- | --- |
-|  Passo 1   | O fluxo Alternativo se inicia quando o cliente entra na tela de carrinho. |
-|  Passo 2   | O cliente seleciona o produto desejado. |
-|  Passo 3   | O cliente clica em Reservar Compra e irá preencher incorretamente o espaço da data.|
-| Passo 4 | O site impedirá a finalização da compra|
-|  Passo 5   | Fluxo Alternativo encerrado. |
+|  Passo 1   | O fluxo Alternativo se inicia quando o cliente clica em reservar compra. |
+|  Passo 2   | O cliente preencher incorretamente o espaço da data.|
+| Passo 3 | O site impedirá a reserva da compra|
+|  Passo 4   | Fluxo Alternativo encerrado. |
+
+
+### 5.2 Fluxo alternativo - Preencher forma de pagamento incorretamente
+
+| Precondições  |1. Ter realizado o Log In|
+| Precondições  |2. Possuir algum produto adicionado no carrinho|
+| --- | --- |
+|  Passo 1   | O fluxo Alternativo se inicia quando o cliente clica em reservar compra. |
+|  Passo 2   | O cliente preencher incorretamente o campo da forma de pagamento.|
+| Passo 3 | O site impedirá a reserva da compra|
+|  Passo 4   | Fluxo Alternativo encerrado. |
