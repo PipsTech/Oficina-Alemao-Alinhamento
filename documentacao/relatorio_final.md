@@ -113,7 +113,7 @@ mas o texto deve apresentar o que foi feito como solução para o problema apres
       ![VisualizarServiçosCliente](Imagens/VisualizarServiçosCliente.jpeg)
       ![VisualizarServiçoCliente](Imagens/VisualizarServiçoCliente.jpeg)
     * Visualizar Serviço Funcionario: Pagina dedicada ao FUncionario para que ele possa visualizar e acessar todos os Serviços disponiveis no site
-      ![VisualizarServiçoFuncionario](Imagens/VisualizarServiçosFuncionario.jpeg)
+      ![VisualizarServiçosFuncionario](Imagens/VisualizarServiçosFuncionario.jpeg)
     * Visualizar Serviços na Agenda Eletronica: Espaço para informar ao Funcionario quais Serviços estão marcados para o dia selecionado
       ![VisualizarServiçosNaAgendaEletronica](Imagens/VisualizarServiçosnaAgendaEletronica.jpeg)
 
