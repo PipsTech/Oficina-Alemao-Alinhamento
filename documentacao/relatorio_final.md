@@ -63,8 +63,8 @@ requisitos do produto, ou necessidades gerais dos envolvidos.
 
 ## 4. Projeto da Solução
 
-O site Alemão Alinhamento criado a partir dos requerimentos do dono da oficina, provem utilisar um sistema que almeja facilitar o processo dos clientes e dos funcionarios da loja, principalmente no meio digital.
-O site, conposto de um banco de dados MySQL com 7 tabelas conectadas por foreign key, procuramos utilizar PHP integrado com HTML, para que seja possivel as interações no front-end e no back-ent, junto com HTML, foi inserido codigos da linguagem CSS, com o intuito de estilizar o site e deixa-lo mais apresentavel possivel, além destas linguagens adicionamos vagamente codigos da linguagem JavaScript para conectar os ultimos detalhes.
+O site Alemão Alinhamento criado a partir dos requerimentos do dono da oficina, provem utilizar um sistema que almeja facilitar o processo dos clientes e dos funcionários da loja, principalmente no meio digital.
+O site, composto de um banco de dados MySQL com 7 tabelas conectadas por foreign key, procuramos utilizar PHP integrado com HTML, para que seja possível as interações no front-end e no back-end, junto com HTML, foi inserido códigos da linguagem CSS, com o intuito de estilizar o site e deixa-lo mais apresentável possível, além destas linguagens adicionamos vagamente códigos da linguagem JavaScript para conectar os últimos detalhes.
 
 ## 5. Artefatos principais
 
