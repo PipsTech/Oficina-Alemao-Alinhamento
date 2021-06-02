@@ -73,12 +73,47 @@ O site, composto de um banco de dados MySQL com 7 tabelas conectadas por chaves 
 
 ## 5. Artefatos principais
 
-Devem ser apresentados os artefatos criados para a solução do problema 
-(ex. software, protótipos, especificações de requisitos, modelagem de processos, 
-documentos arquiteturais, etc). Os artefatos não devem ser apresentados na íntegra, 
-mas o texto deve apresentar o que foi feito como solução para o problema apresentado.
+Durante o desenvolvimento do site, foram elaborados e utilizados como suporte para a criação das interfaces, os seguintes artefatos: 
 
-* Interfaces 
+<br><br> * REQUISITOS FUNCIONAIS  
+
+            * Deve ser possível que o cliente consiga se cadastrar no sistema como cliente ao entrar neste. 
+
+            * Deve ser possível que os funcionários da empresa consigam se cadastrar no sistema como funcionários/proprietários. 
+
+            * Deve ser possível que o usuário funcionário consiga realizar a postagem dos itens produto no estoque do sistema. 	 
+
+            * Deve ser possível que o usuário funcionário consiga adicionar quantidades de um produto já cadastrado no sistema.  
+
+            *  Deve ser possível que o usuário funcionário consiga consultar a quantidade de um produto no sistema.  
+
+            * Deve ser possível que o usuário funcionário consiga realizar a postagem dos anúncios dos produtos e das informações destes no site. 
+
+            * Uma vez cadastrados os produtos e suas informações devem ser visíveis para todos os usuários do site (autenticados ou não). 
+
+<br><br> * REQUISITOS NÃO FUNCIONAIS 
+
+            * O sistema deve estar na disponível na internet por 24h todos os dias da semana. 
+
+            * O sistema deve ser fácil de se utilizar para diversos tipos e perfis de usuários, fazendo que o usuário consiga se cadastrar e finalizar um processo de compra em menos de 10 clicks.  
+
+            * O sistema deve entregar respostas em até 30 segundos às requisições dos usuários.  
+
+            * O sistema deve suportar até 100 requisições simultâneas. 
+
+            * O sistema deve armazenar o nome do cliente em dois campos distintos (nome e sobrenome). 
+
+<br><br> * DIAGRAMA DE CASOS DE USO  
+
+Link img 
+
+<br><br> * INTERFACES PROTÓTIPOS 
+
+<br><br> * DIAGRAMA DE CLASSES 
+
+Link img 
+
+* INTERFACES 
     * Cadastrar Cliente: Utiliza os dados inseridos nos espaços para montar um perfil do qual representa o Cliente
       ![CadastrarCliente](Imagens/CadastrarCliente.jpeg)
     * Cadastrar Funcionario: Utiliza os dados inseridos nos espaços para montar um perfil do qual representa o Funcionario
