@@ -104,8 +104,9 @@ mas o texto deve apresentar o que foi feito como solução para o problema apres
     * Visualizar Produto Cliente: Paginas dedicadas ao Cliente que tem como objetivo mostrar ampliar as informações disoniveis sobre um certo produto
       ![VisualizarProdutosCliente](Imagens/VisualizarProdutosCliente.jpeg)
       ![VisualizarProdutoCliente](Imagens/VisualizarProdutoCliente.jpeg)
-    * Visualizar Produto Funcionario: Pagina dedicada ao Funcionario que o permite acessar e visualizar todos os produtos disponiveis no site
+    * Visualizar Produto Funcionario: Paginas dedicadas ao Funcionario que o permite acessar, visualizar e editar todos os produtos disponiveis no site
       ![VisualizarProdutosFucionario](Imagens/VisualizarProdutosFuncionario.jpeg)
+      ![VisualizarProdutoFucionario](Imagens/VisualizarProdutoFuncionario.jpeg)
     * Visualizar Produtos Agenda Eletronica: Espaço para informar ao Funcionario quais Produtos estão marcados para o dia selecionado
       ![VisualizarProdutosAgendaEletronica](Imagens/VisualizarProdutosnaAgendaEletronica.jpeg)
     * Visualizar Serviço Cliente: Paginas dedicadas ao Cliente que tem como objetivos mostrar e ampliar as informações disoniveis sobre um certo produto
