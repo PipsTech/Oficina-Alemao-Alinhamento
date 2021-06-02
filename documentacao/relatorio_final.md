@@ -102,6 +102,7 @@ mas o texto deve apresentar o que foi feito como solução para o problema apres
     * Manter Perfil Funcionario:
       ![VisualizarPerfilFuncionario](Imagens/VisualizarPerfilFuncionario.jpeg)
     * Visualizar Produto Cliente:
+      ![VisualizarProdutosCliente](Imagens/VisualizarProdutosCliente.jpeg)
       ![VisualizarProdutoCliente](Imagens/VisualizarProdutoCliente.jpeg)
     * Visualizar Produto Funcionario:
       ![VisualizarProdutoFucionario](Imagens/VisualizarProdutosFuncionario.jpeg)
