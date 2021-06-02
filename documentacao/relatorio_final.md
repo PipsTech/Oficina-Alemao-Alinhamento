@@ -112,11 +112,12 @@ Durante o desenvolvimento do site, foram elaborados e utilizados como suporte pa
 
 * DIAGRAMA DE CASOS DE USO  
 
-  ![DiagramaDeCasosDeUso](/artefatos/usecases/Diagrama de casos de uso/Diagrama de Casos de Uso atualizado 4.jpeg) 
+  ![DiagramaDeCasosDeUso](/artefatos/usecases/Diagrama de casos de uso/DiagramaDeCasosDeUsoAtualizado4.png) 
 
-* INTERFACES PROTÓTIPOS 
+* PROTÓTIPOS DE INTERFACES
 
 * DIAGRAMA DE CLASSES 
+
   ![DiagramaDeClasses](/artefatos/Diagrama de classe/Diagrama de Classes Atualizado 4.png)
 
 * INTERFACES 
@@ -161,9 +162,9 @@ Durante o desenvolvimento do site, foram elaborados e utilizados como suporte pa
 
 ## 6. Conclusão
 
-Devem ser apresentadas as conclusões do trabalho, resgatando os objetivos e 
-apresentando os principais resultados, contribuições e lições aprendidas.
+Após a criação e o desenvolvimento de todos os artefatos, documentação e os códigos de front-end e back-end, conclui-se que os objetivos traçados para a finalização do projeto foram todos concluídos. Pode-se afirmar que os requisitos, casos de uso e classes criadas estão todos alinhados com as funcionalidades e implementações presentes no sistema final da Oficina Alemão Alinhamento. 
 
+Portanto, conclui-se que os 3 alunos do 3º período de Engenharia de Software responsáveis pelo desenvolvimento deste site estão satisfeitos com o resultado final, em detrimento do aprendizado adquirido com uma nova linguagem de desenvolvimento web (PHP) e com o banco de dados relacional MySQL. Além disso, também se encontram realizados com o resultado final por satisfazer as necessidades reais do cliente e para o futuro e expansão de sua empresa. 
 
 # APÊNDICES
 
