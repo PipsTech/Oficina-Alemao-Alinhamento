@@ -112,52 +112,52 @@ Durante o desenvolvimento do site, foram elaborados e utilizados como suporte pa
 
 * DIAGRAMA DE CASOS DE USO  
 
-  ![DiagramaDeCasosDeUso](/artefatos/usecases/Diagrama de casos de uso/DiagramaDeCasosDeUsoAtualizado4.png) 
+  ![DiagramaDeCasosDeUso](Imagens/DiagramaDeCasosDeUsoAtualizado4.png) 
 
 * PROTÓTIPOS DE INTERFACES
 
 * DIAGRAMA DE CLASSES 
 
-  ![DiagramaDeClasses](/artefatos/Diagrama de classe/Diagrama de Classes Atualizado 4.png)
+  ![DiagramaDeClasses](Imagens/DiagramaDeClassesAtualizado4.png)
 
-* INTERFACES 
-    * Cadastrar Cliente: Utiliza os dados inseridos nos espaços para montar um perfil do qual representa o Cliente
+* INTERFACES
+    * <b>Cadastrar Cliente:</b> Utiliza os dados inseridos nos espaços para montar um perfil do qual representa o Cliente
       ![CadastrarCliente](Imagens/CadastrarCliente.jpeg)
-    * Cadastrar Funcionario: Utiliza os dados inseridos nos espaços para montar um perfil do qual representa o Funcionario
+    * <b>Cadastrar Funcionario:</b> Utiliza os dados inseridos nos espaços para montar um perfil do qual representa o Funcionario
       ![CadastrarFuncionario](Imagens/CadastrarFuncionario.jpeg)
-    * Cadastrar Produto: Utiliza os dados inseridos nos espaços para formatar um item que representa o Produto
+    * <b>Cadastrar Produto:</b> Utiliza os dados inseridos nos espaços para formatar um item que representa o Produto
       ![CadastrarProduto](Imagens/CadastrarProduto.jpeg)
-    * Cadastrar Serviço: Utiliza os dados inseridos nos espaços para formatar um item que representa o Produto
+    * <b>Cadastrar Serviço:</b> Utiliza os dados inseridos nos espaços para formatar um item que representa o Produto
       ![CadastrarServiço](Imagens/CadastrarServiço.jpeg)
-    * Login Cliente: Espaço no qual o Cliente deve utilizar seus dados para poder acessar sua Conta
+    * <b>Login Cliente:</b> Espaço no qual o Cliente deve utilizar seus dados para poder acessar sua Conta
       ![LoginCliente](Imagens/LoginCliente.jpeg)
-    * Login Funcionario: Espaço no qual o Funcionario deve utilizar seus dados para poder acessar sua Conta
+    * <b>Login Funcionario:</b> Espaço no qual o Funcionario deve utilizar seus dados para poder acessar sua Conta
       ![LoginFuncionario](Imagens/LoginFuncionario.jpeg)
-    * Quem Somos: Pagina designada a informar ao Cliente sobre a loja e suas informações
+    * <b>Quem Somos:</b> Pagina designada a informar ao Cliente sobre a loja e suas informações
       ![QuemSomos](Imagens/QuemSomos.jpeg)
-    * Visualizar Agendamentos de Serviço na Agenda Eletronica: Espaço para informar ao Funcionarios as informações do Serviço no dia Selecionado
+    * <b>Visualizar Agendamentos de Serviço na Agenda Eletronica:</b> Espaço para informar ao Funcionarios as informações do Serviço no dia Selecionado
       ![VisualizarAgendamentosdeServiçonaAgendaEletronica](Imagens/VisualizarAgendamentosdeServiçonaAgendaEletronica.jpeg)
-    * Visualizar Carrinho: Pagina dedicada a mostrar ao Cliente o que ele selecionou para realizar o pedido
+    * <b>Visualizar Carrinho:</b> Pagina dedicada a mostrar ao Cliente o que ele selecionou para realizar o pedido
       ![VisualizarCarrinho](Imagens/VisualizarCarrinho.jpeg)
-    * Manter Perfil Cliente: Pagina destinada ao Cliente para poder visualizar e alterar suas proprias informações
+    * <b>Manter Perfil Cliente:</b> Pagina destinada ao Cliente para poder visualizar e alterar suas proprias informações
       ![VisualizarPerfilCliente](Imagens/VisualizarPerfilCliente.jpeg)
-    * Manter Perfil Funcionario: Pagina destinada ao Funcionario para poder visualizar e alterar suas proprias informações
+    * <b>Manter Perfil Funcionario:</b> Pagina destinada ao Funcionario para poder visualizar e alterar suas proprias informações
       ![VisualizarPerfilFuncionario](Imagens/VisualizarPerfilFuncionario.jpeg)
-    * Visualizar Produto Cliente: Paginas dedicadas ao Cliente que tem como objetivo mostrar ampliar as informações disoniveis sobre um certo produto
+    * <b>Visualizar Produto Cliente:</b> Paginas dedicadas ao Cliente que tem como objetivo mostrar ampliar as informações disoniveis sobre um certo produto
       ![VisualizarProdutosCliente](Imagens/VisualizarProdutosCliente.jpeg)
       ![VisualizarProdutoCliente](Imagens/VisualizarProdutoCliente.jpeg)
-    * Visualizar Produto Funcionario: Paginas dedicadas ao Funcionario que o permite acessar, visualizar e editar todos os produtos disponiveis no site
+    * <b>Visualizar Produto Funcionario:</b> Paginas dedicadas ao Funcionario que o permite acessar, visualizar e editar todos os produtos disponiveis no site
       ![VisualizarProdutosFucionario](Imagens/VisualizarProdutosFuncionario.jpeg)
       ![VisualizarProdutoFucionario](Imagens/VisualizarProdutoFuncionario.jpeg)
-    * Visualizar Produtos Agenda Eletronica: Espaço para informar ao Funcionario quais Produtos estão marcados para o dia selecionado
+    * <b>Visualizar Produtos Agenda Eletronica:</b> Espaço para informar ao Funcionario quais Produtos estão marcados para o dia selecionado
       ![VisualizarProdutosAgendaEletronica](Imagens/VisualizarProdutosnaAgendaEletronica.jpeg)
-    * Visualizar Serviço Cliente: Paginas dedicadas ao Cliente que tem como objetivos mostrar e ampliar as informações disoniveis sobre um certo produto
+    * <b>Visualizar Serviço Cliente:</b> Paginas dedicadas ao Cliente que tem como objetivos mostrar e ampliar as informações disoniveis sobre um certo produto
       ![VisualizarServiçosCliente](Imagens/VisualizarServiçosCliente.jpeg)
       ![VisualizarServiçoCliente](Imagens/VisualizarServiçoCliente.jpeg)
-    * Visualizar Serviço Funcionario: Paginas dedicadas ao Funcionario que o permite acessar, visualizar e editar todos os Serviços disponiveis no site
+    * <b>Visualizar Serviço Funcionario:</b> Paginas dedicadas ao Funcionario que o permite acessar, visualizar e editar todos os Serviços disponiveis no site
       ![VisualizarServiçosFuncionario](Imagens/VisualizarServiçosFuncionario.jpeg)
       ![VisualizarServiçoFuncionario](Imagens/VisualizarServiçoFuncionario.jpeg)
-    * Visualizar Serviços na Agenda Eletronica: Espaço para informar ao Funcionario quais Serviços estão marcados para o dia selecionado
+    * <b>Visualizar Serviços na Agenda Eletronica:</b> Espaço para informar ao Funcionario quais Serviços estão marcados para o dia selecionado
       ![VisualizarServiçosNaAgendaEletronica](Imagens/VisualizarServiçosnaAgendaEletronica.jpeg)
 
 ## 6. Conclusão
