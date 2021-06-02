@@ -81,39 +81,39 @@ mas o texto deve apresentar o que foi feito como solução para o problema apres
 * Interfaces 
     * Cadastrar Cliente: Utiliza os dados inseridos nos espaços para montar um perfil do qual representa o Cliente
       ![CadastrarCliente](Imagens/CadastrarCliente.jpeg)
-    * Cadastrar Funcionario:
+    * Cadastrar Funcionario: Utiliza os dados inseridos nos espaços para montar um perfil do qual representa o Funcionario
       ![CadastrarFuncionario](Imagens/CadastrarFuncionario.jpeg)
-    * Cadastrar Produto:
+    * Cadastrar Produto: Utiliza os dados inseridos nos espaços para formatar um item que representa o Produto
       ![CadastrarProduto](Imagens/CadastrarProduto.jpeg)
-    * Cadastrar Serviço: 
+    * Cadastrar Serviço: Utiliza os dados inseridos nos espaços para formatar um item que representa o Produto
       ![CadastrarServiço](Imagens/CadastrarServiço.jpeg)
-    * Login Cliente:
+    * Login Cliente: Espaço no qual o Cliente deve utilizar seus dados para poder acessar sua Conta
       ![LoginCliente](Imagens/LoginCliente.jpeg)
-    * Login Funcionario:
+    * Login Funcionario: Espaço no qual o Funcionario deve utilizar seus dados para poder acessar sua Conta
       ![LoginFuncionario](Imagens/LoginFuncionario.jpeg)
-    * Quem Somos:
+    * Quem Somos: Pagina designada a informar ao Cliente sobre a loja e suas informações
       ![QuemSomos](Imagens/QuemSomos.jpeg)
-    * Visualizar Agendamentos de Serviço na Agenda Eletronica:
+    * Visualizar Agendamentos de Serviço na Agenda Eletronica: Espaço para informar ao Funcionarios as informações do Serviço no dia Selecionado
       ![VisualizarAgendamentosdeServiçonaAgendaEletronica](Imagens/VisualizarAgendamentosdeServiçonaAgendaEletronica.jpeg)
-    * Visualizar Carrinho:
+    * Visualizar Carrinho: Pagina dedicada a mostrar ao Cliente o que ele selecionou para realizar o pedido
       ![VisualizarCarrinho](Imagens/VisualizarCarrinho.jpeg)
-    * Manter Perfil Cliente:
+    * Manter Perfil Cliente: Pagina destinada ao Cliente para poder visualizar e alterar suas proprias informações
       ![VisualizarPerfilCliente](Imagens/VisualizarPerfilCliente.jpeg)
-    * Manter Perfil Funcionario:
+    * Manter Perfil Funcionario: Pagina destinada ao Funcionario para poder visualizar e alterar suas proprias informações
       ![VisualizarPerfilFuncionario](Imagens/VisualizarPerfilFuncionario.jpeg)
-    * Visualizar Produto Cliente:
+    * Visualizar Produto Cliente: Paginas dedicadas ao Cliente que tem como objetivo mostrar ampliar as informações disoniveis sobre um certo produto
       ![VisualizarProdutosCliente](Imagens/VisualizarProdutosCliente.jpeg)
       ![VisualizarProdutoCliente](Imagens/VisualizarProdutoCliente.jpeg)
-    * Visualizar Produto Funcionario:
+    * Visualizar Produto Funcionario: Pagina dedicada ao Funcionario que o permite acessar e visualizar todos os produtos disponiveis no site
       ![VisualizarProdutoFucionario](Imagens/VisualizarProdutosFuncionario.jpeg)
-    * Visualizar Produtos Agenda Eletronica:
+    * Visualizar Produtos Agenda Eletronica: Espaço para informar ao Funcionario quais Produtos estão marcados para o dia selecionado
       ![VisualizarProdutosAgendaEletronica](Imagens/VisualizarProdutosnaAgendaEletronica.jpeg)
-    * Visualizar Serviço Cliente:
+    * Visualizar Serviço Cliente: Paginas dedicadas ao Cliente que tem como objetivos mostrar e ampliar as informações disoniveis sobre um certo produto
       ![VisualizarServiçosCliente](Imagens/VisualizarServiçosCliente.jpeg)
       ![VisualizarServiçoCliente](Imagens/VisualizarServiçoCliente.jpeg)
-    * Visualizar Serviço Funcionario:
+    * Visualizar Serviço Funcionario: Pagina dedicada ao FUncionario para que ele possa visualizar e acessar todos os Serviços disponiveis no site
       ![VisualizarServiçoFuncionario](Imagens/VisualizarServiçosFuncionario.jpeg)
-    * Visualizar Serviços na Agenda Eletronica:
+    * Visualizar Serviços na Agenda Eletronica: Espaço para informar ao Funcionario quais Serviços estão marcados para o dia selecionado
       ![VisualizarServiçosNaAgendaEletronica](Imagens/VisualizarServiçosnaAgendaEletronica.jpeg)
 
 ## 6. Conclusão
