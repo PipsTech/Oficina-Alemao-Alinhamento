@@ -109,6 +109,7 @@ mas o texto deve apresentar o que foi feito como solução para o problema apres
     * Visualizar Produtos Agenda Eletronica:
       ![VisualizarProdutosAgendaEletronica](Imagens/VisualizarProdutosnaAgendaEletronica.jpeg)
     * Visualizar Serviço Cliente:
+      ![VisualizarServiçosCliente](Imagens/VisualizarServiçosCliente.jpeg)
       ![VisualizarServiçoCliente](Imagens/VisualizarServiçoCliente.jpeg)
     * Visualizar Serviço Funcionario:
       ![VisualizarServiçoFuncionario](Imagens/VisualizarServiçosFuncionario.jpeg)
