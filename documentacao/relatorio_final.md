@@ -79,7 +79,7 @@ documentos arquiteturais, etc). Os artefatos não devem ser apresentados na ínt
 mas o texto deve apresentar o que foi feito como solução para o problema apresentado.
 
 * Interfaces 
-    * Cadastrar Cliente:
+    * Cadastrar Cliente: Utiliza os dados inseridos nos espaços para montar um perfil do qual representa o Cliente
       ![CadastrarCliente](Imagens/CadastrarCliente.jpeg)
     * Cadastrar Funcionario:
       ![CadastrarFuncionario](Imagens/CadastrarFuncionario.jpeg)
@@ -97,20 +97,20 @@ mas o texto deve apresentar o que foi feito como solução para o problema apres
       ![VisualizarAgendamentosdeServiçonaAgendaEletronica](Imagens/VisualizarAgendamentosdeServiçonaAgendaEletronica.jpeg)
     * Visualizar Carrinho:
       ![VisualizarCarrinho](Imagens/VisualizarCarrinho.jpeg)
-    * Visualizar Perfil Cliente:
+    * Manter Perfil Cliente:
       ![VisualizarPerfilCliente](Imagens/VisualizarPerfilCliente.jpeg)
-    * Visualizar Perfil Funcionario:
+    * Manter Perfil Funcionario:
       ![VisualizarPerfilFuncionario](Imagens/VisualizarPerfilFuncionario.jpeg)
     * Visualizar Produto Cliente:
-      ![VisualizarProdutoCliente](Imagens/VisualizarPerfilFuncionario.jpeg)
+      ![VisualizarProdutoCliente](Imagens/VisualizarProdutoCliente.jpeg)
     * Visualizar Produto Funcionario:
       ![VisualizarProdutoFucionario](Imagens/VisualizarProdutosFuncionario.jpeg)
     * Visualizar Produtos Agenda Eletronica:
-      ![VisualizarProdutosAgendaEletronica](Imagens/VisualizarProdutosFuncionario.jpeg)
+      ![VisualizarProdutosAgendaEletronica](Imagens/VisualizarProdutosnaAgendaEletronica.jpeg)
     * Visualizar Serviço Cliente:
-      ![VisualizarServiçoCliente](Imagens/VisualizarProdutosFuncionario.jpeg)
+      ![VisualizarServiçoCliente](Imagens/VisualizarServiçoCliente.jpeg)
     * Visualizar Serviço Funcionario:
-      ![VisualizarServiçoFuncionario](Imagens/VisualizarProdutosFuncionario.jpeg)
+      ![VisualizarServiçoFuncionario](Imagens/VisualizarServiçosFuncionario.jpeg)
     * Visualizar Serviços na Agenda Eletronica:
       ![VisualizarServiçosNaAgendaEletronica](Imagens/VisualizarServiçosnaAgendaEletronica.jpeg)
 
