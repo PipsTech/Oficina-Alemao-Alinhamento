@@ -78,6 +78,42 @@ Devem ser apresentados os artefatos criados para a solução do problema
 documentos arquiteturais, etc). Os artefatos não devem ser apresentados na íntegra, 
 mas o texto deve apresentar o que foi feito como solução para o problema apresentado.
 
+* Interfaces 
+    * Cadastrar Cliente:
+      ![CadastrarCliente](Imagens/Cadastrar Cliente.jpeg)
+    * Cadastrar Funcionario:
+      ![CadastrarFuncionario](Imagens/Cadastrar Funcionario.jpeg)
+    * Cadastrar Produto:
+      ![CadastrarProduto](Imagens/Cadastrar Produto.jpeg)
+    * Cadastrar Serviço: 
+      ![CadastrarServiço](Imagens/Cadastrar Serviço.jpeg)
+    * Login Cliente:
+      ![LoginCliente](Imagens/Login Cliente.jpeg)
+    * Login Funcionario:
+      ![LoginFuncionario](Imagens/Login Funcionario.jpeg)
+    * Quem Somos:
+      ![QuemSomos](Imagens/Quem Somos.jpeg)
+    * Visualizar Agendamentos de Serviço na Agenda Eletronica:
+      ![VisualizarAgendamentosdeServiçonaAgendaEletronica](Imagens/Visualizar Agendamentos de Serviço na Agenda Eletronica.jpeg)
+    * Visualizar Carrinho:
+      ![VisualizarCarrinho](Imagens/Visualizar Carrinho.jpeg)
+    * Visualizar Perfil Cliente:
+      ![VisualizarPerfilCliente](Imagens/Visualizar Perfil Cliente.jpeg)
+    * Visualizar Perfil Funcionario:
+      ![VisualizarPerfilFuncionario](Imagens/Visualizar Perfil Funcionario.jpeg)
+    * Visualizar Produto Cliente:
+      ![VisualizarProdutoCliente](Imagens/Visualizar Perfil Funcionario.jpeg)
+    * Visualizar Produto Funcionario:
+      ![VisualizarProdutoFucionario](Imagens/Visualizar Produtos Funcionario.jpeg)
+    * Visualizar Produtos Agenda Eletronica:
+      ![VisualizarProdutosAgendaEletronica](Imagens/Visualizar Produtos Funcionario.jpeg)
+    * Visualizar Serviço Cliente:
+      ![VisualizarServiçoCliente](Imagens/Visualizar Produtos Funcionario.jpeg)
+    * Visualizar Serviço Funcionario:
+      ![VisualizarServiçoFuncionario](Imagens/Visualizar Produtos Funcionario.jpeg)
+    * Visualizar Serviços na Agenda Eletronica:
+      ![VisualizarServiçosNaAgendaEletronica](Imagens/Visualizar Serviços na Agenda Eletronica.jpeg)
+
 ## 6. Conclusão
 
 Devem ser apresentadas as conclusões do trabalho, resgatando os objetivos e 
