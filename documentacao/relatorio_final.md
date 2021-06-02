@@ -38,11 +38,11 @@ Com isso, o trabalho visa ao desenvolvimento de um sistema web que garanta que a
 
         1.3.1 Objetivos específicos
 
-1.  Divulgar o negócio da Alemão Alinhamento por meio deste sistema.
-2.  Auxiliar na organização de processos internos da oficina.
-3.  Fomentar as vendas e as prestações de serviços.
+            1.  Divulgar o negócio da Alemão Alinhamento por meio deste sistema.
+            2.  Auxiliar na organização de processos internos da oficina.
+            3.  Fomentar as vendas e as prestações de serviços.
 
-        1.4 Justificativas
+    1.4 Justificativas
 
 Diante da problemática apresentada sobre exclusão digital da Alemão Alinhamento, o sistema desenvolvido propiciará que essa ganhe relevância digital e dinamize seus processos, tanto de venda de produtos e prestação de serviços, quanto para processos de gestão interna, assim, este favorecerá que essa consiga fomentar sua competitividade e expandir seu mercado consumidor.
 
