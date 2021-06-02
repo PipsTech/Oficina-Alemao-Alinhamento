@@ -55,7 +55,7 @@ As partes interessadas no projeto se subdividem em dois grupos distintos, os usu
 ## 3. Proposta da solução
 
 Diante da problemática apresentada pelo projeto, este projeto visa ao desenvolvimento de um sistema web que propicie que a Alemão Alinhamento possa realizar seus processos de venda e de agendamento de serviços de forma prática online e também divulgar seu negócio por meio deste.
-Há outros fatores que o sistema não prevê a disponibilidade em plataformas mobile como também não é previsto que a plataforma armazene ou agende datas previstas para a próxima revisão ou retorno do carro de um cliente que já tenha agendado esse tipo de serviço no site uma vez, outro fator importante é o fato de que todos os pagamentos devem se realizados na loja física e os produtos não possuem delivery.
+Há outros fatores que o sistema não prevê a disponibilidade em plataformas mobile como também não é previsto que a plataforma armazene ou agende datas previstas para a próxima revisão ou retorno do carro de um cliente que já tenha agendado esse tipo de serviço no site uma vez, outro fator importante é o fato de que todos os pagamentos devem ser realizados na loja física e os produtos não possuem delivery.
 * Os requisitos funcionais do site são:
 
       1) Deve ser possível que o cliente consiga se cadastrar no sistema como cliente ao entrar neste. 
@@ -75,7 +75,7 @@ Há outros fatores que o sistema não prevê a disponibilidade em plataformas mo
 ## 4. Projeto da Solução
 
 O site Alemão Alinhamento criado a partir dos requerimentos do dono da oficina, provém utilizar um sistema que almeja facilitar o processo dos clientes e dos funcionários da loja, principalmente no meio digital.
-O site, composto de um banco de dados MySQL com 7 tabelas conectadas por chaves estrangeiras, procuramos utilizar PHP integrado com HTML, para que seja possível as interações no front-end e no back-end, junto com HTML, foi inserido códigos da linguagem CSS, com o intuito de estilizar o site e deixa-lo mais apresentável possível, além destas linguagens adicionamos vagamente códigos da linguagem JavaScript para conectar os últimos detalhes.
+O site, composto de um banco de dados MySQL com 7 tabelas conectadas por chaves estrangeiras, utiliza o PHP integrado com HTML, para que seja possível as interações no front-end e no back-end, junto com HTML, sendo inseridos, também, códigos da linguagem CSS, com o intuito de estilizar o site e deixá-lo mais apresentável possível. Além das linguagens já citadas, foi utilizado vagamente códigos da linguagem JavaScript para complementar detalhes adicionais ao sistema.
 
 ## 5. Artefatos principais
 
@@ -113,7 +113,7 @@ Durante o desenvolvimento do site, foram elaborados e utilizados como suporte pa
 
   ![DiagramaDeCasosDeUso](Imagens/DiagramaDeCasosDeUsoAtualizado4.png) 
 
-* PROTÓTIPOS DE INTERFACES
+* PROTÓTIPOS DAS PRINCIPAIS INTERFACES
 
 * DIAGRAMA DE CLASSES 
 
