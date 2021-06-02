@@ -112,8 +112,9 @@ mas o texto deve apresentar o que foi feito como solução para o problema apres
     * Visualizar Serviço Cliente: Paginas dedicadas ao Cliente que tem como objetivos mostrar e ampliar as informações disoniveis sobre um certo produto
       ![VisualizarServiçosCliente](Imagens/VisualizarServiçosCliente.jpeg)
       ![VisualizarServiçoCliente](Imagens/VisualizarServiçoCliente.jpeg)
-    * Visualizar Serviço Funcionario: Pagina dedicada ao FUncionario para que ele possa visualizar e acessar todos os Serviços disponiveis no site
+    * Visualizar Serviço Funcionario: Paginas dedicadas ao Funcionario que o permite acessar, visualizar e editar todos os Serviços disponiveis no site
       ![VisualizarServiçosFuncionario](Imagens/VisualizarServiçosFuncionario.jpeg)
+      ![VisualizarServiçoFuncionario](Imagens/VisualizarServiçoFuncionario.jpeg)
     * Visualizar Serviços na Agenda Eletronica: Espaço para informar ao Funcionario quais Serviços estão marcados para o dia selecionado
       ![VisualizarServiçosNaAgendaEletronica](Imagens/VisualizarServiçosnaAgendaEletronica.jpeg)
 
