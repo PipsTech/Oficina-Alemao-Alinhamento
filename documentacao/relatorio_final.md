@@ -80,17 +80,17 @@ mas o texto deve apresentar o que foi feito como solução para o problema apres
 
 * Interfaces 
     * Cadastrar Cliente:
-      ![CadastrarCliente](Imagens/Cadastrar Cliente.jpeg)
+      ![CadastrarCliente](Imagens/CadastrarCliente.jpeg)
     * Cadastrar Funcionario:
-      ![CadastrarFuncionario](Imagens/Cadastrar Funcionario.jpeg)
+      ![CadastrarFuncionario](Imagens/CadastrarFuncionario.jpeg)
     * Cadastrar Produto:
-      ![CadastrarProduto](Imagens/Cadastrar Produto.jpeg)
+      ![CadastrarProduto](Imagens/CadastrarProduto.jpeg)
     * Cadastrar Serviço: 
-      ![CadastrarServiço](Imagens/Cadastrar Serviço.jpeg)
+      ![CadastrarServiço](Imagens/CadastrarServiço.jpeg)
     * Login Cliente:
-      ![LoginCliente](Imagens/Login Cliente.jpeg)
+      ![LoginCliente](Imagens/LoginCliente.jpeg)
     * Login Funcionario:
-      ![LoginFuncionario](Imagens/Login Funcionario.jpeg)
+      ![LoginFuncionario](Imagens/LoginFuncionario.jpeg)
     * Quem Somos:
       ![QuemSomos](Imagens/QuemSomos.jpeg)
     * Visualizar Agendamentos de Serviço na Agenda Eletronica:
