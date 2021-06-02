@@ -66,7 +66,7 @@ Há outros fatores que o sistema não prevê a disponibilidade em plataformas mo
 *  Deve ser possível que o usuário funcionário consiga consultar a quantidade de um produto no sistema, 
 * Deve ser possível que o usuário funcionário consiga realizar a postagem dos anúncios dos produtos e das informações destes no site,
 * Uma vez cadastrados os produtos e suas informações devem ser visíveis para todos os usuários do site (autenticados ou não).
-<br><br> O requisitos não funcionais do site são: 
+<br><br>Os requisitos não funcionais do site são: 
 * O sistema deve estar na disponível na internet por 24h todos os dias da semana,
 * O sistema deve ser fácil de se utilizar para diversos tipos e perfis de usuários, fazendo que o usuário consiga se cadastrar e finalizar um processo de compra em menos de 10 clicks, 
 * O sistema deve entregar respostas em até 30 segundos às requisições dos usuários, 
