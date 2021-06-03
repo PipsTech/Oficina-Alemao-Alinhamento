@@ -114,6 +114,31 @@ Durante o desenvolvimento do site, foram elaborados e utilizados como suporte pa
   ![DiagramaDeCasosDeUso](Imagens/DiagramaDeCasosDeUsoAtualizado4.png) 
 
 * PROTÓTIPOS DAS PRINCIPAIS INTERFACES
+    * <b>LogIn Funcionario e LogIn Cliente:</b> 
+      ![LogIn](/artefatos/interfaces/leiaute/LogInFuncionario.png)
+      ![LogIn](/artefatos/interfaces/leiaute/LogInUsuario.png)
+      
+    * <b>Cadastro do Funcionario e Cadastro do Cliente:</b> 
+      ![Cadastro](/artefatos/interfaces/leiaute/CadastroFuncionario.png)
+      ![Cadastro](/artefatos/interfaces/leiaute/CadastroUsuario.png)
+
+    * <b>Visualizar Serviço Cliente:</b> 
+      ![VisualizarServiçosCliente](/artefatos/interfaces/leiaute/Serviço.png)
+      
+    * <b>Visualizar Produto Cliente:</b> 
+      ![VisualizarProdutosCliente](/artefatos/interfaces/leiaute/ProdutoUsuario.png)
+      
+    * <b>Cadastrar Produto:</b> 
+      ![CadastroProduto](/artefatos/interfaces/leiaute/CadastrarProduto.png)
+      
+    * <b>Cadastrar Serviço:</b> 
+      ![CadastroServiço](/artefatos/interfaces/leiaute/CadastrarServiço.png)
+      
+    * <b>AgendaEletrônica:</b> 
+      ![AgendaEletronica](/artefatos/interfaces/leiaute/Agenda.png)
+      
+    * <b>Quem Somos:</b> 
+      ![QuemSomos](/artefatos/interfaces/leiaute/QuemSomos.png)
 
 * DIAGRAMA DE CLASSES 
 
@@ -122,40 +147,56 @@ Durante o desenvolvimento do site, foram elaborados e utilizados como suporte pa
 * INTERFACES
     * <b>Cadastrar Cliente:</b> Utiliza os dados inseridos nos espaços para montar um perfil do qual representa o Cliente
       ![CadastrarCliente](Imagens/CadastrarCliente.jpeg)
+      
     * <b>Cadastrar Funcionario:</b> Utiliza os dados inseridos nos espaços para montar um perfil do qual representa o Funcionario
       ![CadastrarFuncionario](Imagens/CadastrarFuncionario.jpeg)
+      
     * <b>Cadastrar Produto:</b> Utiliza os dados inseridos nos espaços para formatar um item que representa o Produto
       ![CadastrarProduto](Imagens/CadastrarProduto.jpeg)
+      
     * <b>Cadastrar Serviço:</b> Utiliza os dados inseridos nos espaços para formatar um item que representa o Produto
       ![CadastrarServiço](Imagens/CadastrarServiço.jpeg)
+      
     * <b>Login Cliente:</b> Espaço no qual o Cliente deve utilizar seus dados para poder acessar sua Conta
       ![LoginCliente](Imagens/LoginCliente.jpeg)
+      
     * <b>Login Funcionario:</b> Espaço no qual o Funcionario deve utilizar seus dados para poder acessar sua Conta
       ![LoginFuncionario](Imagens/LoginFuncionario.jpeg)
+      
     * <b>Quem Somos:</b> Pagina designada a informar ao Cliente sobre a loja e suas informações
       ![QuemSomos](Imagens/QuemSomos.jpeg)
+      
     * <b>Visualizar Agendamentos de Serviço na Agenda Eletronica:</b> Espaço para informar ao Funcionarios as informações do Serviço no dia Selecionado
       ![VisualizarAgendamentosdeServiçonaAgendaEletronica](Imagens/VisualizarAgendamentosdeServiçonaAgendaEletronica.jpeg)
+      
     * <b>Visualizar Carrinho:</b> Pagina dedicada a mostrar ao Cliente o que ele selecionou para realizar o pedido
       ![VisualizarCarrinho](Imagens/VisualizarCarrinho.jpeg)
+      
     * <b>Manter Perfil Cliente:</b> Pagina destinada ao Cliente para poder visualizar e alterar suas proprias informações
       ![VisualizarPerfilCliente](Imagens/VisualizarPerfilCliente.jpeg)
+      
     * <b>Manter Perfil Funcionario:</b> Pagina destinada ao Funcionario para poder visualizar e alterar suas proprias informações
       ![VisualizarPerfilFuncionario](Imagens/VisualizarPerfilFuncionario.jpeg)
+      
     * <b>Visualizar Produto Cliente:</b> Paginas dedicadas ao Cliente que tem como objetivo mostrar ampliar as informações disoniveis sobre um certo produto
       ![VisualizarProdutosCliente](Imagens/VisualizarProdutosCliente.jpeg)
       ![VisualizarProdutoCliente](Imagens/VisualizarProdutoCliente.jpeg)
+      
     * <b>Visualizar Produto Funcionario:</b> Paginas dedicadas ao Funcionario que o permite acessar, visualizar e editar todos os produtos disponiveis no site
       ![VisualizarProdutosFucionario](Imagens/VisualizarProdutosFuncionario.jpeg)
       ![VisualizarProdutoFucionario](Imagens/VisualizarProdutoFuncionario.jpeg)
+      
     * <b>Visualizar Produtos Agenda Eletronica:</b> Espaço para informar ao Funcionario quais Produtos estão marcados para o dia selecionado
       ![VisualizarProdutosAgendaEletronica](Imagens/VisualizarProdutosnaAgendaEletronica.jpeg)
+      
     * <b>Visualizar Serviço Cliente:</b> Paginas dedicadas ao Cliente que tem como objetivos mostrar e ampliar as informações disoniveis sobre um certo produto
       ![VisualizarServiçosCliente](Imagens/VisualizarServiçosCliente.jpeg)
       ![VisualizarServiçoCliente](Imagens/VisualizarServiçoCliente.jpeg)
+      
     * <b>Visualizar Serviço Funcionario:</b> Paginas dedicadas ao Funcionario que o permite acessar, visualizar e editar todos os Serviços disponiveis no site
       ![VisualizarServiçosFuncionario](Imagens/VisualizarServiçosFuncionario.jpeg)
       ![VisualizarServiçoFuncionario](Imagens/VisualizarServiçoFuncionario.jpeg)
+      
     * <b>Visualizar Serviços na Agenda Eletronica:</b> Espaço para informar ao Funcionario quais Serviços estão marcados para o dia selecionado
       ![VisualizarServiçosNaAgendaEletronica](Imagens/VisualizarServiçosnaAgendaEletronica.jpeg)
 
