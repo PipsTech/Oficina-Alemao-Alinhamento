@@ -54,7 +54,7 @@ As partes interessadas no projeto se subdividem em dois grupos distintos, os usu
 
 ## 3. Proposta da solução
 
-Diante da problemática apresentada pelo projeto, este trabalho visa ao desenvolvimento de um sistema web que propicie que a Alemão Alinhamento possa realizar seus processos de venda e de agendamento de serviços de forma prática online e também divulgar seu negócio por meio deste.
+Diante da problemática apresentada pelo projeto, este trabalho objetiva a criação de um sistema web que possa providenciar a Alemão Alinhamento um espaço para realizar seus trabalhos de venda e de agendamento de serviços de uma forma prática online e também divulgar seu negócio por meio deste.
 
 * Os requisitos funcionais do site são:
 
