@@ -54,8 +54,8 @@ As partes interessadas no projeto se subdividem em dois grupos distintos, os usu
 
 ## 3. Proposta da solução
 
-Diante da problemática apresentada pelo projeto, este projeto visa ao desenvolvimento de um sistema web que propicie que a Alemão Alinhamento possa realizar seus processos de venda e de agendamento de serviços de forma prática online e também divulgar seu negócio por meio deste.
-Há outros fatores que o sistema não prevê a disponibilidade em plataformas mobile como também não é previsto que a plataforma armazene ou agende datas previstas para a próxima revisão ou retorno do carro de um cliente que já tenha agendado esse tipo de serviço no site uma vez, outro fator importante é o fato de que todos os pagamentos devem ser realizados na loja física e os produtos não possuem delivery.
+Diante da problemática apresentada pelo projeto, este trabalho visa ao desenvolvimento de um sistema web que propicie que a Alemão Alinhamento possa realizar seus processos de venda e de agendamento de serviços de forma prática online e também divulgar seu negócio por meio deste.
+
 * Os requisitos funcionais do site são:
 
       1) Deve ser possível que o cliente consiga se cadastrar no sistema como cliente ao entrar neste. 
@@ -72,6 +72,24 @@ Há outros fatores que o sistema não prevê a disponibilidade em plataformas mo
 
       7) Uma vez cadastrados os produtos e suas informações devem ser visíveis para todos os usuários do site (autenticados ou não). 
 
+      8) Os usuários clientes devem conseguir armazenar os itens escolhidos na página "carrinho de compra".
+      
+      9) Os usuários clientes devem conseguir realizar a compra dos produtos anunciados na plataforma.	
+      
+      10) Deve ser possível que o usuário funcionário consiga realizar a postagem dos serviços ofertados pela oficina no site.	
+      
+      11) Uma vez cadastrados, os serviços e suas informações devem ser visíveis para todos os usuários do site (autenticados ou não).	
+
+      12) Os usuários cliente ao clicarem para agendar o serviço devem ser reedirecionados diretamente para o WhatsApp da Alemão Alinahmento para contactar sua equipe.	
+      
+      13) Os usuários funcionário devem ser capazes de gerir a disponibilidade das ofertas de serviço no site.	
+      
+      14) Os usuários funcionário devem conseguir cadastrar agendamentos de serviço na agenda eletrônica da plataforma.	
+      
+      15) Os usuário funcionário devem ser capazes de realizarem consultas na agenda eletrônica.	
+      
+      16) Deve haver no sistema uma forma dos clientes entrarem em contato diretamente com a equipe da Alemão Alinhamento por meio do WhatsApp ou email.    
+
 ## 4. Projeto da Solução
 
 O site Alemão Alinhamento criado a partir dos requerimentos do dono da oficina, provém utilizar um sistema que almeja facilitar o processo dos clientes e dos funcionários da loja, principalmente no meio digital.
@@ -80,34 +98,6 @@ O site, composto de um banco de dados MySQL com 7 tabelas conectadas por chaves 
 ## 5. Artefatos principais
 
 Durante o desenvolvimento do site, foram elaborados e utilizados como suporte para a criação das interfaces, os seguintes artefatos: 
-
-* REQUISITOS FUNCIONAIS  
-
-      1) Deve ser possível que o cliente consiga se cadastrar no sistema como cliente ao entrar neste. 
-
-      2) Deve ser possível que os funcionários da empresa consigam se cadastrar no sistema como funcionários/proprietários. 
-     
-      3) Deve ser possível que o usuário funcionário consiga realizar a postagem dos itens produto no estoque do sistema. 	 
-
-      4) Deve ser possível que o usuário funcionário consiga adicionar quantidades de um produto já cadastrado no sistema.  
-
-      5) Deve ser possível que o usuário funcionário consiga consultar a quantidade de um produto no sistema.  
-
-      6) Deve ser possível que o usuário funcionário consiga realizar a postagem dos anúncios dos produtos e das informações destes no site. 
-
-      7) Uma vez cadastrados os produtos e suas informações devem ser visíveis para todos os usuários do site (autenticados ou não). 
-
-* REQUISITOS NÃO FUNCIONAIS 
-
-      1) O sistema deve estar na disponível na internet por 24h todos os dias da semana. 
-
-      2) O sistema deve ser fácil de se utilizar para diversos tipos e perfis de usuários, fazendo que o usuário consiga se cadastrar e finalizar um processo de compra em menos de 10 clicks.  
-
-      3) O sistema deve entregar respostas em até 30 segundos às requisições dos usuários.  
-
-      4) O sistema deve suportar até 100 requisições simultâneas. 
-
-      5) O sistema deve armazenar o nome do cliente em dois campos distintos (nome e sobrenome). 
 
 * DIAGRAMA DE CASOS DE USO  
 
