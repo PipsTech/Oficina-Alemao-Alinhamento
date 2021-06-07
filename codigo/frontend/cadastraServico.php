@@ -22,15 +22,11 @@
         
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav m-auto">
-                       
                         <li class="nav-item">
-                            <a class="nav-link" href="serviços.html">Serviços</a>
+                            <a class="nav-link" href="./cadastroProduto.php">Cadastra-Produto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./cadastroProduto.php">Produtos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./QuemSomos.php">Calendario</a>
+                            <a class="nav-link" href="./agendaEletronica.php">Agenda Eletrônica</a>
                         </li>
                     </ul>
         
@@ -47,63 +43,64 @@
             </div>
         </nav>
         <form action="../backend/cadS.php" method="POST" enctype="multipart/form-data">
+        <div class="container">   
         <div class="row">
-            <!-- Description -->
             <p></p>
-            
-            <div class="col-md-12">
+            <div class="col-12">
                 <div class="form-group">
-                    <p>Nome do Serviço</p>
-                    <input type="text"  name = "nome"class="form-control" placeholder="Nome *" value="" />
+                    <p style="margin-top: 10px;font-size: 25px;"><b><u>Nome do serviço</u></b></p>
+                    <input type="text" name="nome" class="form-control" placeholder="Nome *" value="" />
                 </div>
                 <div class="form-group">
-                    <p>Descrição do serviço</p>
-                    <input type="text"  name = "descricao"class="form-control" placeholder="Descrição *" value="" />
+                    <p style="font-size: 25px;"><b><u>Descrição do serviço</u></b></p>
+                    <input type="text" name ="descricao" class="form-control" placeholder="Descrição *" value="" />
                 </div>
                 <div class="form-group">
-                    <p>Preço Estimado</p>
-                    <input type="text" name = "preco"class="form-control" placeholder="Preço *" value="" />
+                    <p style="font-size: 25px;"><b><u>Preço do serviço</u></b></p>
+                    <input type="text" name="preco" class="form-control" placeholder="Preço *" value="" />
                 </div>
-                
-                
+                <div class="form-group">
+                    <p style="font-size: 25px;"><b><u>Imagem do Serviço</u></b></p>
+                    <input type="file" name="image" class="form-control" required>
+                </div>
             </div>
-        
-            <input type="file" name="image" class="form-control" required>
-           <!-- <input type ="submit" name="submit" value="confirmar">-->
-            
     
-            <!-- Reviews -->
             <div class="col-12" id="reviews">
                 <div class="card border-light mb-3">
-                    <button type="submit" class="btn btn-dark btn-lg btn-block text-uppercase" name="submit" value="Cadastrar" >CADASTRAR SERVIÇO</button>
+                <button type="submit" class="btn btn-dark btn-lg btn-block text-uppercase" name="submit" value="Cadastrar" >CADASTRAR SERVIÇO</button>
                 </div>
             </div>
         </div>
+    </div>
         </form>
     </div>
  
-    <footer class="text-light">
+    <footer class="text-light" style="height: 300px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-lg-4 col-xl-3">
+                    <p></p>
                     <h5>Slogan</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <p class="mb-0">
-                        <img class="card-img-top" src="/fotos/slogan.jfif" alt="Card image cap" style="border-radius: 20px;">
+                        <img class="card-img-top" src="../fotos/slogan.jfif" alt="Card image cap" style="border-radius: 20px;">
                     </p>
                 </div>
     
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
-                    <h5>Mídias Sociais</h5>
+                    <p></p>
+                    <h5 style="font-size: 20px; color: gold;">Mais</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <ul class="list-unstyled">
-                        <li><a href="">Whatsapp</a></li>
-                        <li><a href="">Google</a></li>
-                        <li><a href="">Facebook</a></li>
+                        <li><a href="./cadastroProduto.php">Cadastro do Produto</a></li>
+                        <li><a href="./cadastraServico.php">Cadastro do Serviço</a></li>
+                        <li><a href="./agendaEletronica.php">Agenda Eletrônica</a></li>
+
                     </ul>
                 </div>
     
                 <div class="col-md-4 col-lg-3 col-xl-3">
+                <p></p>
                     <h5>Infos</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <ul class="list-unstyled">

@@ -25,7 +25,7 @@
                     <ul class="navbar-nav m-auto">
                        
                         <li class="nav-item">
-                            <a class="nav-link" href="./serviços.php">Serviços</a>
+                            <a class="nav-link" href="./servicos.php">Serviços</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./produtos.php">Produtos</a>
@@ -85,7 +85,7 @@
                                 <a href="./home.php" class="btn btn-dark">Voltar para a home</a>
                             </div>
                             <div class="col-4 text-right">
-                            <a href="./perfil.php" class="btn btn-dark">Voltar para o perfil</a>
+                            <a href="./perfil.php" class="btn btn-danger">Voltar para o perfil</a>
                             </div>
                         </div>
     
@@ -104,7 +104,7 @@
                     <h5>Slogan</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <p class="mb-0">
-                        <img class="card-img-top" src="/fotos/slogan.jfif" alt="Card image cap" style="border-radius: 20px;">
+                        <img class="card-img-top" src="../fotos/slogan.jfif" alt="Card image cap" style="border-radius: 20px;">
                     </p>
                 </div>
     

@@ -20,7 +20,7 @@
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 
-    <nav class="navbar navbar-expand-md">
+    <nav class="navbar navbar-expand-md" style="margin-bottom: 80px; width: 103%">
         <div class="container">
             <a class="nav-brand" href="./homeFun.php">Oficina Alemão Alinhamento</a>
 
@@ -28,13 +28,13 @@
                 <ul class="navbar-nav m-auto">
 
                     <li class="nav-item">
-                        <a class="nav-link" href="serviços.html">Serviços</a>
+                        <a class="nav-link" href="./cadastraServico.php">Cadastro-Serviço</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="product.html">Produtos</a>
+                        <a class="nav-link" href="./cadastroProduto.php">Cadastro-Produto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./QuemSomos.php">Calendario</a>
+                        <a class="nav-link" href="./agendaEletronica.php">Agenda Eletrônica</a>
                     </li>
                 </ul>
                 <a class="nav-link"  id="Gabriel" href="./logOutfuncionario.php"> LogOut <i class="fas fa-sign-out-alt"></i></a>
@@ -61,7 +61,7 @@
                                 <div class="col-lg-6">
 
                                     <div class="form-group focused">
-                                        <label class="form-control-label" for="input-username">nome -
+                                        <label class="form-control-label" for="input-username">Nome -
                                             <?php
                                                 ob_start();
                                                 require "../backend/Autentica_loginFuncionario.php";
@@ -126,12 +126,12 @@
 
                     <div class="row align-items-center">
                         <div class="col-8">
-                            <a href="home.html" class="btn btn-dark">Voltar para a home</a>
+                            <a href="./homeFun.php" class="btn btn-dark">Voltar para a home</a>
                         </div>
                         <div class="col-4 text-right">
-                            <!--<a href="#!" class="btn btn-danger">Excluir Conta</a>onclick="javascript: location.href='ExcluirPerfil.php'-->
                             <button type="submit" class="btn btn-danger" value="Cadastrar"
-                                onclick="javascript: location.href='../backend/excluirperfunf.php'">Excluir Conta</button>
+                                onclick="javascript: location.href='../backend/excluirperfunf.php'">Excluir Conta
+                            </button>
                         </div>
                     </div>
 
@@ -143,25 +143,27 @@
     <p></p>
 
 
-    <footer class="text-light">
+    <footer class="text-light" style="margin-top: 80px; width: 103%; height: 350px">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-lg-4 col-xl-3">
                     <h5>Slogan</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <p class="mb-0">
-                        <img class="card-img-top" src="/fotos/slogan.jfif" alt="Card image cap"
+                        <img class="card-img-top" src="../fotos/slogan.jfif" alt="Card image cap"
                             style="border-radius: 20px;">
                     </p>
                 </div>
 
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
-                    <h5>Mídias Sociais</h5>
+                    <p></p>
+                    <h5 style="font-size: 20px; color: gold;">Mais</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <ul class="list-unstyled">
-                        <li><a href="">Whatsapp</a></li>
-                        <li><a href="">Google</a></li>
-                        <li><a href="">Facebook</a></li>
+                        <li><a href="./cadastroProduto.php">Cadastro do Produto</a></li>
+                        <li><a href="./cadastraServico.php">Cadastro do Serviço</a></li>
+                        <li><a href="./agendaEletronica.php">Agenda Eletrônica</a></li>
+
                     </ul>
                 </div>
 

@@ -25,23 +25,17 @@
                     <ul class="navbar-nav m-auto">
                        
                         <li class="nav-item">
-                            <a class="nav-link" href="category.html">Serviços</a>
+                            <a class="nav-link" href="./servicos.php">Serviços</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="product.html">Produtos</a>
+                            <a class="nav-link" href="./produtos.php">Produtos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./QuemSomos.php">QuemSomos</a>
                         </li>
                     </ul>
         
-                    <form class="form-inline my-2 my-lg-0">
-                
-                        <a class="btn btn-success btn-sm ml-3" href="cart.html">
-                            <i class="fa fa-shopping-cart"></i> Carrinho
-                            <span class="badge badge-light">3</span>
-                        </a>
-                    </form>
+                    
                 </div>
             </div>
         </nav>

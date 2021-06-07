@@ -18,7 +18,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 
-    <nav class="navbar navbar-expand-md" >
+    <nav class="navbar navbar-expand-md">
         <div class="container">
             <a class="nav-brand" href="./homeFun.php">Oficina Alemão Alinhamento</a>
 
@@ -26,13 +26,13 @@
                 <ul class="navbar-nav m-auto">
 
                     <li class="nav-item">
-                        <a class="nav-link" href="./cadastraServico.php">Serviços</a>
+                        <a class="nav-link" href="./cadastraServico.php">Cadastro-Serviço</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./cadastroProduto.php">Cadastro Produto</a>
+                        <a class="nav-link" href="./cadastroProduto.php">Cadastro-Produto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./QuemSomos.php">Calendário</a>
+                        <a class="nav-link" href="./agendaEletronica.php">Agenda Eletrônica</a>
                     </li>
                 </ul>
 
@@ -43,10 +43,6 @@
                     ob_end_clean();
                     echo $obj->alteraHeader();
                     ?>
-
-                    <a class="btn btn-sm ml-3" href="./carrinho.php" style="margin-right:20px;">
-                        <i class="fa fa-shopping-cart fa-2x"></i>
-                    </a>
                 </form>
             </div>
         </div>
@@ -59,7 +55,7 @@
             <div class="col">
                 <nav aria-label="breadcrumb">
                     <ol class="text-center">
-                        Nossos produtos
+                        Produtos Registrados
                     </ol>
                 </nav>
             </div>
@@ -70,14 +66,10 @@
         <div class="col">
             <div class="row">
                 <?php
-                 ob_start();
-                 require "../backend/ControleProduto.php";
-                 ob_end_clean();
-                 $obj = new ControleProduto();
                 $a = $obj->orgProdFun();
                 echo $a;
                 ?>
-              
+
 
                 <div class="col-12">
                     <p></p>
@@ -87,16 +79,16 @@
 
     </div>
     <div class="container">
-                        <div class="row">
-                            <div class="col">
-                                <nav aria-label="breadcrumb">
-                                    <ol class="text-center">
-                                        Serviços
-                                    </ol>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
+        <div class="row">
+            <div class="col">
+                <nav aria-label="breadcrumb">
+                    <ol class="text-center">
+                        Serviços Registrados
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
 
 
     </div>
@@ -104,14 +96,9 @@
         <div class="col">
             <div class="row">
                 <?php
-                 ob_start();
-                 require "../backend/ControleServico.php";
-                 ob_end_clean();
-                 $obj = new ControleServico();
-                $b = $obj->orgSerFun();
-                echo $b;
+                $a = $obj->orgSerFun();
+                echo $a;
                 ?>
-              
 
                 <div class="col-12">
                     <p></p>
@@ -121,28 +108,32 @@
 
     </div>
 
-    <footer class="text-light" >
+    <footer class="text-light">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-lg-4 col-xl-3">
+                    <p></p>
                     <h5>Slogan</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <p class="mb-0">
-                        <img class="card-img-top" src="/fotos/slogan.jfif" alt="Card image cap" style="border-radius: 20px;">
+                        <img class="card-img-top" src="../fotos/slogan.jfif" alt="Card image cap" style="border-radius: 20px;">
                     </p>
                 </div>
 
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
-                    <h5>Mídias Sociais</h5>
+                    <p></p>
+                    <h5 style="font-size: 20px; color: gold;">Mais</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <ul class="list-unstyled">
-                        <li><a href="">Whatsapp</a></li>
-                        <li><a href="">Google</a></li>
-                        <li><a href="">Facebook</a></li>
+                        <li><a href="./cadastroProduto.php">Cadastro do Produto</a></li>
+                        <li><a href="./cadastraServico.php">Cadastro do Serviço</a></li>
+                        <li><a href="./agendaEletronica.php">Agenda Eletrônica</a></li>
+
                     </ul>
                 </div>
 
                 <div class="col-md-4 col-lg-3 col-xl-3">
+                    <p></p>
                     <h5>Infos</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <ul class="list-unstyled">

@@ -16,8 +16,7 @@
 <body>
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 
     <nav class="navbar navbar-expand-md" style="width: 103%">
@@ -28,16 +27,16 @@
                 <ul class="navbar-nav m-auto">
 
                     <li class="nav-item">
-                        <a class="nav-link" href="serviços.html">Serviços</a>
+                        <a class="nav-link" href="./cadastraServico.php">Cadastro-Serviço</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="product.html">Produtos</a>
+                        <a class="nav-link" href="./cadastroProduto.php">Cadastro-Produto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./QuemSomos.php">Calendario</a>
+                        <a class="nav-link" href="./agendaEletronica.php">Agenda Eletrônica</a>
                     </li>
                 </ul>
-                <a class="nav-link"  id="Gabriel" href="./logOutfuncionario.php"> LogOut <i class="fas fa-sign-out-alt"></i></a>
+                <a class="nav-link" id="Gabriel" href="./logOutfuncionario.php"> LogOut <i class="fas fa-sign-out-alt"></i></a>
             </div>
         </div>
     </nav>
@@ -62,17 +61,17 @@
                                     <div class="form-group focused">
                                         <label class="form-control-label" for="input-username">Nome -
                                             <?php
-                                                ob_start();
-                                                require "../backend/ControleServico.php";
-                                                ob_end_clean();
-                                                $obj2 = new ControleServico();
-                                                if(isset($_COOKIE['Id_Anuncio'])){
-                                                    $idh = $_COOKIE['Id_Anuncio'];
-                                                    $aux = $obj2->veServico($idh);
-                                                    $temp = $aux->fetch_assoc();
-                                                    echo $temp['Titulo'];
-                                                }
-                                                ?>
+                                            ob_start();
+                                            require "../backend/ControleFuncionario.php";
+                                            ob_end_clean();
+                                            $obj2 = new Funcionario();
+                                            if (isset($_COOKIE['Id_Anuncio'])) {
+                                                $idh = $_COOKIE['Id_Anuncio'];
+                                                $aux = $obj2->veServico($idh);
+                                                $temp = $aux->fetch_assoc();
+                                                echo $temp['Titulo'];
+                                            }
+                                            ?>
                                         </label>
                                         <a href="./editarNomeS.php" class="btn btn-success" style="padding: 2px;">Editar
                                             nome</a>
@@ -84,11 +83,10 @@
                                     <div class="form-group">
                                         <label class="form-control-label" for="input-last-name">Descrição -
                                             <?php
-                                                echo $temp['Descrição'];
+                                            echo $temp['Descrição'];
                                             ?>
                                         </label>
-                                        <a href="./editarDescricaoS.php" class="btn btn-success"
-                                            style="padding: 2px;">Editar Descrição</a>
+                                        <a href="./editarDescricaoS.php" class="btn btn-success" style="padding: 2px;">Editar Descrição</a>
                                     </div>
                                 </div>
                             </div>
@@ -97,25 +95,24 @@
                                     <div class="form-group focused">
                                         <label class="form-control-label" for="input-telephone">Preço -
                                             <?php
-                                                echo $temp['Preço_Estimado'];
+                                            echo $temp['Preço_Estimado'];
                                             ?>
                                         </label>
-                                        <a href="./editarPrecoS.php" class="btn btn-success"
-                                            style="padding: 2px;">Editar preço</a>
+                                        <a href="./editarPrecoS.php" class="btn btn-success" style="padding: 2px;">Editar preço</a>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-group focused">
                                         <label class="form-control-label" for="input-password">
-                                        <img class="img-fluid"  style="width: 338px; height: 300px; "src="data:image/jpeg;base64,<?php
-                                        $img = base64_encode($temp['Imagem']);
-                                        echo $img;
-                                        ?>"></label>
+                                            <img class="img-fluid" style="width: 338px; height: 300px; " src="data:image/jpeg;base64,<?php
+                                                                                                                                        $img = base64_encode($temp['Imagem']);
+                                                                                                                                        echo $img;
+                                                                                                                                        ?>"></label>
                                         <a href="./editarImgS.php" class="btn btn-success" style="padding: 2px;">Editar
                                             imagem</a>
                                     </div>
                                 </div>
-                                
+
 
                             </div>
                         </div>
@@ -128,8 +125,7 @@
                             <a href="./homeFun.php" class="btn btn-dark">Voltar para a home</a>
                         </div>
                         <div class="col-4 text-right">
-                            <button type="submit" class="btn btn-danger" value="Cadastrar"
-                                onclick="javascript: location.href='../backend/excluirservico.php'">Excluir Serviço</button>
+                            <button type="submit" class="btn btn-danger" value="Cadastrar" onclick="javascript: location.href='../backend/excluirservico.php'">Excluir Serviço</button>
                         </div>
                     </div>
 
@@ -148,18 +144,19 @@
                     <h5>Slogan</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <p class="mb-0">
-                        <img class="card-img-top" src="/fotos/slogan.jfif" alt="Card image cap"
-                            style="border-radius: 20px;">
+                        <img class="card-img-top" src="../fotos/slogan.jfif" alt="Card image cap" style="border-radius: 20px;">
                     </p>
                 </div>
 
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
-                    <h5>Mídias Sociais</h5>
+                    <p></p>
+                    <h5 style="font-size: 20px; color: gold;">Mais</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <ul class="list-unstyled">
-                        <li><a href="">Whatsapp</a></li>
-                        <li><a href="">Google</a></li>
-                        <li><a href="">Facebook</a></li>
+                        <li><a href="./cadastroProduto.php">Cadastro do Produto</a></li>
+                        <li><a href="./cadastraServico.php">Cadastro do Serviço</a></li>
+                        <li><a href="./agendaEletronica.php">Agenda Eletrônica</a></li>
+
                     </ul>
                 </div>
 

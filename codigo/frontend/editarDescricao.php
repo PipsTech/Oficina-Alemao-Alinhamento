@@ -18,29 +18,22 @@
    
         <nav class="navbar navbar-expand-md">
             <div class="container">
-                <a class="nav-brand" href="home.html">Oficina Alemão Alinhamento</a>
+                <a class="nav-brand" href="./homeFun.php">Oficina Alemão Alinhamento</a>
         
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav m-auto">
                        
                         <li class="nav-item">
-                            <a class="nav-link" href="serviços.html">Serviços</a>
+                            <a class="nav-link" href="./servicos.php">Serviços</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="produtos.html">Produtos</a>
+                            <a class="nav-link" href="./produtos.php">Produtos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="QuemSomos.html">QuemSomos</a>
+                            <a class="nav-link" href="./QuemSomos.php">QuemSomos</a>
                         </li>
                     </ul>
-        
-                    <form class="form-inline my-2 my-lg-0">
-                        
-                        <a class="btn btn-sm ml-3" href="carrinho.html" style="margin-right:20px;">
-                            <i class="fa fa-shopping-cart fa-2x"></i> 
-                        </a>
-
-                    </form>
+                    <a class="nav-link" id="Gabriel" href="./logOutfuncionario.php"> LogOut <i class="fas fa-sign-out-alt"></i></a>
                 </div>
             </div>
         </nav>
@@ -97,7 +90,7 @@
                     <h5>Slogan</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <p class="mb-0">
-                        <img class="card-img-top" src="/fotos/slogan.jfif" alt="Card image cap" style="border-radius: 20px;">
+                        <img class="card-img-top" src="../fotos/slogan.jfif" alt="Card image cap" style="border-radius: 20px;">
                     </p>
                 </div>
     

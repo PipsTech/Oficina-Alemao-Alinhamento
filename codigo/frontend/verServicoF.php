@@ -38,13 +38,10 @@
                 <form class="form-inline my-2 my-lg-0">
                 <?php
                 ob_start();
-                require "../backend/Autentica_loginCliente.php";
+                require "../backend/Autentica_loginFuncionario.php";
                 ob_end_clean();
+                echo $obj->alteraHeader();
                 ?>
-    
-                <a class="btn btn-sm ml-3" href="./carrinho.php" style="margin-right:20px;">
-                    <i class="fa fa-shopping-cart fa-2x"></i> 
-                </a>
                 </form>
             </div>
         </div>

@@ -25,7 +25,7 @@
                 <ul class="navbar-nav m-auto">
                    
                     <li class="nav-item">
-                        <a class="nav-link" href="./serviços.php">Serviços</a>
+                        <a class="nav-link" href="./servicos.php">Serviços</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./produtos.php">Produtos</a>
@@ -40,10 +40,9 @@
                 ob_start();
                 require "../backend/Autentica_loginCliente.php";
                 ob_end_clean();
-                echo $obj->alteraHeader();
                 ?>
     
-                <a class="btn btn-sm ml-3" href="carrinho.html" style="margin-right:20px;">
+                <a class="btn btn-sm ml-3" href="./carrinho.php" style="margin-right:20px;">
                     <i class="fa fa-shopping-cart fa-2x"></i> 
                 </a>
                 </form>
@@ -60,7 +59,7 @@
                     <div class="card bg-light mb-3">
                         <div class="card-body">
                           <a href="" data-toggle="modal" data-target="#productModal">
-                                <img class="img-fluid"  style="width: 338px; height: 300px; "src="data:image/jpeg;base64,<?php
+                                <img class="img-fluid"  style="width: 400px; height: 300px; "src="data:image/jpeg;base64,<?php
                                 ob_start();
                                 require "../backend/ControleProduto.php";
                                 ob_end_clean();
@@ -73,7 +72,7 @@
                                     echo $desc;
                             }
                             else{
-                                echo "fodassekkk";
+                                echo "erro";
                             }
                                 ?>" >
                                 
@@ -130,14 +129,14 @@
             </div>
         </div>
 
-    <footer class="text-light">
+    <footer class="text-light" style="height: 350px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-lg-4 col-xl-3">
                     <h5>Slogan</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <p class="mb-0">
-                        <img class="card-img-top" src="/fotos/slogan.jfif" alt="Card image cap" style="border-radius: 20px;">
+                        <img class="card-img-top" src="../fotos/slogan.jfif" alt="Card image cap" style="border-radius: 20px;">
                     </p>
                 </div>
     

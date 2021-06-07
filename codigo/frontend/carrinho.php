@@ -98,7 +98,7 @@
                             <a class="btn btn-lg btn-block btn-outline-danger text-uppercase" href="./home.php">Continue Comprando</a>
                         </div>
                         <div class="col-sm-12 col-md-6">
-                            <a class="btn btn-lg btn-block btn-outline-success text-uppercase"href="#">Confirmar Compra</a>
+                            <a class="btn btn-lg btn-block btn-outline-success text-uppercase"href="./reservarCompra.php">Reservar Compra</a>
                         </div>
                     </div>
                 </div>

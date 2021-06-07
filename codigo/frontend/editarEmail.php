@@ -1,7 +1,7 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <title>Oficina Alemão Alinhamento</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,46 +11,46 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/2e1a878a13.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
+</head>
+
+<body>
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-   
-        <nav class="navbar navbar-expand-md">
-            <div class="container">
-                <a class="nav-brand" href="./home.php">Oficina Alemão Alinhamento</a>
-        
-                <div class="collapse navbar-collapse">
-                    <ul class="navbar-nav m-auto">
-                       
-                        <li class="nav-item">
-                            <a class="nav-link" href="./serviços.php">Serviços</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./produtos.php">Produtos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./QuemSomos.php">QuemSomos</a>
-                        </li>
-                    </ul>
-        
-                    <form class="form-inline my-2 my-lg-0">
-                        <a class="btn btn-sm ml-3" href="./carrinho.php" style="margin-right:20px;">
-                            <i class="fa fa-shopping-cart fa-2x"></i> 
-                        </a>
-                    </form>
-                </div>
-            </div>
-        </nav>
 
+    <nav class="navbar navbar-expand-md">
         <div class="container">
-            <p></p>
+            <a class="nav-brand" href="./home.php">Oficina Alemão Alinhamento</a>
+
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav m-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cadastraServico.php">Cadastro-Serviço</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cadastroProduto.php">Cadastro-Produto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./agendaEletronica.php">Agenda Eletrônica</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <a class="btn btn-sm ml-3" href="./carrinho.php" style="margin-right:20px;">
+                        <i class="fa fa-shopping-cart fa-2x"></i>
+                    </a>
+                </form>
+            </div>
         </div>
-      
-        <div class="row">
-            <div class="col-xl-8 m-auto order-xl-1">
-                <div class="card bg-secondary shadow">
+    </nav>
+
+    <div class="container">
+        <p></p>
+    </div>
+
+    <div class="row">
+        <div class="col-xl-8 m-auto order-xl-1">
+            <div class="card bg-secondary shadow">
                 <form action="../backend/attEmail.php" method="POST">
                     <div class="card-body">
                         <form class="infos">
@@ -58,35 +58,35 @@
                             <p></p>
                             <div class="pl-lg-4">
                                 <div class="row">
-                                    <div class="col-lg-6"> 
-                                        
+                                    <div class="col-lg-6">
+
                                         <label for="" class="form-control-label">Digite seu novo email</label>
-                                          <input type="text" name = "email" class="form-control form-control-lg" />
-                                          <button type="submit">Enviar</button>
-                                        </form> 
-                                    </div>    
-                                </div>
-                            </div>
-                        
+                                        <input type="text" name="email" class="form-control form-control-lg" />
+                                        <button type="submit">Enviar</button>
+                        </form>
                     </div>
-                    </form>
-                    <div class="card-header bg-white border-0">
-    
-                        <div class="row align-items-center">
-                            <div class="col-8">
-                                <a href="./home.php" class="btn btn-dark">Voltar para a home</a>
-                            </div>
-                            <div class="col-4 text-right">
-                            <a href="./perfil.php" class="btn btn-danger">Voltar para o perfil</a>
-                            </div>
-                        </div>
-    
-                    </div>
-                </div>
             </div>
         </div>
 
-        <p></p>
+    </div>
+    </form>
+    <div class="card-header bg-white border-0">
+
+        <div class="row align-items-center">
+            <div class="col-8">
+                <a href="./home.php" class="btn btn-dark">Voltar para a home</a>
+            </div>
+            <div class="col-4 text-right">
+                <a href="./perfil.php" class="btn btn-danger">Voltar para o perfil</a>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <p></p>
 
 
     <footer class="text-light">
@@ -96,10 +96,10 @@
                     <h5>Slogan</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <p class="mb-0">
-                        <img class="card-img-top" src="/fotos/slogan.jfif" alt="Card image cap" style="border-radius: 20px;">
+                        <img class="card-img-top" src="../fotos/slogan.jfif" alt="Card image cap" style="border-radius: 20px;">
                     </p>
                 </div>
-    
+
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
                     <h5>Mídias Sociais</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
@@ -109,7 +109,7 @@
                         <li><a href="">Facebook</a></li>
                     </ul>
                 </div>
-    
+
                 <div class="col-md-4 col-lg-3 col-xl-3">
                     <h5>Infos</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
@@ -129,5 +129,6 @@
             </div>
         </div>
     </footer>
-  </body>
+</body>
+
 </html>

@@ -19,7 +19,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 
-    <nav class="navbar navbar-expand-md">
+    <nav class="navbar navbar-expand-md" style="margin-bottom: 80px;">
         <div class="container">
             <a class="nav-brand" href="./home.php">Oficina Alemão Alinhamento</a>
 
@@ -27,10 +27,10 @@
                 <ul class="navbar-nav m-auto">
 
                     <li class="nav-item">
-                        <a class="nav-link" href="serviços.html">Serviços</a>
+                        <a class="nav-link" href="./servicos.php">Serviços</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="product.html">Produtos</a>
+                        <a class="nav-link" href="./produtos.php">Produtos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./QuemSomos.php">QuemSomos</a>
@@ -39,7 +39,7 @@
 
                 <form class="form-inline my-2 my-lg-0">
                 <a class="nav-link"  id="Gabriel" href="./logOutcliente.php"> LogOut <i class="fas fa-sign-out-alt"></i>
-                    <a class="btn btn-sm ml-3" href="cart.html" style="margin-right:20px;">
+                    <a class="btn btn-sm ml-3" href="./carrinho.php" style="margin-right:20px;">
                         <i class="fa fa-shopping-cart fa-2x"></i>
                     </a>
                 </form>
@@ -136,23 +136,21 @@
                             <button type="submit" class="btn btn-danger" value="Cadastrar" onclick="javascript: location.href='../backend/ExcluirPerfil.php'">Excluir Conta</button>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
     </div>
 
-    <p></p>
 
 
-    <footer class="text-light">
+    <footer class="text-light" style="margin-top: 80px; height: 350px">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-lg-4 col-xl-3">
                     <h5>Slogan</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <p class="mb-0">
-                        <img class="card-img-top" src="/fotos/slogan.jfif" alt="Card image cap" style="border-radius: 20px;">
+                        <img class="card-img-top" src="../fotos/slogan.jfif" alt="Card image cap" style="border-radius: 20px;">
                     </p>
                 </div>
 

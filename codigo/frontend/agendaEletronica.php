@@ -103,7 +103,7 @@
                 </div>
 
             </div>
-             <div style="text-align: center;">
+             <div style="text-align: center">
              
                     <?php
                      ob_start();
@@ -139,12 +139,13 @@
 
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
                     <p></p>
-                    <h5 style="font-size: 20px; color: gold;">Mídias Sociais</h5>
+                    <h5 style="font-size: 20px; color: gold;">Mais</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <ul class="list-unstyled">
-                        <li><a href="">Whatsapp</a></li>
-                        <li><a href="">Google</a></li>
-                        <li><a href="">Facebook</a></li>
+                        <li><a href="./cadastroProduto.php">Cadastro do Produto</a></li>
+                        <li><a href="./cadastraServico.php">Cadastro do Serviço</a></li>
+                        <li><a href="./agendaEletronica.php">Agenda Eletrônica</a></li>
+
                     </ul>
                 </div>
 

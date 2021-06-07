@@ -38,13 +38,10 @@
                 <form class="form-inline my-2 my-lg-0">
                 <?php
                 ob_start();
-                require "../backend/Autentica_loginCliente.php";
+                require "../backend/Autentica_loginFuncionario.php";
                 ob_end_clean();
+                echo $obj->alteraHeader();
                 ?>
-    
-                <a class="btn btn-sm ml-3" href="./carrinho.php" style="margin-right:20px;">
-                    <i class="fa fa-shopping-cart fa-2x"></i> 
-                </a>
                 </form>
             </div>
         </div>
@@ -56,20 +53,23 @@
             <div class="row">
                 <!-- Image -->
                 <div class="col-lg-5">
-                    <div class="card bg-light mb-4">
+                    <div class="card bg-light mb-3">
                         <div class="card-body">
                           <a href="" data-toggle="modal" data-target="#productModal">
-                                <img class="img-fluid"  style="width: 400px; height: 250px; "src="data:image/jpeg;base64,<?php
+                                <img class="img-fluid"  style="width: 400px; height: 300px; "src="data:image/jpeg;base64,<?php
                                 ob_start();
-                                require "../backend/ControleFuncionario.php";
+                                require "../backend/ControleProduto.php";
                                 ob_end_clean();
-                                $obj2 = new Funcionario();
-                                if(isset($_COOKIE['Id_Anuncio'])){
-                                $idh = $_COOKIE['Id_Anuncio'];
-                                $aux = $obj2->veServico($idh);
+                                $obj2 = new ControleProduto();
+                                if(isset($_COOKIE['Id_Produto'])){
+                                $idh = $_COOKIE['Id_Produto'];
+                                $aux = $obj2->veProduto($idh);
                                 $temp = $aux->fetch_assoc();
-                                $desc = base64_encode($temp['Imagem']);
+                                $desc = base64_encode($temp['foto_produto']);
                                     echo $desc;
+                            }
+                            else{
+                                echo "erro";
                             }
                                 ?>" >
                                 
@@ -82,13 +82,13 @@
                 <div class="col-12 col-lg-6 add_to_cart_block">
                     <div class="card bg-light mb-3">
                         <div class="card-header bg-dark text-white text-uppercase text-center"> <?php
-                        $desc = $temp['Titulo'];
+                        $desc = $temp['Nome'];
                         echo $desc;
                         ?>
                         </div>
                         <div class="card-body">
-                            <p class="price">Preço Estimado: R$<?php
-                        $desc = $temp['Preço_Estimado'];
+                            <p class="price">Preço: R$<?php
+                        $desc = $temp['Preço'];
                         echo $desc;
                        ?></p>
                             <form method="get" action="cart.html">
@@ -100,13 +100,24 @@
                                 </div>
                                 <div class="form-group">
                                     <script src="visuProd.js"></script>
-                                    <label><strong>O agendamento do serviço se dá por meio do WhatsApp abaixo</strong></label>
+                                    <label>Quantidade Disponível :<i class="quant"><?php
+                       $desc = $temp['Quantidade'];
+                       echo $desc;
+                       /*unset($_COOKIE['Id_Produto']); 
+                       setcookie('Id_Produto', null, -1, '/'); */
+                       ?></i></label>
+                                </div>
+                                <div class="form-group">
+                                    <script src="visuProd.js"></script>
+                                    <label><strong>O produto comprado deverá ser pago e retirado na loja </strong></label>
                                 </div>
                             </form>
                             
                                 <p></p>                          
-                                <a href="https://api.whatsapp.com/send?phone=553195281401&text=Ola%20Estou%20interessado%20na%20contratação%20do%20serviço%20de%20<?php echo $temp['Titulo']?>" class="btn btn-dark btn-lg btn-block text-uppercase">
-                                    <i class="far fa-calendar-alt"></i> Agendar Serviço
+                                <a href="../backend/carrinhoId.php?id=<?php
+                                    echo $_COOKIE['Id_Produto'];
+                                ?>" class="btn btn-dark btn-lg btn-block text-uppercase">
+                                    <i class="far fa-calendar-alt"></i> Adicionar ao Carrinho
                                 </a> 
                             
                         </div>
@@ -115,7 +126,7 @@
             </div>
         </div>
 
-    <footer class="text-light" style="height: 392px;">
+    <footer class="text-light" style="height: 350px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-lg-4 col-xl-3">

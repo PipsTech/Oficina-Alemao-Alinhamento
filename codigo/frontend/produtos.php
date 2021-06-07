@@ -22,7 +22,7 @@
                     <ul class="navbar-nav m-auto">
                        
                         <li class="nav-item">
-                            <a class="nav-link" href="./serviços.php">Serviços</a>
+                            <a class="nav-link" href="./servicos.php">Serviços</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./produtos.php">Produtos</a>
@@ -55,7 +55,7 @@
                 <div class="col">
                     <nav aria-label="breadcrumb">
                         <ol class="text-center">
-                            Nossos produtos
+                            Nossos Produtos
                         </ol>
                     </nav>
                 </div>
@@ -73,31 +73,30 @@
                     $a = $obj2->orgProduto();
                     echo $a;
                 
-                    
                     ?>
-                  
-                    
+                   
                     <div class="col-12">
                         <p></p>
                     </div>
                 </div>
             </div>
-    
         </div>
-        
     </div>
+
     <footer class="text-light">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-lg-4 col-xl-3">
+                <p></p>
                     <h5>Slogan</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <p class="mb-0">
-                        <img class="card-img-top" src="/fotos/slogan.jfif" alt="Card image cap" style="border-radius: 20px;">
+                        <img class="card-img-top" src="../fotos/slogan.jfif" alt="Card image cap" style="border-radius: 20px;">
                     </p>
                 </div>
     
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
+                <p></p>
                     <h5>Mídias Sociais</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <ul class="list-unstyled">
@@ -108,6 +107,7 @@
                 </div>
     
                 <div class="col-md-4 col-lg-3 col-xl-3">
+                <p></p>
                     <h5>Infos</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <ul class="list-unstyled">
