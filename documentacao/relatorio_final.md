@@ -96,7 +96,7 @@ Diante da problemática apresentada pelo projeto, este trabalho objetiva a cria�
 
       | 1 | O sistema deve estar na disponível na internet por 24h todos os dias da semana | alta | média |
       | 2 | O sistema deve ser fácil de se utilizar para diversos tipos e perfis de usuários, fazendo que o usuário consiga se cadastrar e finalizar um processo de compra em menos de 10 clicks| alta | baixa |
-      | 3 | O sistema deve entregar respostas em até 30 segundos às requisições dos usuários |média | média |
+      | 3 | O sistema deve entregar respostas em até 30 segundos às requisições dos usuários | média | média |
       | 4 | O sistema deve suportar até 100 requisições simultanêas | baixa | média |
       | 5 | O sistema deve armazenar o nome do cliente em dois campos distintos( nome e sobrenome) | baixa | baixa |
 
@@ -110,41 +110,24 @@ O site, composto de um banco de dados MySQL com 7 tabelas conectadas por chaves 
 Durante o desenvolvimento do site, foram elaborados e utilizados como suporte para a criação das interfaces, os seguintes artefatos: 
 
 * DIAGRAMA DE CASOS DE USO  
-
+    * Será mostrado a seguir o diagrama de casos de uso criado para externar as funcionalidades presentes no sistema e como elas se relacionam entre os atores( usuários do sistema).
   ![DiagramaDeCasosDeUso](Imagens/DiagramaDeCasosDeUsoAtualizado4.png) 
 
 * PROTÓTIPOS DAS PRINCIPAIS INTERFACES
-    * <b>LogIn Funcionario e LogIn Cliente:</b> 
-      ![LogIn](/artefatos/interfaces/leiaute/LogInFuncionario.png)
-      ![LogIn](/artefatos/interfaces/leiaute/LogInUsuario.png)
+    * <b>Protótipos e suas relações:</b> Serão mostrados a seguir as relações entre os protótipos criados na fase inicial do projeto, os quais foram utilizadas como base para as interfaces finais do site.
+      ![Relacionamentos](Imagens/Relacionamentos.png)
       
-    * <b>Cadastro do Funcionario e Cadastro do Cliente:</b> 
-      ![Cadastro](/artefatos/interfaces/leiaute/CadastroFuncionario.png)
-      ![Cadastro](/artefatos/interfaces/leiaute/CadastroUsuario.png)
-
-    * <b>Visualizar Serviço Cliente:</b> 
-      ![VisualizarServiçosCliente](/artefatos/interfaces/leiaute/Serviço.png)
       
-    * <b>Visualizar Produto Cliente:</b> 
-      ![VisualizarProdutosCliente](/artefatos/interfaces/leiaute/ProdutoUsuario.png)
-      
-    * <b>Cadastrar Produto:</b> 
-      ![CadastroProduto](/artefatos/interfaces/leiaute/CadastrarProduto.png)
-      
-    * <b>Cadastrar Serviço:</b> 
-      ![CadastroServiço](/artefatos/interfaces/leiaute/CadastrarServiço.png)
-      
-    * <b>AgendaEletrônica:</b> 
-      ![AgendaEletronica](/artefatos/interfaces/leiaute/Agenda.png)
-      
-    * <b>Quem Somos:</b> 
-      ![QuemSomos](/artefatos/interfaces/leiaute/QuemSomos.png)
+   
 
 * DIAGRAMA DE CLASSES 
-
+    * Será mostrado a seguir o diagrama de classes criado para ressaltar as classes do sistema, seus atributos e metódos, e para exemplificar como ocorrem as relações entre essas tabelas.
   ![DiagramaDeClasses](Imagens/DiagramaDeClassesAtualizado4.png)
 
 * INTERFACES
+
+    * Serão mostradas a seguir todas as interfaces finais do sistema, já implementadas e funcionais.
+
     * <b>Cadastrar Cliente:</b> Utiliza os dados inseridos nos espaços para montar um perfil do qual representa o Cliente
       ![CadastrarCliente](Imagens/CadastrarCliente.jpeg)
       
@@ -202,9 +185,9 @@ Durante o desenvolvimento do site, foram elaborados e utilizados como suporte pa
 
 ## 6. Conclusão
 
-Após a criação e o desenvolvimento de todos os artefatos, documentação e os códigos de front-end e back-end, conclui-se que os objetivos traçados para a finalização do projeto foram todos concluídos. Pode-se afirmar que os requisitos, casos de uso e classes criadas estão todos alinhados com as funcionalidades e implementações presentes no sistema final da Oficina Alemão Alinhamento. 
+Após a criação e o desenvolvimento de todos os artefatos, documentação e os códigos de front-end e back-end, conclui-se que os objetivos traçados para a finalização do projeto foram todos concluídos. Pode-se afirmar que os requisitos, casos de uso e classes criadas estão todos alinhados com as funcionalidades e implementações presentes no sistema final da Oficina Alemão Alinhamento. Portanto, conclui-se que os 3 alunos do 3º período de Engenharia de Software responsáveis pelo desenvolvimento deste site estão satisfeitos com o resultado final, em detrimento do aprendizado adquirido com uma nova linguagem de desenvolvimento web (PHP) e com o banco de dados relacional MySQL e, de reforçarem seus conhecimentos em HTML, CSS e JavaScript. 
 
-Portanto, conclui-se que os 3 alunos do 3º período de Engenharia de Software responsáveis pelo desenvolvimento deste site estão satisfeitos com o resultado final, em detrimento do aprendizado adquirido com uma nova linguagem de desenvolvimento web (PHP) e com o banco de dados relacional MySQL. Além disso, também se encontram realizados com o resultado final por satisfazer as necessidades reais do cliente e para o futuro e expansão de sua empresa. 
+Além disso, após o último encontro com o cliente, no qual foi lhe mostrado a versão final do site, pode-se concluir que a sua aceitação foi alta em relação ao sistema em todo, tanto por parte das funcionalidades quanto pelo design das interfaces. A divisão entre os serviços e produtos, as funcionalidades de agendar o serviço por whatsapp e reservar compra pelo cliente, e as de agendar serviço e cadastrar produto/serviço pelo funcionário agradaram bastante o cliente, sendo caracterizadas, por ele, como de alta importância para o sistema comercial da oficina. Em meio a isso, chegou-se a conclusão que quaisquer mudanças necessárias serão identificadas apenas em momentos posteriores após o uso diário do sistema, e que sua versão entregue conseguiu satisfazer as necessidades reais do cliente e para o futuro e expansão de sua empresa.     
 
 # APÊNDICES
 
