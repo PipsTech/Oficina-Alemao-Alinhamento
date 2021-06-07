@@ -1,6 +1,6 @@
-html,body{
-  height: 100%;
-} 
+html, body {
+  height:100%;
+}
 
 body, ul, li, p{
   margin: 0px;
@@ -17,6 +17,7 @@ a {
 
 .header {
   background: #000000;
+  height: 30%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -48,8 +49,8 @@ a {
 .lines{
 font-size: 20px;
 background: -webkit-linear-gradient(left, rgb(233, 71, 7), #f7bd00);
-padding: 5px;
-margin-left: 535px;
+padding: 15px;
+align-content: center;
 
 border-width: 2px 2px 2px 2px; 
 border-style: groove;

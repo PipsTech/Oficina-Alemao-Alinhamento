@@ -1,7 +1,3 @@
-html, body {
-    height:100%;
-}
-
 .nav-brand{
     margin-left: -60px;
     font-size: 35px;
@@ -31,7 +27,7 @@ html, body {
     margin-left: 15px;
     margin-right: 15px;
     
-    border-width: 3px 3px 3px 3px; 
+    border-width: 10px 3px 3px 3px; 
     border-style: groove;
     border-color: black;
     border-radius: 35px;
@@ -44,29 +40,10 @@ html, body {
 .pagination {
     margin-top: 20px;
 }
-
 footer {
     background: #000000;
+    padding: 40px;
 }
-
 footer h5, i {
     color: gold
-}
-
-.table-style .today {
-    background: #2A3F54; color: gold;
-}
-
-.table-style th:nth-of-type(7),td:nth-of-type(7) {
-    color: rgb(15, 15, 197);
-}
-
-.table-style th:nth-of-type(1),td:nth-of-type(1) {
-    color: rgb(199, 13, 13);
-}
-
-.table-style tr:first-child th{
-    background-color:#F6F6F6; 
-    text-align:center; 
-    font-size: 15px;
 }
