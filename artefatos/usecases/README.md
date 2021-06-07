@@ -24,4 +24,4 @@
 
 * UC 12-FinalizarCompra.md - Essa funcionalidade refere-se a finalização dos processos de venda.
 
-* UC 13-FinalizarServiço.md - Essa funcionalidade refere-se a finalização dos processos de prestação de serviço.
+* UC 13-FinalizarServico.md - Essa funcionalidade refere-se a finalização dos processos de prestação de serviço.
