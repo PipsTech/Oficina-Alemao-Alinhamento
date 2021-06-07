@@ -56,7 +56,7 @@ As partes interessadas no projeto se subdividem em dois grupos distintos, os usu
 
 Diante da problemática apresentada pelo projeto, este trabalho objetiva a criação de um sistema web que possa providenciar a Alemão Alinhamento um espaço para realizar seus trabalhos de venda e de agendamento de serviços de uma forma prática online e também divulgar seu negócio por meio deste.
 
-* Os requisitos funcionais do site são:
+* Os Requisitos Funcionais do site são:
 
       1) Deve ser possível que o cliente consiga se cadastrar no sistema como cliente ao entrar neste. 
 
@@ -89,6 +89,16 @@ Diante da problemática apresentada pelo projeto, este trabalho objetiva a cria�
       15) Os usuário funcionário devem ser capazes de realizarem consultas na agenda eletrônica.	
       
       16) Deve haver no sistema uma forma dos clientes entrarem em contato diretamente com a equipe da Alemão Alinhamento por meio do WhatsApp ou email.    
+
+* Os Requisitos Não Funcionais do site são:
+
+      | ID | Descrição do Requisito | Prioridade | Complexidade |
+
+      | 1 | O sistema deve estar na disponível na internet por 24h todos os dias da semana | alta | média |
+      | 2 | O sistema deve ser fácil de se utilizar para diversos tipos e perfis de usuários, fazendo que o usuário consiga se cadastrar e finalizar um processo de compra em menos de 10 clicks| alta | baixa |
+      | 3 | O sistema deve entregar respostas em até 30 segundos às requisições dos usuários |média | média |
+      | 4 | O sistema deve suportar até 100 requisições simultanêas | baixa | média |
+      | 5 | O sistema deve armazenar o nome do cliente em dois campos distintos( nome e sobrenome) | baixa | baixa |
 
 ## 4. Projeto da Solução
 
