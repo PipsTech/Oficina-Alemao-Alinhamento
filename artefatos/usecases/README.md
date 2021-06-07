@@ -22,4 +22,4 @@
 
 * UC 11-ReservarCompra.md - Essa funcionalidade refere-se ao sistema de reservar a compra do site.
 
-* UC 12-FinalizarCompra.md - Essa funcionalidade refere-se a finalização dos processos de venda e de prestação de serviços.
+* UC 12-FinalizarCompra.md - Essa funcionalidade refere-se a finalização dos processos de venda.
