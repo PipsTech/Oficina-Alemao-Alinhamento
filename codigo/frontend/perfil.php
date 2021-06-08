@@ -19,7 +19,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 
-    <nav class="navbar navbar-expand-md" style="margin-bottom: 80px;">
+    <nav class="navbar navbar-expand-md" style="margin-bottom: 40px;">
         <div class="container">
             <a class="nav-brand" href="./home.php">Oficina Alemão Alinhamento</a>
 
@@ -143,7 +143,7 @@
 
 
 
-    <footer class="text-light" style="margin-top: 80px; height: 350px">
+    <footer class="text-light" style="margin-top: 40px; height: 350px">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-lg-4 col-xl-3">
@@ -155,12 +155,12 @@
                 </div>
 
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
-                    <h5>Mídias Sociais</h5>
+                <h5>Mais</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <ul class="list-unstyled">
-                        <li><a href="">Whatsapp</a></li>
-                        <li><a href="">Google</a></li>
-                        <li><a href="">Facebook</a></li>
+                        <li><a href="./servicos.php">Serviços</a></li>
+                        <li><a href="./produtos.php">Produtos</a></li>
+                        <li><a href="./QuemSomos.php">Quem Somos</a></li>
                     </ul>
                 </div>
 

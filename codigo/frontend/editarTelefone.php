@@ -100,12 +100,12 @@
                 </div>
     
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
-                    <h5>Mídias Sociais</h5>
+                  <h5>Mais</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <ul class="list-unstyled">
-                        <li><a href="">Whatsapp</a></li>
-                        <li><a href="">Google</a></li>
-                        <li><a href="">Facebook</a></li>
+                        <li><a href="./servicos.php">Serviços</a></li>
+                        <li><a href="./produtos.php">Produtos</a></li>
+                        <li><a href="./QuemSomos.php">Quem Somos</a></li>
                     </ul>
                 </div>
     
