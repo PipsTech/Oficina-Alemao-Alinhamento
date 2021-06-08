@@ -18,7 +18,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 
-    <nav class="navbar navbar-expand-md">
+    <nav class="navbar navbar-expand-md" >
         <div class="container">
             <a class="nav-brand" href="./homeFun.php">Oficina Alemão Alinhamento</a>
 
@@ -26,13 +26,13 @@
                 <ul class="navbar-nav m-auto">
 
                     <li class="nav-item">
-                        <a class="nav-link" href="./cadastraServico.php">Cadastro-Serviço</a>
+                        <a class="nav-link" href="./cadastraServico.php">Serviços</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./cadastroProduto.php">Cadastro-Produto</a>
+                        <a class="nav-link" href="./cadastroProduto.php">Cadastro Produto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./agendaEletronica.php">Agenda Eletrônica</a>
+                        <a class="nav-link" href="./agendaEletronica.php">Calendário</a>
                     </li>
                 </ul>
 
@@ -51,10 +51,14 @@
 
     <div class="container">
         <p></p>
+        <a class="btn btn-lg btn-block btn-outline-danger text-uppercase" href="./pendentes.php" style="border-width: 1px 1px 1px 1px; border-style: groove; border-color: red; border-radius: 5px;">Filtrar por Pendentes</a>
+        <p></p>
+        <a class="btn btn-lg btn-block btn-outline-sucess text-uppercase" href="./fechadas.php" style="border-width: 1px 1px 1px 1px; border-style: groove; border-color: green; border-radius: 5px;">Filtrar por Fechados</a>
+        <p></p>
         <div class="row">
             <div class="col">
                 <nav aria-label="breadcrumb">
-                    <ol class="text-center" style="background: -webkit-linear-gradient(left, rgb(233, 71, 7), #f7bd00);">
+                    <ol class="text-center">
                         Vendas
                     </ol>
                 </nav>
@@ -66,11 +70,47 @@
         <div class="col">
             <div class="row">
                 <?php
-                ob_start();
-                require "../backend/Carrinho.php";
-                ob_end_clean();
-                $obj = new Carrinho();
-                echo $obj->printVendas();
+                 ob_start();
+                 require "../backend/Carrinho.php";
+                 ob_end_clean();
+                 $obj = new Carrinho();
+                $a = $obj->printVendas();
+                echo $a;
+                ?>
+              
+
+                <div class="col-12">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <nav aria-label="breadcrumb">
+                                    <ol class="text-center">
+                                        Serviços Agendados
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+
+
+    </div>
+    <div class="container">
+        <div class="col">
+            <div class="row">
+                
+            <?php
+                 ob_start();
+                 require "../backend/Calendario.php";
+                 ob_end_clean();
+                 $obj = new Calendario();
+                $a = $obj->printSerAgendados();
+                echo $a;
                 ?>
 
                 <div class="col-12">
@@ -80,58 +120,29 @@
         </div>
 
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <nav aria-label="breadcrumb">
-                    <ol class="text-center" style="background: -webkit-linear-gradient(left, rgb(233, 71, 7), #f7bd00);">
-                        Serviços Registrados
-                    </ol>
-                </nav>
-            </div>
-        </div>
-    </div>
 
-
-    </div>
-    <div class="container">
-        <div class="col">
-            <div class="row">
-                
-                <div class="col-12">
-                    <p></p>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <footer class="text-light">
+    <footer class="text-light" >
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-lg-4 col-xl-3">
-                    <p></p>
                     <h5>Slogan</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <p class="mb-0">
-                        <img class="card-img-top" src="../fotos/slogan.jfif" alt="Card image cap" style="border-radius: 20px;">
+                        <img class="card-img-top" src="/fotos/slogan.jfif" alt="Card image cap" style="border-radius: 20px;">
                     </p>
                 </div>
 
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
-                    <p></p>
-                    <h5 style="font-size: 20px; color: gold;">Mais</h5>
+                    <h5>Mídias Sociais</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <ul class="list-unstyled">
-                        <li><a href="./cadastroProduto.php">Cadastro do Produto</a></li>
-                        <li><a href="./cadastraServico.php">Cadastro do Serviço</a></li>
-                        <li><a href="./agendaEletronica.php">Agenda Eletrônica</a></li>
-
+                        <li><a href="">Whatsapp</a></li>
+                        <li><a href="">Google</a></li>
+                        <li><a href="">Facebook</a></li>
                     </ul>
                 </div>
 
                 <div class="col-md-4 col-lg-3 col-xl-3">
-                    <p></p>
                     <h5>Infos</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <ul class="list-unstyled">
