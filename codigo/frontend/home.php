@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <title>Oficina Alemão Alinhamento</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,204 +11,134 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/2e1a878a13.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
+</head>
+
+<body>
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-   
-        <nav class="navbar navbar-expand-md">
-            <div class="container">
-                <a class="nav-brand" href="./home.php">Oficina Alemão Alinhamento</a>
-        
-                <div class="collapse navbar-collapse">
-                    <ul class="navbar-nav m-auto">
-                       
-                        <li class="nav-item">
-                            <a class="nav-link" href="./servicos.php">Serviços</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./produtos.php">Produtos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./QuemSomos.php">QuemSomos</a>
-                        </li>
-                    </ul>
-        
-                    <form class="form-inline my-2 my-lg-0">
+
+    <nav class="navbar navbar-expand-md">
+        <div class="container">
+            <a class="nav-brand" href="./home.php">Oficina Alemão Alinhamento</a>
+
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav m-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./servicos.php">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./produtos.php">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./QuemSomos.php">QuemSomos</a>
+                    </li>
+                </ul>
+
+                <form class="form-inline my-2 my-lg-0">
                     <?php
                     ob_start();
                     require "../backend/Autentica_loginCliente.php";
                     ob_end_clean();
                     echo $obj->alteraHeader();
                     ?>
-        
-                        <a class="btn btn-sm ml-3" href="./carrinho.php" style="margin-right:20px;">
-                            <i class="fa fa-shopping-cart fa-2x"></i> 
-                        </a>
-                    </form>
-                </div>
-            </div>
-        </nav>
-      
 
-        <div class="container">
-            <p></p>
-            <div class="row">
-                <div class="col">
-                    <nav aria-label="breadcrumb">
-                        <ol class="text-center" style="background: -webkit-linear-gradient(left, rgb(233, 71, 7), #f7bd00);">
-                            Produtos
-                        </ol>
-                    </nav>
-                </div>
+                    <a class="btn btn-sm ml-3" href="./carrinho.php" style="margin-right:20px;">
+                        <i class="fa fa-shopping-cart fa-2x"></i>
+                    </a>
+                </form>
             </div>
         </div>
+    </nav>
 
     <div class="container">
+        <p></p>
+        <div class="row">
             <div class="col">
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="card-img-top" src="../fotos/bateria.jfif" alt="Card image cap" style="width: 338px; height: 300px;">
-                            <div class="card-body">
-                                <h4 class="card-title"><a href="product.html" title="View Product">Bateria</a></h4>
-                                <p class="card-text">Descrição a definir</p>
-                                <div class="row">
-                                    <div class="col">
-                                        <p class="btn btn-outline-danger btn-block">R$280,00</p>
-                                    </div>
-                                    <div class="col">
-                                        <a href="#" class="btn btn-outline-success btn-block">Adicionar ao carrinho</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="card-img-top" src="../fotos/oleo.webp" alt="Card image cap" style="width: 338px; height: 300px;">
-                            <div class="card-body">
-                                <h4 class="card-title"><a href="product.html" title="View Product">Óleo</a></h4>
-                                <p class="card-text">Descrição a definir</p>
-                                <div class="row">
-                                    <div class="col">
-                                        <p class="btn btn-outline-danger btn-block">R$109,00</p>
-                                    </div>
-                                    <div class="col">
-                                        <a href="#" class="btn btn-outline-success btn-block">Adicionar ao carrinho</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="card-img-top" src="../fotos/pastilha de freio.jfif" alt="Card image cap" style="width: 338px; height: 300px;">
-                            <div class="card-body">
-                                <h4 class="card-title"><a href="product.html" title="View Product">Pastilha de Freio</a></h4>
-                                <p class="card-text">Descrição a definir</p>
-                                <div class="row">
-                                    <div class="col">
-                                        <p class="btn btn-outline-danger btn-block">R$125,00</p>
-                                    </div>
-                                    <div class="col">
-                                        <a href="#" class="btn btn-outline-success btn-block">Adicionar ao carrinho</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p></p>
-                    </div>
-                    
-                    <div class="container">
-                        <div class="row">
-                            <div class="col">
-                                <nav aria-label="breadcrumb">
-                                    <ol class="text-center" style="background: -webkit-linear-gradient(left, rgb(233, 71, 7), #f7bd00);">
-                                        Serviços
-                                    </ol>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
+                <nav aria-label="breadcrumb">
+                    <ol class="text-center" style="background: -webkit-linear-gradient(left, rgb(233, 71, 7), #f7bd00);">
+                        Nossos Produtos
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col">
+            <div class="row">
+                <?php
 
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="card-img-top" src="../fotos/alinhamento.jfif" alt="Card image cap" style="width: 338px; height: 300px;">
-                            <div class="card-body">
-                                <h4 class="card-title"><a href="product.html" title="View Product">Alinhamento</a></h4>
-                                <p class="card-text">Descrição a definir</p>
-                                <div class="row">
-                                    <div class="col">
-                                        <p class="btn btn-outline-danger btn-block">R$40,00</p>
-                                    </div>
-                                    <div class="col">
-                                        <a href="#" class="btn btn-outline-success btn-block">Adicionar ao carrinho</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="card-img-top" src="../fotos/balanceamento.jfif" alt="Card image cap" style="width: 338px; height: 300px;">
-                            <div class="card-body">
-                                <h4 class="card-title"><a href="product.html" title="View Product">Balanceamento</a></h4>
-                                <p class="card-text">Descrição a definir</p>
-                                <div class="row">
-                                    <div class="col">
-                                        <p class="btn btn-outline-danger btn-block">R$50,00</p>
-                                    </div>
-                                    <div class="col">
-                                        <a href="#" class="btn btn-outline-success btn-block">Adicionar ao carrinho</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="card-img-top" src="../fotos/troca de freio.jfif" alt="Card image cap" style="width: 338px; height: 300px;">
-                            <div class="card-body">
-                                <h4 class="card-title"><a href="product.html" title="View Product">Troca de freio</a></h4>
-                                <p class="card-text">Descrição a definir</p>
-                                <div class="row">
-                                    <div class="col">
-                                        <p class="btn btn-outline-danger btn-block">R$90,00</p>
-                                    </div>
-                                    <div class="col">
-                                        <a href="#" class="btn btn-outline-success btn-block">Adicionar ao carrinho</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <p></p>
-                    </div>
+                ob_start();
+                require "../backend/ControleProduto.php";
+                ob_end_clean();
+                $obj2 = new ControleProduto();
+                $a = $obj2->orgProduto();
+                echo $a;
+
+
+                ?>
+
+
+                <div class="col-12">
+                    <p></p>
                 </div>
             </div>
-    
         </div>
 
-        
+    </div>
+
+
+    <div class="container">
+        <p></p>
+        <div class="row">
+            <div class="col">
+                <nav aria-label="breadcrumb">
+                    <ol class="text-center" style="background: -webkit-linear-gradient(left, rgb(233, 71, 7), #f7bd00);">
+                        Nossos Serviços
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col">
+            <div class="row">
+                <?php
+
+                ob_start();
+                require "../backend/ControleFuncionario.php";
+                ob_end_clean();
+                $obj2 = new Funcionario();
+                $a = $obj2->orgServico();
+                echo $a;
+
+
+                ?>
+
+
+                <div class="col-12">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <footer class="text-light">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-lg-4 col-xl-3">
-                <p></p>
+                    <p></p>
                     <h5>Slogan</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <p class="mb-0">
                         <img class="card-img-top" src="../fotos/slogan.jfif" alt="Card image cap" style="border-radius: 20px;">
                     </p>
                 </div>
-    
+
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
-                <p></p>
+                    <p></p>
                     <h5>Mídias Sociais</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <ul class="list-unstyled">
@@ -216,9 +147,9 @@
                         <li><a href="">Facebook</a></li>
                     </ul>
                 </div>
-    
+
                 <div class="col-md-4 col-lg-3 col-xl-3">
-                <p></p>
+                    <p></p>
                     <h5>Infos</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <ul class="list-unstyled">
@@ -237,5 +168,6 @@
             </div>
         </div>
     </footer>
-  </body>
+</body>
+
 </html>
