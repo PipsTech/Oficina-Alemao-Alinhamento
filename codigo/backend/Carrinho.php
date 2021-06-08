@@ -196,6 +196,58 @@ $x = '</p>
     } 
     return $z;
    }
+    
+    function printCompra(){
+        $idc=$_COOKIE['id'];
+        $comando = "SELECT * FROM vendas WHERE Status_Reserva = TRUE and Id_Cliente = '$idc'";
+        $res = mysqli_query($this->con, $comando);
+        $array = array();
+        $i = 0;
+        while ($item = mysqli_fetch_array($res, MYSQLI_BOTH)) {
+            $array[$i] = $item;
+            $i++;
+        }
+        $tam = sizeof($array);
+        $z = "";
+        $a = '<div class="col-12 col-md-6 col-lg-4">
+        <p></p>
+        <div class="card">
+           <img class="card-img-top" src="data:image/jpeg;base64,';
+        $b = '" alt="Card image cap" style="width: 338px; height: 300px;">
+            <div class="card-body">
+                <h4 class="card-title">
+                <hr>
+             
+              </h4>
+    
+         <b><p class="card-text" style="font-family: Arial;text-align:justify">';
+        $c = '</p></b>
+        
+    </div>
+    </div>
+    </div>';
+        for ($i = 0; $i < $tam; $i++) {
+            $res = $array[$i];
+            $idp = $res['Id_Produto'];
+            $idc = $res['Id_Cliente'];
+            $idv = $res['Id_Venda'];
+            $preco = $res['Preco'];
+            $quant = $res['Quantidade'];
+
+            $comando2 = "SELECT Nome,foto_produto FROM produto WHERE Id_Produto = '$idp'";
+            $res2 = mysqli_query($this->con, $comando2);
+            $t = $res2->fetch_assoc();
+            $nomep = $t['Nome'];
+            $img = base64_encode($t['foto_produto']);
+            $comando4 = "SELECT * FROM agenda WHERE Id_Cliente = '$idc' AND Id_Venda = '$idv' ORDER BY Data_Agendamento AND Horario";
+            $res4 = mysqli_query($this->con, $comando4);
+            $aux = $res4->fetch_assoc();
+            $data = $aux['Data_Agendamento'];
+            $horario = $aux['Horario'];
+            $z = $z . $a . $img . $b . ' Sua compra de ' . $quant . ' unidades de ' . $nomep . ' por R$' . $preco . ' foi reservada para retirada na loja no horário de '. $horario .'  na data ' . $data . $c;
+        }
+        return $z;
+    }
 
    function printVendasFechadas(){
 
