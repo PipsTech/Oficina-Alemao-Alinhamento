@@ -18,7 +18,7 @@
    
         <nav class="navbar navbar-expand-md">
             <div class="container">
-                <a class="nav-brand" href="./homeFun.php">Oficina Alemão Alinhamento</a>
+                <a class="nav-brand" href="./home.php">Oficina Alemão Alinhamento</a>
         
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav m-auto">
@@ -46,7 +46,7 @@
             </div>
         </nav>
         <form action="../backend/resC.php?id=<?php echo $obj->getId();?>" method="POST" enctype="multipart/form-data">
-        <div class="container">   
+        <div class="container" style="margin-top: 5px;">   
         <div class="row">
             <div class="col-12">
                 <div class="form-group">
@@ -78,7 +78,7 @@
         </form>
     </div>
  
-    <footer class="text-light" >
+    <footer class="text-light" style="height: 300px; margin-top: 10px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-lg-4 col-xl-3">

@@ -32,12 +32,15 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./cadastraServico.php">Cadastro-Serviço</a>
                     </li>
-                    <li class="nav-item" style="padding-left: 20px;">
+                    <li class="nav-item" style="padding-left: 10px;">
                         <a class="nav-link" href="./cadastroProduto.php">Cadastro-Produto</a>
+                    </li>
+                    <li class="nav-item" style="padding-left: 10px;">
+                        <a class="nav-link" href="./vendas.php">Vendas</a>
                     </li>
                 </ul>
 
-                <form class="form-inline my-2 my-lg-4" style="padding-left: 200px;">
+                <form class="form-inline my-2 my-lg-4" style="padding-left: 100px;">
                     <?php
                     ob_start();
                     require "../backend/Autentica_loginFuncionario.php";

@@ -54,7 +54,7 @@
             <div class="row">
                 <div class="col">
                     <nav aria-label="breadcrumb">
-                        <ol class="text-center">
+                        <ol class="text-center" style="background: -webkit-linear-gradient(left, rgb(233, 71, 7), #f7bd00);">
                             Nossos Produtos
                         </ol>
                     </nav>

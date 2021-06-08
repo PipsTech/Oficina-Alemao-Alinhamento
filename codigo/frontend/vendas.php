@@ -22,7 +22,7 @@
         <div class="container">
             <a class="nav-brand" href="./homeFun.php">Oficina Alemão Alinhamento</a>
 
-            <div class="collapse navbar-collapse" style="padding-left: 40px">
+            <div class="collapse navbar-collapse">
                 <ul class="navbar-nav m-auto">
 
                     <li class="nav-item">
@@ -34,20 +34,17 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./agendaEletronica.php">Agenda Eletrônica</a>
                     </li>
-                    <li class="nav-item" style="margin-right: 10px;">
-                        <a class="nav-link" href="./vendas.php">Vendas</a>
-                    </li>
                 </ul>
-            </div>
 
-            <form class="form-inline my-2 my-lg-0" style="padding-left: 50px;">
+                <form class="form-inline my-2 my-lg-0">
                     <?php
                     ob_start();
                     require "../backend/Autentica_loginFuncionario.php";
                     ob_end_clean();
                     echo $obj->alteraHeader();
                     ?>
-            </form>
+                </form>
+            </div>
         </div>
     </nav>
 
@@ -58,7 +55,7 @@
             <div class="col">
                 <nav aria-label="breadcrumb">
                     <ol class="text-center" style="background: -webkit-linear-gradient(left, rgb(233, 71, 7), #f7bd00);">
-                        Produtos Registrados
+                        Vendas
                     </ol>
                 </nav>
             </div>
@@ -69,10 +66,12 @@
         <div class="col">
             <div class="row">
                 <?php
-                $a = $obj->orgProdFun();
-                echo $a;
+                ob_start();
+                require "../backend/Carrinho.php";
+                ob_end_clean();
+                $obj = new Carrinho();
+                echo $obj->printVendas();
                 ?>
-
 
                 <div class="col-12">
                     <p></p>
@@ -98,11 +97,7 @@
     <div class="container">
         <div class="col">
             <div class="row">
-                <?php
-                $a = $obj->orgSerFun();
-                echo $a;
-                ?>
-
+                
                 <div class="col-12">
                     <p></p>
                 </div>
