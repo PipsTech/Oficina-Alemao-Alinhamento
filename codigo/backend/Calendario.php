@@ -75,7 +75,7 @@ class Calendario{
     }   
 
     function getAgendamentos($data){
-        $comando = "SELECT * FROM agenda WHERE Data_Agendamento = '$data'";
+        $comando = "SELECT * FROM agenda WHERE Data_Agendamento = '$data' ORDER BY Horario";
         $res = mysqli_query($this->con,$comando);
         $array = array();
         $i =0;
@@ -86,11 +86,12 @@ class Calendario{
         }
         $tam = sizeof($array);
                 $z="";
-                    $a ="<div><h1>Agendamentos do Dia ";$g=" </h1>"; 
+                    $a ="<div><h1>Agendamentos do Dia ";$g=" </h1></div>"; 
                     $a = $a.$data.$g;
-                    $b ="<a href='editarAgendamento.php?id=";$h="'><p>O cliente ";
+                    $b ="<div><a href='editarAgendamento.php?id=";$h="'><p>O cliente ";
                     $c=" tem o serviço ";$d=" agendado para ";$e=" no preço de ";$f=" por meio de ";$j="</p></a></div>";  
-                    
+                    $r ="<div><p>O cliente ";
+                    $q = "</p></div>"; 
                     if($array == null){
                         $g ="<p> Não possui agendamentos</p></div>" ;
                         return $a.$g;
@@ -131,13 +132,229 @@ class Calendario{
                             $res5 = mysqli_query($this->con,$comando5);
                             $t = $res5->fetch_assoc();
                             $nomep = $t['Nome'];
-                            $z = $z.$b.$h.$nomeCli." tem a retirada do produto ".$nomep." prevista para ".$hora.$e.$preco1.$f.$forma.$j;
+                            $z = $z.$r.$nomeCli." tem a retirada do produto ".$nomep." prevista para ".$hora.$e.$preco1.$f.$forma.$q;
 
                         }
                     } 
                     return $a.$z;
 
     }
+
+    function printSerAgendados(){
+
+          
+    $comando = "SELECT * FROM agenda WHERE Id_Anuncio != 0 ORDER BY Data_Agendamento";
+    $res = mysqli_query($this->con,$comando);
+    $array = array();
+    $i =0;
+    while ($item = mysqli_fetch_array($res, MYSQLI_BOTH)){
+        $array[$i] = $item;
+        $i++;
+    }
+    $tam = sizeof($array);
+    $z = "";
+    $a = '<div class="col-12 col-md-6 col-lg-4">
+    <div class="card">
+       <img class="card-img-top" src="data:image/jpeg;base64,';
+       $b ='" alt="Card image cap" style="width: 338px; height: 300px;">
+        <div class="card-body">
+            <h4 class="card-title">
+         
+         
+          </h4>
+
+     <p class="card-text">';
+    $c = '</p>
+    <div class="row">
+        <div class="col">
+            <a href="../backend/finalizaServico.php?id=';$d='" class="btn btn-outline-success btn-block">Finalizar</a>
+        </div>
+    </div>
+</div>
+</div>
+</div>';
+$x = '</p>
+<div class="row">
+</div>
+</div>
+</div>
+</div>';
+    for($i = 0;$i< $tam;$i++){
+        $res = $array[$i];
+        $ids = $res['Id_Anuncio'];
+        $idc = $res['Id_Cliente'];
+        $id = $res['Id_Agendamento'];
+        $preco = $res['Preço'];
+        
+        $comando2 = "SELECT Titulo,Imagem FROM anuncio_serviço WHERE Id_Anuncio = '$ids'";
+        $res2 = mysqli_query($this->con,$comando2);
+        $t = $res2->fetch_assoc();
+        $nomes = $t['Titulo'];
+        $img = base64_encode($t['Imagem']);
+        $comando3 = "SELECT Nome FROM cliente WHERE Id_Cliente = '$idc'";
+        $res3 = mysqli_query($this->con,$comando3);
+        $ax = $res3->fetch_assoc();
+        $nomec = $ax['Nome'];
+        $comando4 = "SELECT Data_Agendamento,Status_Prestação FROM agenda WHERE Id_Cliente = '$idc' AND Id_Anuncio = '$ids'";
+        $res4 = mysqli_query($this->con,$comando4);
+        $aux = $res4->fetch_assoc();
+        $data = $aux['Data_Agendamento'];
+        $status = $aux['Status_Prestação'];
+            if($status){
+
+                $z = $z.$a.$img.$b.' O cliente '.$nomec.' agendou '.$nomes.' por '.$preco.'  na data '.$data.$x;
+                }
+            else{
+           $z = $z.$a.$img.$b.' O cliente '.$nomec.' agendou '.$nomes.' por '.$preco.'  na data '.$data.$c.$id.$d;
+            }
+
+    } 
+    return $z;
+    }
+
+    function printSerFechados(){
+
+          
+        $comando = "SELECT * FROM agenda WHERE Id_Anuncio != 0 AND Status_Prestação = TRUE ORDER BY Data_Agendamento";
+        $res = mysqli_query($this->con,$comando);
+        $array = array();
+        $i =0;
+        while ($item = mysqli_fetch_array($res, MYSQLI_BOTH)){
+            $array[$i] = $item;
+            $i++;
+        }
+        $tam = sizeof($array);
+        $z = "";
+        $a = '<div class="col-12 col-md-6 col-lg-4">
+        <div class="card">
+           <img class="card-img-top" src="data:image/jpeg;base64,';
+           $b ='" alt="Card image cap" style="width: 338px; height: 300px;">
+            <div class="card-body">
+                <h4 class="card-title">
+             
+             
+              </h4>
+    
+         <p class="card-text">';
+        $c = '</p>
+        <div class="row">
+            <div class="col">
+                <a href="../backend/finalizaServico.php?id=';$d='" class="btn btn-outline-success btn-block">Finalizar</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>';
+    $x = '</p>
+    <div class="row">
+    </div>
+    </div>
+    </div>
+    </div>';
+        for($i = 0;$i< $tam;$i++){
+            $res = $array[$i];
+            $ids = $res['Id_Anuncio'];
+            $idc = $res['Id_Cliente'];
+            $id = $res['Id_Agendamento'];
+            $preco = $res['Preço'];
+            
+            $comando2 = "SELECT Titulo,Imagem FROM anuncio_serviço WHERE Id_Anuncio = '$ids'";
+            $res2 = mysqli_query($this->con,$comando2);
+            $t = $res2->fetch_assoc();
+            $nomes = $t['Titulo'];
+            $img = base64_encode($t['Imagem']);
+            $comando3 = "SELECT Nome FROM cliente WHERE Id_Cliente = '$idc'";
+            $res3 = mysqli_query($this->con,$comando3);
+            $ax = $res3->fetch_assoc();
+            $nomec = $ax['Nome'];
+            $comando4 = "SELECT Data_Agendamento,Status_Prestação FROM agenda WHERE Id_Cliente = '$idc' AND Id_Anuncio = '$ids'";
+            $res4 = mysqli_query($this->con,$comando4);
+            $aux = $res4->fetch_assoc();
+            $data = $aux['Data_Agendamento'];
+            $status = $aux['Status_Prestação'];
+            if($status){
+
+                $z = $z.$a.$img.$b.' O cliente '.$nomec.' agendou '.$nomes.' por '.$preco.'  na data '.$data.$x;
+                }
+            else{
+           $z = $z.$a.$img.$b.' O cliente '.$nomec.' agendou '.$nomes.' por '.$preco.'  na data '.$data.$c.$id.$d;
+            }
+    
+        } 
+        return $z;
+        }
+
+        function printSerAbertos(){
+
+          
+            $comando = "SELECT * FROM agenda WHERE Id_Anuncio != 0 AND Status_Prestação = FALSE ORDER BY Data_Agendamento";
+            $res = mysqli_query($this->con,$comando);
+            $array = array();
+            $i =0;
+            while ($item = mysqli_fetch_array($res, MYSQLI_BOTH)){
+                $array[$i] = $item;
+                $i++;
+            }
+            $tam = sizeof($array);
+            $z = "";
+            $a = '<div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+               <img class="card-img-top" src="data:image/jpeg;base64,';
+               $b ='" alt="Card image cap" style="width: 338px; height: 300px;">
+                <div class="card-body">
+                    <h4 class="card-title">
+                 
+                 
+                  </h4>
+        
+             <p class="card-text">';
+            $c = '</p>
+            <div class="row">
+                <div class="col">
+                    <a href="finalizaServico.php?id=';$d='" class="btn btn-outline-success btn-block">Finalizar</a>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>';
+        $x = '</p>
+<div class="row">
+</div>
+</div>
+</div>
+</div>';
+            for($i = 0;$i< $tam;$i++){
+                $res = $array[$i];
+                $ids = $res['Id_Anuncio'];
+                $id = $res['Id_Agendamento'];
+                $idc = $res['Id_Cliente'];
+                $preco = $res['Preço'];
+                
+                $comando2 = "SELECT Titulo,Imagem FROM anuncio_serviço WHERE Id_Anuncio = '$ids'";
+                $res2 = mysqli_query($this->con,$comando2);
+                $t = $res2->fetch_assoc();
+                $nomes = $t['Titulo'];
+                $img = base64_encode($t['Imagem']);
+                $comando3 = "SELECT Nome FROM cliente WHERE Id_Cliente = '$idc'";
+                $res3 = mysqli_query($this->con,$comando3);
+                $ax = $res3->fetch_assoc();
+                $nomec = $ax['Nome'];
+                $comando4 = "SELECT Data_Agendamento,Status_Prestação FROM agenda WHERE Id_Cliente = '$idc' AND Id_Anuncio = '$ids'";
+                $res4 = mysqli_query($this->con,$comando4);
+                $aux = $res4->fetch_assoc();
+                $data = $aux['Data_Agendamento'];
+                $status = $aux['Status_Prestação'];
+                if($status){
+
+                    $z = $z.$a.$img.$b.' O cliente '.$nomec.' agendou '.$nomes.' por '.$preco.'  na data '.$data.$x;
+                    }
+                else{
+               $z = $z.$a.$img.$b.' O cliente '.$nomec.' agendou '.$nomes.' por '.$preco.'  na data '.$data.$c.$id.$d;
+                }
+        
+            } 
+            return $z;
+            }
 
     function excluir($id){
         $fun = "DELETE FROM agenda WHERE Id_Agendamento = '$id'";
@@ -191,6 +408,38 @@ class Calendario{
         $fun = "UPDATE agenda SET FormaPagamento = '$forma' WHERE Id_Agendamento= '$id'";
         $res= mysqli_query($this->con, $fun);
 
+    }
+
+    function finalizaCompra($id){
+        $fun = "UPDATE agenda SET Status_Prestação = TRUE WHERE Id_Agendamento= '$id'";
+        $res= mysqli_query($this->con, $fun);
+        $comando = "SELECT Id_Venda FROM agenda WHERE Id_Agendamento = '$id'";
+        $res2 = mysqli_query($this->con,$comando);
+        $x = $res2->fetch_assoc();
+        $idv = $x['Id_Venda'];
+        $fun2 = "UPDATE vendas SET Status_Retirada = TRUE WHERE Id_Venda= '$idv'";
+        $res3= mysqli_query($this->con, $fun2);
+        $comando2 = "SELECT Id_Produto,Quantidade FROM vendas WHERE Id_Venda = '$idv'";
+        $res4 = mysqli_query($this->con,$comando2);
+        $z = $res4->fetch_assoc();
+        $idp = $z['Id_Produto'];
+        $quant = $z['Quantidade'];
+        $comando3 = "SELECT Quantidade FROM produto WHERE Id_Produto = '$idp'";
+        $res5 = mysqli_query($this->con,$comando3);
+        $y = $res5->fetch_assoc();
+        $quantVeia = $y['Quantidade'];
+        $quantNova= $quantVeia - $quant;
+        $fun3 = "UPDATE produto SET Quantidade = $quantNova WHERE Id_Produto= '$idp'";
+        $res6= mysqli_query($this->con, $fun3);
+
+    }
+
+    function finalizaServico($id){
+        //$fun = "INSERT INTO agenda (Status_Prestação) VALUES (TRUE)";
+        $fun = "UPDATE agenda SET Status_Prestação = TRUE WHERE Id_Agendamento= '$id'";
+        $res= mysqli_query($this->con, $fun);
+       header("Location: ../frontend/vendas.php");
+        
     }
     
     
