@@ -20,29 +20,24 @@
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 
-    <nav class="navbar navbar-expand-md">
+    <nav class="navbar navbar-expand-md" style="width: 103%">
         <div class="container">
-            <a class="nav-brand" href="./homeFun.php" style="font-size: 35px;">Oficina Alemão Alinhamento</a>
+            <a class="nav-brand" href="./homeFun.php">Oficina Alemão Alinhamento</a>
 
             <div class="collapse navbar-collapse">
-                <ul class="navbar-nav m-auto" style="padding-left: 100px;">
+                <ul class="navbar-nav m-auto">
 
                     <li class="nav-item">
-                        <a class="nav-link" href="./cadastraServico.php">Cadastro-Serviço</a>
+                        <a class="nav-link" href="serviços.html">Serviços</a>
                     </li>
-                    <li class="nav-item" style="padding-left: 20px;">
-                        <a class="nav-link" href="./cadastroProduto.php">Cadastro-Produto</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./QuemSomos.php">Calendario</a>
                     </li>
                 </ul>
-
-                <form class="form-inline my-2 my-lg-4" style="padding-left: 200px;">
-                    <?php
-                    ob_start();
-                    require "../backend/Autentica_loginFuncionario.php";
-                    ob_end_clean();
-                    echo $obj->alteraHeader();
-                    ?>
-                </form>
+                <a class="nav-link"  id="Gabriel" href="./logOutfuncionario.php"> LogOut <i class="fas fa-sign-out-alt"></i></a>
             </div>
         </div>
     </nav>
@@ -142,6 +137,23 @@
 
                                 <div class="col-md-12">
                                     <div class="form-group focused">
+                                      
+                                        
+                                        <?php
+                                            $status = $aux['Status_Prestação'];
+                                            if(!$status){
+
+                                                echo $a='  <label class="form-control-label" for="input-email">Finalizar Serviço</label><a href="../backend/finalizaServico.php?id='.$id.'" class="btn btn-success" style="padding: 2px;">Finalizar
+                                                </a>';
+                                            }
+
+                                        ?>
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group focused">
                                         <label class="form-control-label" for="input-email">Forma de Pagamento  -
                                             <?php
                                                 
@@ -176,14 +188,15 @@
 
     <p></p>
 
-    <footer class="text-light" style="width: 100%; height: 390px;">
+
+    <footer class="text-light" style="width: 103%">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-lg-4 col-xl-3">
                     <h5>Slogan</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <p class="mb-0">
-                        <img class="card-img-top" src="../fotos/slogan.jfif" alt="Card image cap"
+                        <img class="card-img-top" src="/fotos/slogan.jfif" alt="Card image cap"
                             style="border-radius: 20px;">
                     </p>
                 </div>
