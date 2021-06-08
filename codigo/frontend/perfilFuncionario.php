@@ -20,7 +20,7 @@
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 
-    <nav class="navbar navbar-expand-md" style="margin-bottom: 80px; width: 103%">
+    <nav class="navbar navbar-expand-md" style="margin-bottom: 40px; width: 103%">
         <div class="container">
             <a class="nav-brand" href="./homeFun.php">Oficina Alemão Alinhamento</a>
 
@@ -143,7 +143,7 @@
     <p></p>
 
 
-    <footer class="text-light" style="margin-top: 80px; width: 103%; height: 350px">
+    <footer class="text-light" style="margin-top: 40px; width: 103%; height: 350px">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-lg-4 col-xl-3">
