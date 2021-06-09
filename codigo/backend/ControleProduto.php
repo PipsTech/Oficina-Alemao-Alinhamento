@@ -40,7 +40,7 @@ class ControleProduto{
         $tam = sizeof($array);
                     $d = "";
                     $x = '<div class="col-12 col-md-6 col-lg-4">
-                    <div class="card">
+                    <p></p><div class="card">
                        <img class="card-img-top" src="data:image/jpeg;base64,';
                        $g ='" alt="Card image cap" style="width: 338px; height: 300px;">
                         <div class="card-body">
@@ -55,7 +55,6 @@ class ControleProduto{
                           <input type="submit"class="form-submit-button btn-info "style="width= 50px;" onclick="getId';$jorge='()" id="';$y='" value="';$o='" >
                          
                           </h4>
-
                      <p class="card-text">';
                      $z = '</p>
                      </div>
@@ -69,7 +68,7 @@ class ControleProduto{
                     $w= '</p>
                     <div class="row">
                         <div class="col">
-                            <p class="btn btn-outline-danger btn-block">';             
+                            <p class="btn btn-outline-danger btn-block">R$';             
                     for($i = 0;$i< $tam;$i++){
                         $res = $array[$i];
                         $img = base64_encode($res['foto_produto']);
@@ -95,7 +94,7 @@ class ControleProduto{
         $tam = sizeof($array);
         $d = "";
         $x = '<div class="col-12 col-md-6 col-lg-4">
-        <div class="card">
+        <p></p><div class="card">
            <img class="card-img-top" src="data:image/jpeg;base64,';
            $g ='" alt="Card image cap" style="width: 338px; height: 300px;">
             <div class="card-body">
@@ -117,7 +116,6 @@ class ControleProduto{
               <input type="submit"class="form-submit-button btn-info "style="width= 50px;" onclick="getId';$jorge='()" id="';$y='" value="';$o='" >
              
               </h4>
-
          <p class="card-text">';
         $w = '</p>
         <div class="row">

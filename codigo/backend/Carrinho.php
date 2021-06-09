@@ -316,9 +316,9 @@ class Carrinho
             $id = $aux['Id_Agendamento'];
             if ($status) {
 
-                $z = $z . $a . $img . $b . ' O cliente ' . $nomec . ' compra ' . $quant . ' unidades de ' . $nomep . ' por ' . $preco . '  na data ' . $data . $x;
+                $z = $z . $a . $img . $b . ' O cliente ' . $nomec . ' comprou ' . $quant . ' unidades de ' . $nomep . ' por R$' . $preco . '  na data ' . $data . $x;
             } else {
-                $z = $z . $a . $img . $b . ' O cliente ' . $nomec . ' compra ' . $quant . ' unidades de ' . $nomep . ' por ' . $preco . '  na data ' . $data . $c . $id . $d;
+                $z = $z . $a . $img . $b . ' O cliente ' . $nomec . ' comprou ' . $quant . ' unidades de ' . $nomep . ' por R$' . $preco . '  na data ' . $data . $c . $id . $d;
             }
         }
         return $z;
@@ -380,7 +380,7 @@ class Carrinho
             $res4 = mysqli_query($this->con, $comando4);
             $aux = $res4->fetch_assoc();
             $data = $aux['Data_Agendamento'];
-            $z = $z . $a . $img . $b . ' O cliente ' . $nomec . ' compra ' . $quant . ' unidades de ' . $nomep . ' por ' . $preco . '  na data ' . $data . $c;
+            $z = $z . $a . $img . $b . ' O cliente ' . $nomec . ' comprou ' . $quant . ' unidades de ' . $nomep . ' por R$' . $preco . '  na data ' . $data . $c;
         }
         return $z;
     }
@@ -451,9 +451,9 @@ class Carrinho
             $id = $aux['Id_Agendamento'];
             if ($status) {
 
-                $z = $z . $a . $img . $b . ' O cliente ' . $nomec . ' compra ' . $quant . ' unidades de ' . $nomep . ' por ' . $preco . '  na data ' . $data . $x;
+                $z = $z . $a . $img . $b . ' O cliente ' . $nomec . ' comprou ' . $quant . ' unidades de ' . $nomep . ' por R$' . $preco . '  na data ' . $data . $x;
             } else {
-                $z = $z . $a . $img . $b . ' O cliente ' . $nomec . ' compra ' . $quant . ' unidades de ' . $nomep . ' por ' . $preco . '  na data ' . $data . $c . $id . $d;
+                $z = $z . $a . $img . $b . ' O cliente ' . $nomec . ' comprou ' . $quant . ' unidades de ' . $nomep . ' por R$' . $preco . '  na data ' . $data . $c . $id . $d;
             }
         }
         return $z;

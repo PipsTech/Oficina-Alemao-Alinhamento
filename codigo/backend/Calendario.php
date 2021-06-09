@@ -208,10 +208,10 @@ class Calendario{
             $status = $aux['Status_Prestação'];
                 if($status){
     
-                    $z = $z.$a.$img.$b.' O cliente '.$nomec.' agendou '.$nomes.' por '.$preco.'  na data '.$data.$x;
+                    $z = $z.$a.$img.$b.' O cliente '.$nomec.' agendou '.$nomes.' por R$'.$preco.'  na data '.$data.$x;
                     }
                 else{
-               $z = $z.$a.$img.$b.' O cliente '.$nomec.' agendou '.$nomes.' por '.$preco.'  na data '.$data.$c.$id.$d;
+               $z = $z.$a.$img.$b.' O cliente '.$nomec.' agendou '.$nomes.' por R$'.$preco.'  na data '.$data.$c.$id.$d;
                 }
     
         } 
@@ -283,10 +283,10 @@ class Calendario{
                 $status = $aux['Status_Prestação'];
                 if($status){
     
-                    $z = $z.$a.$img.$b.' O cliente '.$nomec.' agendou '.$nomes.' por '.$preco.'  na data '.$data.$x;
+                    $z = $z.$a.$img.$b.' O cliente '.$nomec.' agendou '.$nomes.' por R$'.$preco.'  na data '.$data.$x;
                     }
                 else{
-               $z = $z.$a.$img.$b.' O cliente '.$nomec.' agendou '.$nomes.' por '.$preco.'  na data '.$data.$c.$id.$d;
+               $z = $z.$a.$img.$b.' O cliente '.$nomec.' agendou '.$nomes.' por R$'.$preco.'  na data '.$data.$c.$id.$d;
                 }
         
             } 
@@ -355,10 +355,10 @@ class Calendario{
                     $status = $aux['Status_Prestação'];
                     if($status){
     
-                        $z = $z.$a.$img.$b.' O cliente '.$nomec.' agendou '.$nomes.' por '.$preco.'  na data '.$data.$x;
+                        $z = $z.$a.$img.$b.' O cliente '.$nomec.' agendou '.$nomes.' por R$'.$preco.'  na data '.$data.$x;
                         }
                     else{
-                   $z = $z.$a.$img.$b.' O cliente '.$nomec.' agendou '.$nomes.' por '.$preco.'  na data '.$data.$c.$id.$d;
+                   $z = $z.$a.$img.$b.' O cliente '.$nomec.' agendou '.$nomes.' por R$'.$preco.'  na data '.$data.$c.$id.$d;
                     }
             
                 } 
