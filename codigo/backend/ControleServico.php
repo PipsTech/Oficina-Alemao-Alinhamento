@@ -66,7 +66,7 @@ class ControleServico{
                      $z = '</p>
                      </div>
                      <div class="col">
-                         <a href="https://api.whatsapp.com/send?phone=553195281401&text=Ola%20Estou%20interessado%20na%20contratação%20do%20serviço%20de%20';$h='" class="btn btn-outline-success btn-block">Agendar Serviço</a>
+                         <a href="https://api.whatsapp.com/send?phone=553199283-3765&text=Olá!%20 Estou%20interessado%20na%20contratação%20do%20serviço%20de%20';$h='!" class="btn btn-outline-success btn-block">Agendar Serviço</a>
                                     </div>
                                     </div>
                                 </div>
