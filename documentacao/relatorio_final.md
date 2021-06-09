@@ -153,7 +153,9 @@ Durante o desenvolvimento do site, foram elaborados e utilizados como suporte pa
       ![VisualizarAgendamentosdeServiçonaAgendaEletronica](Imagens/VisualizarAgendamentosdeServiçonaAgendaEletronica.jpeg)
       
     * <b>Visualizar Carrinho:</b> Pagina dedicada a mostrar ao Cliente o que ele selecionou para realizar o pedido
-      ![VisualizarCarrinho](Imagens/VisualizarCarrinho.jpeg)
+      ![VisualizarCarrinho](Imagens/VisualizarCarrinho1.png)
+      ![VisualizarCarrinho](Imagens/VisualizarCarrinho2.png)
+
       
     * <b>Manter Perfil Cliente:</b> Pagina destinada ao Cliente para poder visualizar e alterar suas proprias informações
       ![VisualizarPerfilCliente](Imagens/VisualizarPerfilCliente.jpeg)
