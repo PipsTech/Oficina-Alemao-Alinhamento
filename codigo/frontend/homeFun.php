@@ -69,8 +69,11 @@
         <div class="col">
             <div class="row">
                 <?php
-                $a = $obj->orgProdFun();
-                echo $a;
+                ob_start();
+                require "../backend/ControleProduto.php";
+                ob_end_clean();
+                $obj2 = new ControleProduto();
+                echo $obj2->orgProdFun();
                 ?>
 
 
@@ -99,8 +102,11 @@
         <div class="col">
             <div class="row">
                 <?php
-                $a = $obj->orgSerFun();
-                echo $a;
+                 ob_start();
+                 require "../backend/ControleServico.php";
+                 ob_end_clean();
+                 $obj3 = new ControleServico();
+                 echo $obj3->orgSerFun();
                 ?>
 
                 <div class="col-12">

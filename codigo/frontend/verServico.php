@@ -61,9 +61,9 @@
                           <a href="" data-toggle="modal" data-target="#productModal">
                                 <img class="img-fluid"  style="width: 400px; height: 250px; "src="data:image/jpeg;base64,<?php
                                 ob_start();
-                                require "../backend/ControleFuncionario.php";
+                                require "../backend/ControleServico.php";
                                 ob_end_clean();
-                                $obj2 = new Funcionario();
+                                $obj2 = new ControleServico();
                                 if(isset($_COOKIE['Id_Anuncio'])){
                                 $idh = $_COOKIE['Id_Anuncio'];
                                 $aux = $obj2->veServico($idh);

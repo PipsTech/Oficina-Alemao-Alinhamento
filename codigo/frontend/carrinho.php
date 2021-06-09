@@ -135,9 +135,35 @@
 
     </div>
 
+    <div class="container" style="padding-top: 10px; padding-bottom: 10px;">
+        <p></p>
+        <div class="row">
+            <div class="col">
+             <nav aria-label="breadcrumb">
+                <ol class="text-center" style="background: -webkit-linear-gradient(left, rgb(233, 71, 7), #f7bd00);border-width: 3px 3px 3px 3px; border-style: groove; border-color: black; border-radius: 20px;">
+                     Serviços Agendados
+                </ol>
+             </nav>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="row">
+                <p></p>
+               
+                <?php
+                $obj4 = new Carrinho();
+                echo $obj4->printServico();
+                ?>
+
+                <p></p>
+            </div>
+        </div>
+
+    </div>
     
 
-    <footer class="text-light">
+    <footer class="text-light" style="margin-top: 40px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-lg-4 col-xl-3">

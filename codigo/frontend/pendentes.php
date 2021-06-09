@@ -25,14 +25,17 @@
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav m-auto">
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="./cadastraServico.php">Serviços</a>
+                <li class="nav-item">
+                        <a class="nav-link" href="./cadastraServico.php">Cadastro-Serviço</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./cadastroProduto.php">Cadastro Produto</a>
+                        <a class="nav-link" href="./cadastroProduto.php">Cadastro-Produto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./agendaEletronica.php">Calendário</a>
+                        <a class="nav-link" href="./agendaEletronica.php">Agenda Eletrônica</a>
+                    </li>
+                    <li class="nav-item" style="margin-right: 10px;">
+                        <a class="nav-link" href="./vendas.php">Vendas</a>
                     </li>
                 </ul>
 
@@ -51,13 +54,13 @@
 
     <div class="container">
         <p></p>
-        <a class="btn btn-lg btn-block btn-outline-sucess text-uppercase" href="./fechadas.php" style="border-width: 1px 1px 1px 1px; border-style: groove; border-color: green; border-radius: 5px;">Filtrar por Fechados</a>
+        <a class="btn btn-lg btn-block btn-outline-danger text-uppercase" href="./fechadas.php">Filtrar por Finalizados <i class="fas fa-check-circle" style="color:red"></i></a>
         <p></p>
         <div class="row">
             <div class="col">
                 <nav aria-label="breadcrumb">
-                    <ol class="text-center">
-                        Vendas
+                    <ol class="text-center" style="background: -webkit-linear-gradient(left, rgb(233, 71, 7), #f7bd00);">
+                        Vendas Pendentes
                     </ol>
                 </nav>
             </div>
@@ -71,9 +74,9 @@
                  ob_start();
                  require "../backend/Carrinho.php";
                  ob_end_clean();
-                 $obj = new Carrinho();
-                $a = $obj->printVendasAbertas();
-                echo $a;
+                 $obj2 = new Carrinho();
+                 $a = $obj2->printVendasAbertas();
+                 echo $a;
                 ?>
               
 
@@ -88,8 +91,8 @@
                         <div class="row">
                             <div class="col">
                                 <nav aria-label="breadcrumb">
-                                    <ol class="text-center">
-                                        Serviços Agendados
+                                    <ol class="text-center" style="background: -webkit-linear-gradient(left, rgb(233, 71, 7), #f7bd00);">
+                                        Serviços Pendentes
                                     </ol>
                                 </nav>
                             </div>
@@ -106,8 +109,8 @@
                  ob_start();
                  require "../backend/Calendario.php";
                  ob_end_clean();
-                 $obj = new Calendario();
-                $a = $obj->printSerAbertos();
+                 $obj3 = new Calendario();
+                $a = $obj3->printSerAbertos();
                 echo $a;
                 ?>
 

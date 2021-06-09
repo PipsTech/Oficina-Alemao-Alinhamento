@@ -69,9 +69,9 @@
                 <?php
 
                 ob_start();
-                require "../backend/ControleFuncionario.php";
+                require "../backend/ControleServico.php";
                 ob_end_clean();
-                $obj2 = new Funcionario();
+                $obj2 = new ControleServico();
                 $a = $obj2->orgServico();
                 echo $a;
 

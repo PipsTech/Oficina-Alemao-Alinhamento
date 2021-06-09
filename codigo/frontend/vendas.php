@@ -18,7 +18,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 
-    <nav class="navbar navbar-expand-md" >
+    <nav class="navbar navbar-expand-md">
         <div class="container">
             <a class="nav-brand" href="./homeFun.php">Oficina Alemão Alinhamento</a>
 
@@ -26,13 +26,13 @@
                 <ul class="navbar-nav m-auto">
 
                     <li class="nav-item">
-                        <a class="nav-link" href="./cadastraServico.php">Serviços</a>
+                        <a class="nav-link" href="./cadastraServico.php">Cadastro-Serviço</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./cadastroProduto.php">Cadastro Produto</a>
+                        <a class="nav-link" href="./cadastroProduto.php">Cadastro-Produto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./agendaEletronica.php">Calendário</a>
+                        <a class="nav-link" href="./agendaEletronica.php">Agenda Eletrônica</a>
                     </li>
                 </ul>
 
@@ -51,15 +51,16 @@
 
     <div class="container">
         <p></p>
-        <a class="btn btn-lg btn-block btn-outline-danger text-uppercase" href="./pendentes.php" style="border-width: 1px 1px 1px 1px; border-style: groove; border-color: red; border-radius: 5px;">Filtrar por Pendentes</a>
+
+        <a class="btn btn-lg btn-block btn-outline-info text-uppercase" href="./pendentes.php">Filtrar por Pendentes <i class="fas fa-exclamation-circle" style="color: rgb(0, 204, 255);"></i></a>
         <p></p>
-        <a class="btn btn-lg btn-block btn-outline-warning text-uppercase" href="./fechadas.php" style="border-width: 1px 1px 1px 1px; border-style: groove; border-color: yellow; border-radius: 5px;">Filtrar por Fechados</a>
+        <a class="btn btn-lg btn-block btn-outline-danger text-uppercase" href="./fechadas.php">Filtrar por Finalizados <i class="fas fa-check-circle" style="color:red"></i></a>
         <p></p>
         <div class="row">
             <div class="col">
                 <nav aria-label="breadcrumb">
-                    <ol class="text-center">
-                        Vendas
+                    <ol class="text-center" style="background: -webkit-linear-gradient(left, rgb(233, 71, 7), #f7bd00);">
+                        Vendas Reservadas
                     </ol>
                 </nav>
             </div>
@@ -70,14 +71,14 @@
         <div class="col">
             <div class="row">
                 <?php
-                 ob_start();
-                 require "../backend/Carrinho.php";
-                 ob_end_clean();
-                 $obj = new Carrinho();
-                $a = $obj->printVendas();
+                ob_start();
+                require "../backend/Carrinho.php";
+                ob_end_clean();
+                $obj2 = new Carrinho();
+                $a = $obj2->printVendas();
                 echo $a;
                 ?>
-              
+
 
                 <div class="col-12">
                     <p></p>
@@ -87,29 +88,29 @@
 
     </div>
     <div class="container">
-                        <div class="row">
-                            <div class="col">
-                                <nav aria-label="breadcrumb">
-                                    <ol class="text-center">
-                                        Serviços Agendados
-                                    </ol>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
+        <div class="row">
+            <div class="col">
+                <nav aria-label="breadcrumb">
+                    <ol class="text-center" style="background: -webkit-linear-gradient(left, rgb(233, 71, 7), #f7bd00);">
+                        Serviços Agendados
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
 
 
     </div>
     <div class="container">
         <div class="col">
             <div class="row">
-                
-            <?php
-                 ob_start();
-                 require "../backend/Calendario.php";
-                 ob_end_clean();
-                 $obj = new Calendario();
-                $a = $obj->printSerAgendados();
+
+                <?php
+                ob_start();
+                require "../backend/Calendario.php";
+                ob_end_clean();
+                $obj3 = new Calendario();
+                $a = $obj3->printSerAgendados();
                 echo $a;
                 ?>
 

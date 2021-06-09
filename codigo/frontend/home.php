@@ -107,10 +107,10 @@
                 <?php
 
                 ob_start();
-                require "../backend/ControleFuncionario.php";
+                require "../backend/ControleServico.php";
                 ob_end_clean();
-                $obj2 = new Funcionario();
-                $a = $obj2->orgServico();
+                $obj3 = new ControleServico();
+                $a = $obj3->orgServico();
                 echo $a;
 
 

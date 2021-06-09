@@ -74,7 +74,7 @@
                                     </a>-->
                                     <button type="submit" class="btn btn-primary btn-lg btn-block my-3" value="Cadastrar" >Logar</button>
                                     <div class="d-flex justify-content-between">
-                                        <a href="#!">Esqueceu a senha?</a>
+                                        <a href="./editarSenhaF.php">Esqueceu a senha?</a>
                                         <span> <a href="./loginCliente.php">Entrar como Cliente</a></span>
                                     </div>
                                     <div class="dropdown-divider my-4"></div>
