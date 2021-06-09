@@ -76,7 +76,7 @@
                                     <button type="submit" class="btn btn-primary btn-lg btn-block my-3r" value="Cadastrar" >Logar</button>
 
                                     <div class="d-flex justify-content-between">
-                                        <a href="#!">Esqueceu a senha?</a>
+                                        <a href="./editarSenha.php">Esqueceu a senha?</a>
                                         <span> <a href="./loginFuncionario.php">Entrar como Funcionário</a></span>
                                     </div>
                                     <div class="dropdown-divider my-4"></div>

@@ -53,7 +53,7 @@
         <p></p>
         <a class="btn btn-lg btn-block btn-outline-danger text-uppercase" href="./pendentes.php" style="border-width: 1px 1px 1px 1px; border-style: groove; border-color: red; border-radius: 5px;">Filtrar por Pendentes</a>
         <p></p>
-        <a class="btn btn-lg btn-block btn-outline-sucess text-uppercase" href="./fechadas.php" style="border-width: 1px 1px 1px 1px; border-style: groove; border-color: green; border-radius: 5px;">Filtrar por Fechados</a>
+        <a class="btn btn-lg btn-block btn-outline-warning text-uppercase" href="./fechadas.php" style="border-width: 1px 1px 1px 1px; border-style: groove; border-color: yellow; border-radius: 5px;">Filtrar por Fechados</a>
         <p></p>
         <div class="row">
             <div class="col">
@@ -121,28 +121,32 @@
 
     </div>
 
-    <footer class="text-light" >
+    <footer class="text-light">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-lg-4 col-xl-3">
+                    <p></p>
                     <h5>Slogan</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <p class="mb-0">
-                        <img class="card-img-top" src="/fotos/slogan.jfif" alt="Card image cap" style="border-radius: 20px;">
+                        <img class="card-img-top" src="../fotos/slogan.jfif" alt="Card image cap" style="border-radius: 20px;">
                     </p>
                 </div>
 
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
-                    <h5>Mídias Sociais</h5>
+                    <p></p>
+                    <h5 style="font-size: 20px; color: gold;">Mais</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <ul class="list-unstyled">
-                        <li><a href="">Whatsapp</a></li>
-                        <li><a href="">Google</a></li>
-                        <li><a href="">Facebook</a></li>
+                        <li><a href="./cadastroProduto.php">Cadastro do Produto</a></li>
+                        <li><a href="./cadastraServico.php">Cadastro do Serviço</a></li>
+                        <li><a href="./agendaEletronica.php">Agenda Eletrônica</a></li>
+
                     </ul>
                 </div>
 
                 <div class="col-md-4 col-lg-3 col-xl-3">
+                    <p></p>
                     <h5>Infos</h5>
                     <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
                     <ul class="list-unstyled">
