@@ -46,7 +46,7 @@
             </div>
         </nav>
         <form action="../backend/resC.php?id=<?php echo $obj->getId();?>" method="POST" enctype="multipart/form-data">
-        <div class="container" style="margin-top: 5px;">   
+        <div class="container" style="margin-top: 50px;">   
         <div class="row">
             <div class="col-12">
                 <div class="form-group">
@@ -78,7 +78,7 @@
         </form>
     </div>
  
-    <footer class="text-light" style="height: 300px; margin-top: 10px;">
+    <footer class="text-light" style="height: 300px; margin-top: 50px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-lg-4 col-xl-3">

@@ -62,9 +62,9 @@
                                         <label class="form-control-label" for="input-username">Nome -
                                             <?php
                                             ob_start();
-                                            require "../backend/ControleFuncionario.php";
+                                            require "../backend/ControleServico.php";
                                             ob_end_clean();
-                                            $obj2 = new Funcionario();
+                                            $obj2 = new ControleServico();
                                             if (isset($_COOKIE['Id_Anuncio'])) {
                                                 $idh = $_COOKIE['Id_Anuncio'];
                                                 $aux = $obj2->veServico($idh);
