@@ -164,7 +164,7 @@ Durante o desenvolvimento do site, foram elaborados e utilizados como suporte pa
       ![VisualizarPerfilFuncionario](Imagens/VisualizarPerfilFuncionario.jpeg)
       
     * <b>Visualizar Produto Cliente:</b> Paginas dedicadas ao Cliente que tem como objetivo mostrar ampliar as informações disoniveis sobre um certo produto
-      ![VisualizarProdutosCliente](Imagens/VisualizarProdutosCliente.jpeg)
+      ![VisualizarProdutosCliente](Imagens/VisualizarProdutosCliente.png)
       ![VisualizarProdutoCliente](Imagens/VisualizarProdutoCliente.jpeg)
       
     * <b>Visualizar Produto Funcionario:</b> Paginas dedicadas ao Funcionario que o permite acessar, visualizar e editar todos os produtos disponiveis no site
@@ -175,7 +175,7 @@ Durante o desenvolvimento do site, foram elaborados e utilizados como suporte pa
       ![VisualizarProdutosAgendaEletronica](Imagens/VisualizarProdutosnaAgendaEletronica.jpeg)
       
     * <b>Visualizar Serviço Cliente:</b> Paginas dedicadas ao Cliente que tem como objetivos mostrar e ampliar as informações disoniveis sobre um certo produto
-      ![VisualizarServiçosCliente](Imagens/VisualizarServiçosCliente.jpeg)
+      ![VisualizarServiçosCliente](Imagens/VisualizarServiçosCliente.png)
       ![VisualizarServiçoCliente](Imagens/VisualizarServiçoCliente.jpeg)
       
     * <b>Visualizar Serviço Funcionario:</b> Paginas dedicadas ao Funcionario que o permite acessar, visualizar e editar todos os Serviços disponiveis no site
