@@ -54,7 +54,7 @@ As partes interessadas no projeto se subdividem em dois grupos distintos, os usu
 
 ## 3. Proposta da solução
 
-Diante da problemática apresentada pelo projeto, este trabalho objetiva a criação de um sistema web que possa providenciar a Alemão Alinhamento um espaço para realizar seus trabalhos de venda e de agendamento de serviços de uma forma prática online e também divulgar seu negócio por meio deste.
+Diante da problemática apresentada pelo projeto, este trabalho objetiva a criação de um sistema web que possa providenciar a Alemão Alinhamento um espaço para realizar seus trabalhos de venda de produtos e de agendamento de serviços de uma forma prática online e também divulgar seu negócio por meio deste. Por isso, o projeto visa a construção de um ambiente virtual que apresente os recursos e funcionalidades suficientes que auxiliem e atendam a demanda do sistema comercial adotado pela oficina.
 
 * Os Requisitos Funcionais do site são:
 
@@ -131,7 +131,7 @@ Durante o desenvolvimento do site, foram elaborados e utilizados como suporte pa
     * <b>Cadastrar Cliente:</b> Utiliza os dados inseridos nos espaços para montar um perfil do qual representa o Cliente
       ![CadastrarCliente](Imagens/CadastrarCliente.jpeg)
       
-    * <b>Cadastrar Funcionario:</b> Utiliza os dados inseridos nos espaços para montar um perfil do qual representa o Funcionario
+    * <b>Cadastrar Funcionario:</b> Utiliza os dados inseridos nos espaços para montar um perfil do qual representa o Funcionário
       ![CadastrarFuncionario](Imagens/CadastrarFuncionario.jpeg)
       
     * <b>Cadastrar Produto:</b> Utiliza os dados inseridos nos espaços para formatar um item que representa o Produto
@@ -146,43 +146,43 @@ Durante o desenvolvimento do site, foram elaborados e utilizados como suporte pa
     * <b>Login Funcionario:</b> Espaço no qual o Funcionario deve utilizar seus dados para poder acessar sua Conta
       ![LoginFuncionario](Imagens/LoginFuncionario.jpeg)
       
-    * <b>Quem Somos:</b> Pagina designada a informar ao Cliente sobre a loja e suas informações
+    * <b>Quem Somos:</b> Página designada a informar ao Cliente sobre a loja e suas informações
       ![QuemSomos](Imagens/QuemSomos.jpeg)
       
-    * <b>Visualizar Agendamentos de Serviço na Agenda Eletronica:</b> Espaço para informar ao Funcionarios as informações do Serviço no dia Selecionado
+    * <b>Visualizar Agendamentos de Serviço na Agenda Eletronica:</b> Espaço para informar aos Funcionários as informações do Serviço no dia Selecionado
       ![VisualizarAgendamentosdeServiçonaAgendaEletronica](Imagens/VisualizarAgendamentosdeServiçonaAgendaEletronica.jpeg)
       
-    * <b>Visualizar Carrinho:</b> Pagina dedicada a mostrar ao Cliente o que ele selecionou para realizar o pedido
+    * <b>Visualizar Carrinho:</b> Página dedicada a mostrar ao Cliente o que ele selecionou para realizar o pedido, e as suas compras reservadas e serviços agendados
       ![VisualizarCarrinho](Imagens/VisualizarCarrinho1.png)
       ![VisualizarCarrinho](Imagens/VisualizarCarrinho2.png)
 
       
-    * <b>Manter Perfil Cliente:</b> Pagina destinada ao Cliente para poder visualizar e alterar suas proprias informações
+    * <b>Manter Perfil Cliente:</b> Página destinada ao Cliente para poder visualizar e alterar suas próprias informações
       ![VisualizarPerfilCliente](Imagens/VisualizarPerfilCliente.jpeg)
       
-    * <b>Manter Perfil Funcionario:</b> Pagina destinada ao Funcionario para poder visualizar e alterar suas proprias informações
+    * <b>Manter Perfil Funcionario:</b> Página destinada ao Funcionário para poder visualizar e alterar suas próprias informações
       ![VisualizarPerfilFuncionario](Imagens/VisualizarPerfilFuncionario.jpeg)
       
-    * <b>Visualizar Produto Cliente:</b> Paginas dedicadas ao Cliente que tem como objetivo mostrar ampliar as informações disoniveis sobre um certo produto
+    * <b>Visualizar Produto Cliente:</b> Páginas dedicadas ao Cliente que tem como objetivo mostrar todos os produtos e ampliar as informações disponíveis sobre um certo produto
       ![VisualizarProdutosCliente](Imagens/VisualizarProdutosCliente.png)
       ![VisualizarProdutoCliente](Imagens/VisualizarProdutoCliente.jpeg)
       
-    * <b>Visualizar Produto Funcionario:</b> Paginas dedicadas ao Funcionario que o permite acessar, visualizar e editar todos os produtos disponiveis no site
-      ![VisualizarProdutosFucionario](Imagens/VisualizarProdutosFuncionario.jpeg)
+    * <b>Visualizar Produto Funcionario:</b> Páginas dedicadas ao Funcionário que o permite acessar, visualizar e editar todos os produtos disponíveis no site
+      ![VisualizarProdutosFucionario](Imagens/VisualizarProdutosFuncionario.png)
       ![VisualizarProdutoFucionario](Imagens/VisualizarProdutoFuncionario.jpeg)
       
-    * <b>Visualizar Produtos Agenda Eletronica:</b> Espaço para informar ao Funcionario quais Produtos estão marcados para o dia selecionado
+    * <b>Visualizar Produtos Agenda Eletronica:</b> Espaço para informar ao Funcionário quais Produtos estão marcados para o dia selecionado
       ![VisualizarProdutosAgendaEletronica](Imagens/VisualizarProdutosnaAgendaEletronica.jpeg)
       
-    * <b>Visualizar Serviço Cliente:</b> Paginas dedicadas ao Cliente que tem como objetivos mostrar e ampliar as informações disoniveis sobre um certo produto
+    * <b>Visualizar Serviço Cliente:</b> Páginas dedicadas ao Cliente que tem como objetivos mostrar e ampliar as informações disponíveis sobre um certo produto
       ![VisualizarServiçosCliente](Imagens/VisualizarServiçosCliente.png)
       ![VisualizarServiçoCliente](Imagens/VisualizarServiçoCliente.jpeg)
       
-    * <b>Visualizar Serviço Funcionario:</b> Paginas dedicadas ao Funcionario que o permite acessar, visualizar e editar todos os Serviços disponiveis no site
-      ![VisualizarServiçosFuncionario](Imagens/VisualizarServiçosFuncionario.jpeg)
+    * <b>Visualizar Serviço Funcionario:</b> Páginas dedicadas ao Funcionário que o permite acessar, visualizar e editar todos os Serviços disponíveis no site
+      ![VisualizarServiçosFuncionario](Imagens/VisualizarServiçosFuncionario.png)
       ![VisualizarServiçoFuncionario](Imagens/VisualizarServiçoFuncionario.jpeg)
       
-    * <b>Visualizar Serviços na Agenda Eletronica:</b> Espaço para informar ao Funcionario quais Serviços estão marcados para o dia selecionado
+    * <b>Visualizar Serviços na Agenda Eletronica:</b> Espaço para informar ao Funcionário quais Serviços estão marcados para o dia selecionado
       ![VisualizarServiçosNaAgendaEletronica](Imagens/VisualizarServiçosnaAgendaEletronica.jpeg)
 
 ## 6. Conclusão
