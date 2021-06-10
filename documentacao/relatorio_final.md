@@ -54,8 +54,7 @@ As partes interessadas no projeto se subdividem em dois grupos distintos, os usu
 
 ## 3. Proposta da solução
 
-Diante do atual cenário de praticidade e diminuição de custos proporcionada pelo e-commerce, o mercado se atualizou bastante e portanto, este trabalho visa e   
-objetiva a criação de um sistema web atualizado e moderno que possa providenciar à Alemão Alinhamento um espaço para realizar seus trabalhos de venda de produtos e de agendamento de serviços de uma forma prática online e também divulgar seu negócio por meio deste. Por isso, o projeto visa a construção de um ambiente virtual que apresente os recursos e funcionalidades suficientes que auxiliem e atendam a demanda do sistema comercial adotado pela oficina.
+Diante do atual cenário de praticidade e diminuição de custos proporcionada pelo e-commerce, o mercado se atualizou bastante e portanto, este trabalho visa e objetiva a criação de um sistema web atualizado e moderno que possa providenciar à Alemão Alinhamento um espaço para realizar seus trabalhos de venda de produtos e de agendamento de serviços de uma forma prática online e também divulgar seu negócio por meio deste. Por isso, o projeto visa a construção de um ambiente virtual que apresente os recursos e funcionalidades suficientes que auxiliem e atendam a demanda do sistema comercial adotado pela oficina.
 
 
 * Os Requisitos Funcionais do site são:
