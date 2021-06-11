@@ -16,5 +16,5 @@
 * ATA-2021-05-18.md - Ata de criação de 2 novos casos de uso, e atualização do diagrama de classes.
 * ATA-2021-05-25.md - Ata de criação e definição das funcionalidades da interface da agenda eletrônica e reservar compra.
 * ATA-2021-06-01.md - Ata de criação e correção de casos de uso, atualização do diagrama de classes, e desenvolvimento do relatório final.
-* ATA-2021-06-08.md - Ata de criação, correção e atualização de casos de uso, do relatório final e das interfaces e suas funcionalidades, e definição da aceitação final do cliente sobre o sistema. 
+* ATA-2021-06-08.md - Ata de criação, correção e atualização de casos de uso, do relatório final e das interfaces e suas funcionalidades.
 
