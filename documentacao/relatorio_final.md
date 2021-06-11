@@ -59,37 +59,24 @@ Diante do atual cenário de praticidade e diminuição de custos proporcionada p
 
 * Os Requisitos Funcionais do site são:
 
-      1) Deve ser possível que o cliente consiga se cadastrar no sistema como cliente ao entrar neste. 
-
-      2) Deve ser possível que os funcionários da empresa consigam se cadastrar no sistema como funcionários/proprietários. 
-     
-      3) Deve ser possível que o usuário funcionário consiga realizar a postagem dos itens produto no estoque do sistema. 	 
-
-      4) Deve ser possível que o usuário funcionário consiga adicionar quantidades de um produto já cadastrado no sistema.  
-
-      5) Deve ser possível que o usuário funcionário consiga consultar a quantidade de um produto no sistema.  
-
-      6) Deve ser possível que o usuário funcionário consiga realizar a postagem dos anúncios dos produtos e das informações destes no site. 
-
-      7) Uma vez cadastrados os produtos e suas informações devem ser visíveis para todos os usuários do site (autenticados ou não). 
-
-      8) Os usuários clientes devem conseguir armazenar os itens escolhidos na página "carrinho de compra".
-      
-      9) Os usuários clientes devem conseguir realizar a compra dos produtos anunciados na plataforma.	
-      
-      10) Deve ser possível que o usuário funcionário consiga realizar a postagem dos serviços ofertados pela oficina no site.	
-      
-      11) Uma vez cadastrados, os serviços e suas informações devem ser visíveis para todos os usuários do site (autenticados ou não).	
-
-      12) Os usuários cliente ao clicarem para agendar o serviço devem ser reedirecionados diretamente para o WhatsApp da Alemão Alinahmento para contactar sua equipe.	
-      
-      13) Os usuários funcionário devem ser capazes de gerir a disponibilidade das ofertas de serviço no site.	
-      
-      14) Os usuários funcionário devem conseguir cadastrar agendamentos de serviço na agenda eletrônica da plataforma.	
-      
-      15) Os usuário funcionário devem ser capazes de realizarem consultas na agenda eletrônica.	
-      
-      16) Deve haver no sistema uma forma dos clientes entrarem em contato diretamente com a equipe da Alemão Alinhamento por meio do WhatsApp ou email.    
+| ID | Descrição do Requisito | Prioridade | Complexidade |
+| --- | --- | --- | --- |
+| 1 | Deve ser possível que o cliente  consiga se cadastrar no sistema como cliente ao entar neste | média| baixa |
+| 2 | Deve ser possível que os funcionários da empresa consigam se cadastrar no sistema como funcionários/proprietários | média | baixa |
+| 3 | Deve ser possível que o usuário funcionário consiga realizar a postagem dos itens  produto no estoque do sistema  | alta | média |
+| 4 | Deve ser possível que o usuário funcionário consiga adicionar quantidades de um produto já cadastrado no sistema  | média | média |
+| 5 | Deve ser possível que o usuário funcionário consiga consultar a quantidade de um produto no sistema  | média | baixa |
+| 6 | Deve ser possível que o usuário funcionário consiga realizar a postagem dos anúncios dos produtos e das informações destes no site | alta | média |
+| 7 | Uma vez cadastrados os produtos e suas informações devem ser visíveis para todos os usuários do site (autenticados ou não)  | alta | alta |
+| 8 | Os usuários clientes devem conseguir armazenar os itens escolhidos na página "carrinho de compra" | média | média |
+| 9 | Os usuários clientes devem conseguir realizar a compra dos produtos anunciados na plataforma | alta | alta |
+| 10 | Deve ser possível que o usuário funcionário consiga realizar a postagem dos serviços ofertados pela oficina no site | alta | alta |
+| 11 | Uma vez cadastrados, os serviços e suas informações devem ser visíveis para todos os usuários do site (autenticados ou não) | alta | média |
+| 12 | Os usuários cliente ao clicarem para agendar o serviço devem ser reedirecionados diretamente para o WhatsApp da Alemão Alinahmento para contactar sua equipe|  alta | alta |
+| 13 | Os usuários funcionário devem ser capazes de gerir a disponibilidade das ofertas de serviço no site | média | alta |
+| 14 | Os usuários funcionário devem conseguir cadastrar agendamentos de serviço na agenda eletrônica da plataforma | média | média |
+| 15 | Os usuário funcionário devem ser capazes de realizarem consultas na agenda eletrônica | média | média |
+| 16 | Deve haver no sistema uma forma dos clientes entrarem em contato diretamente com a equipe da Alemão Alinhamento por meio do WhatsApp ou email | baixa | baixa |
 
 * Os Requisitos Não Funcionais do site são:
 
