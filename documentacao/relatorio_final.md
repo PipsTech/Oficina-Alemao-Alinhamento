@@ -94,7 +94,7 @@ Diante do atual cenário de praticidade e diminuição de custos proporcionada p
 * Os Requisitos Não Funcionais do site são:
 
       | ID | Descrição do Requisito | Prioridade | Complexidade |
-
+      | --- | --- | --- | --- |
       | 1 | O sistema deve estar na disponível na internet por 24h todos os dias da semana | alta | média |
       | 2 | O sistema deve ser fácil de se utilizar para diversos tipos e perfis de usuários, fazendo que o usuário consiga se cadastrar e finalizar um processo de compra em menos de 10 clicks| alta | baixa |
       | 3 | O sistema deve entregar respostas em até 30 segundos às requisições dos usuários | média | média |
