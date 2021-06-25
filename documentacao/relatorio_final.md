@@ -185,7 +185,7 @@ Além disso, após o último encontro com o cliente, no qual foi lhe mostrado a 
 
 Do repositório no github: < https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2021-1-ti3-6653100-gabriel-bruno-mateus >
 
-Do vídeo de apresentação: < https://youtu.be/eO1Yokml2A8 >
+Do vídeo de apresentação: < https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2021-1-ti3-6653100-gabriel-bruno-mateus/blob/master/documentacao/Apresenta%C3%A7%C3%A3o.mp4 >
 
 
 
